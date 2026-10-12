@@ -1,48 +1,52 @@
 # LLM reviewer for keyword transaction labels
 
-A keyword engine labels bank transactions in Plaid format. An LLM reviews those labels,
-flags the ones it doubts and proposes the correct label with a reason an underwriter can
-read in five seconds. Code decides which corrections are applied. Then we measure what the
-corrections are worth to a funding decision.
+A keyword engine labels bank transactions in Plaid format. An LLM reads those labels, flags the
+ones it doubts and suggests the right label with a reason an underwriter can read in five
+seconds. Code decides which suggestions get applied, and then I measure what they're worth to a
+funding decision.
 
-Built as the AI Engineer take-home for Fundo, a revenue-based lender for small businesses.
+I built this as the AI Engineer take-home for Fundo, a revenue-based lender for small
+businesses.
 
 [Versión en español](README.es.md)
 
 ## Requirements
 
-- Python 3.10+
-- `pip install -r requirements.txt` (only `boto3`)
+You need Python 3.10 or newer. The only dependency is boto3:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Reproduce the results without an API key
 
-LLM responses are committed in `reviewer/cache/`. This replays them and regenerates every
-output, with no key and no provider call:
+The LLM responses are committed in reviewer/cache/, so this replays them and regenerates every
+output without calling any provider:
 
 ```bash
 pip install -r requirements.txt
 python run.py --use-cache
 ```
 
-It prints, per business, monthly revenue and offer under the truth, the keyword engine and
-the reviewer, plus the dollar error, flag precision, hard negatives and the LLM spend. Takes
-about 30 seconds (most of it is the mislabel simulation).
+It prints monthly revenue and the offer for each business under the truth, the keyword engine
+and the reviewer, along with the dollar error, flag precision, hard negatives and LLM spend. It
+takes about 30 seconds, mostly the mislabel simulation.
 
-| Output | Content |
+| Output | What's in it |
 |---|---|
-| `outputs/nova-lite/reviews.json` | Per transaction: engine label, proposed label, final label, status, confidence, reason, evidence |
-| `outputs/nova-lite/metrics.json` | Monthly revenue error per business, flag precision/recall, hard negatives, injection cases |
-| `outputs/credit/report.md` | Part 2: features and offer before/after, mislabel simulation at 2/5/10% |
+| outputs/nova-lite/reviews.json | For each transaction: engine label, suggested label, final label, status, confidence, reason, evidence |
+| outputs/nova-lite/metrics.json | Monthly revenue error per business, flag precision and recall, hard negatives, injection cases |
+| outputs/credit/report.md | Part 2: features and offers before and after, mislabel simulation at 2, 5 and 10% |
 
-## Run with an LLM
+## Run it with an LLM
 
-The provider is picked from the environment:
+The provider depends on what you have in the environment:
 
 | Environment | Provider | Model |
 |---|---|---|
-| `AWS_BEARER_TOKEN_BEDROCK` + `AWS_REGION` | Amazon Bedrock (default) | Nova Lite |
-| `ANTHROPIC_API_KEY` (no AWS credentials) | Anthropic API | Claude Haiku 4.5 |
-| none | cache only, with a warning | |
+| AWS_BEARER_TOKEN_BEDROCK and AWS_REGION | Amazon Bedrock (default) | Nova Lite |
+| ANTHROPIC_API_KEY, without AWS credentials | Anthropic API | Claude Haiku 4.5 |
+| Nothing | Cache only, with a warning | |
 
 ```bash
 export AWS_BEARER_TOKEN_BEDROCK=...   # a Bedrock API key
@@ -50,11 +54,11 @@ export AWS_REGION=us-east-1
 python run.py
 ```
 
-Bedrock also accepts any standard AWS credential (`AWS_PROFILE`, `AWS_ACCESS_KEY_ID` /
-`AWS_SECRET_ACCESS_KEY`). The Nova Lite inference profile follows the region (`us.`, `eu.`,
-`apac.`). `MODEL_ID` overrides the model: ids starting with `claude-` go to the Anthropic
-API, anything else to Bedrock. New responses are appended to the cache; cached ones are
-never requested again.
+Bedrock also works with any standard AWS credential (AWS_PROFILE, or AWS_ACCESS_KEY_ID and
+AWS_SECRET_ACCESS_KEY). The Nova Lite inference profile follows your region (us., eu. or
+apac.). MODEL_ID overrides the model: ids starting with claude- go to the Anthropic API and
+anything else goes to Bedrock. New responses get appended to the cache, and anything already in
+it is never requested again.
 
 ## Other datasets
 
@@ -62,9 +66,10 @@ never requested again.
 python run.py --use-cache --data data/holdout2   # also data/holdout, data/holdout3, data/holdout4
 ```
 
-Same pipeline on another labeled dataset; outputs go to `outputs/<dataset>/`. Holdout 1 was
-written after the reviewer was frozen; holdouts 2-4 by a separate agent that never saw the
-reviewer (see SOLUTION.md). `python -m data.holdout` (and `holdout2..4`) regenerates them.
+This runs the same pipeline on another labeled dataset and writes to outputs/ under the
+dataset's name. I wrote holdout 1 after freezing the reviewer; holdouts 2 to 4 were written by a
+separate agent that never saw it (SOLUTION.md has the details). python -m data.holdout, and the
+same for holdout2 to holdout4, regenerates them.
 
 ## Review your own transactions
 
@@ -74,26 +79,26 @@ python run.py --input transactions.json --truth labels.json  # review and score
 python run.py --input transactions.json --assets asset_report.json --owner "Jane Doe" --name "Acme LLC"
 ```
 
-`--input` takes a Plaid `/transactions/get` or `/transactions/sync` response, a plain list of
-Plaid transactions, or a folder laid out like `data/generated` (`businesses.json` + files).
-Pending transactions are dropped and missing optional fields are filled with Plaid's empty
-values. Per business it prints the flagged groups as an underwriter would see them (engine
-label, proposed label, revenue yes/no, confidence, reason, evidence), the features and offer
-with the engine's labels and with the reviewer's, the balance signals and our decision
-(fund / decline / refer). `--assets` adds the daily balances; `--owner` and `--name` add the
-application data the owner and business-name checks need. Without them those checks are
-skipped and business/personal changes go to an underwriter.
+The input can be a Plaid /transactions/get or /transactions/sync response, a plain list of Plaid
+transactions, or a folder laid out like data/generated (businesses.json plus the files).
+Pending transactions are dropped, and missing optional fields get Plaid's empty values. For each
+business it prints the flagged groups the way an underwriter would see them, the features and
+offer with the engine's labels and with the reviewer's, the balance signals, and the decision
+(fund, decline or refer). The asset report adds the daily balances, and the owner and business
+name enable the checks that need them. Without those, the checks are skipped and
+business/personal changes go to an underwriter.
 
-`--truth` scores the run the same way as our datasets (dollar error, flag precision and
-recall, harmful corrections, wrong decisions) and lists the costliest errors left. It accepts
-`{transaction_id: label}` or a list of objects with `transaction_id`; a label is a group name,
-ours (`hr_gambling`) or the brief's (`High risk — gambling`), or an object with
-`group`/`label`/`category`, `is_business` and optionally `revenue`. Revenue-only truth works too.
-Output goes to `outputs/input/<name>/`.
+Passing a truth file scores the run the same way as the bundled datasets (dollar error, flag
+precision and recall, harmful corrections, wrong decisions) and lists the costliest errors that
+are left. It can be a dictionary from transaction_id to label, or a list of objects with a
+transaction_id. A label can be a group name, either mine (hr_gambling) or the brief's (High risk,
+gambling), or an object with group, label or category, is_business and optionally revenue. A
+truth file with only revenue yes/no also works. Results go to outputs/input/ under the file's
+name.
 
 ## Step by step
 
-`run.py` chains these; each also runs alone:
+run.py chains these, and each one also runs on its own:
 
 ```bash
 python -m data.generate      # synthetic Plaid data: 10 businesses, 61-90 days, truth kept apart
@@ -103,18 +108,18 @@ python -m reviewer.evaluate  # scores the reviewer against the truth
 python -m credit.simulate    # Part 2
 ```
 
-The generated data is committed in `data/generated/`. Regenerating it with another seed
-changes the transactions, and the cache no longer matches.
+The generated data is committed in data/generated/. If you regenerate it with a different seed
+the transactions change and the cache no longer matches.
 
 ## Layout
 
 | Path | What it does |
 |---|---|
-| `data/` | Synthetic Plaid-format generator and loader |
-| `engine/` | Keyword engine, deliberately imperfect |
-| `reviewer/` | Prompt, LLM client with cache, evidence guardrails, policy, evaluation |
-| `credit/` | Credit features, offer rule, mislabel simulation |
-| `labels.py` | The 13 groups and the revenue rule, shared by everything |
-| `run.py` | The single command |
+| data/ | Synthetic Plaid-format generators and the loader |
+| engine/ | The keyword engine, imperfect on purpose |
+| reviewer/ | Prompt, LLM client with cache, evidence guardrails, policy, evaluation |
+| credit/ | Credit features, offer rule, decision rule, mislabel simulation |
+| labels.py | The 13 groups and the revenue rule, shared by everything |
+| run.py | The single command |
 
-Decisions, results and limitations: [SOLUTION.md](SOLUTION.md) ([español](SOLUTION.es.md)).
+Decisions, results and limitations are in [SOLUTION.md](SOLUTION.md) ([español](SOLUTION.es.md)).
