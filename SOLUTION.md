@@ -2,217 +2,314 @@
 
 [Versión en español](SOLUTION.es.md)
 
-An LLM reviews a keyword engine's labels on Plaid-format transactions. Code decides which
-corrections are applied, and a decision rule uses the account balance as a second opinion,
-so one wrong label cannot get a business funded by itself. Everything reproduces with
-`python run.py --use-cache` (other datasets via `--data`), no key needed.
+Fundo's keyword engine mislabels a lot of transactions, and some of those mistakes change how
+much money a business gets. I built an LLM reviewer that reads the engine's labels and flags
+the ones it doubts. The model only suggests. Code decides which suggestions get applied, and
+the account balance works as a second opinion, so a single wrong label can't get a business
+funded. Everything reproduces with python run.py --use-cache, no API key needed.
 
-**Headline (Nova Lite, 36 businesses in five datasets, three of them blind):** the reviewer
-never turned a right label wrong, and our decision rule funded none of the businesses that
-should get $0. The engine alone funds 8 of them.
+Across 36 businesses in five datasets, three of them blind, the reviewer never turned a correct
+label into a wrong one, and my decision rule didn't fund any business that should have gotten
+$0. The keyword engine on its own funds 8 of them.
 
-## Data and engine
+## The data and the engine
 
-Synthetic `/transactions/get` and `/asset_report/get` responses (Plaid sign convention,
-PFC v2 categories checked against Plaid's taxonomy CSV). Plaid's category is what Plaid would
-plausibly say, sometimes wrong. Truth lives in a separate `truth.json`. Development (10
-businesses) was used for design. Holdout 1 (5) was written after the reviewer was frozen.
-Holdouts 2–4 (16) were written by a separate agent that never saw the reviewer, the prompt
-or any results.
+I generated the data in Plaid's format: /transactions/get for transactions and
+/asset_report/get for daily balances, with Plaid's sign convention and categories checked
+against their taxonomy CSV. Plaid's own category is set to what Plaid would realistically say,
+which is sometimes wrong. The correct labels sit in a separate truth.json that the reviewer
+never sees.
 
-Cases include payouts that read like transfers, stacked MCAs, NSF fees in many wordings, a
-no-fee bank, owner money, hard negatives (`ADVANCE AUTO PARTS`), injections in memos and
-61–85 days of history. The engine (`engine/keywords.py`) fails on precedence, punctuation,
-`SQUARE` vs `SQUARE CAPITAL` and keywords inside names: 21.7% of groups wrong on development.
+I designed the reviewer on 10 development businesses and wrote 5 more after freezing it, to
+validate. A separate agent that never saw my reviewer, prompt or results then wrote 16 more
+businesses for blind tests.
+
+The cases are the ones a funder worries about: card processor payouts that read like
+transfers, several advances stacked on one business, NSF fees worded many ways, a bank that
+charges no NSF fees, owners putting in their own money, look-alikes that are fine (ADVANCE AUTO
+PARTS is a parts store), instructions hidden in payment memos, and histories from 61 to 90
+days. The engine (engine/keywords.py) fails the way the brief describes: precedence,
+punctuation that never matches, SQUARE vs SQUARE CAPITAL, keywords inside names. It gets 21.7%
+of groups wrong on the development set.
 
 ## Part 1: the reviewer
 
-Transactions are grouped by direction, counterparty, description shape and engine label.
-The model sees each group with amounts and dates, Plaid's category and counterparty type,
-and **facts computed by code**: funding followed by fixed repayments, payer matches the
-owner, counterparty is a processor, credits that return an earlier debit while the balance
-was negative. Bank text is wrapped in `<untrusted>`. The model returns a verdict, a label
-(closed enum plus business flag; revenue is derived by code), a confidence, a short reason
-and an injection flag. Then code:
+I don't send transactions to the model one at a time. I group them when they share a
+direction (money in or out), a counterparty, the same text once dates and reference numbers are
+stripped, and the same engine label. In this data the evidence is rarely in a single
+transaction; it's in the pattern. A $395 debit to "FOX BUSINESS FDG" says nothing on its own: it
+could be a supplier. But if that same debit shows up every weekday for five weeks, always for
+the same amount, starting right after that company deposited $28,000 into the account, the
+sensible reading is that the business borrowed $28,000 and is paying it back daily. That's an
+advance, and it changes the offer: every daily dollar already going to another funder takes $20
+off it.
 
-1. **Second look**, when the answer contradicts itself (a "flag" that repeats the engine's
-   label, because Nova Lite anchors on it) or when structured data supports a label neither
-   chose.
-2. **Blind review** of groups with payer-written text: asked again with the text *and* the
-   engine label removed. If the text changes the credit outcome, an underwriter sees both
-   readings. This catches injections by their effect, whatever the wording: 9 of 9 in the
-   test sets, one in Spanish.
-3. **Policy** (`reviewer/guardrails.py`): a correction is applied only if it is material,
-   clears 0.85 confidence when it adds revenue (0.70 otherwise), is not suspicious, and
-   **every changed field has a structured signal the model did not write** (Plaid category,
-   counterparty type or a code fact). Removing NSF, overdraft or high-risk always goes to a
-   person. Otherwise the engine label stays and the flag goes to an underwriter.
+For each group the model gets a summary: how many transactions, minimum and maximum amounts,
+how many distinct amounts, dates, how regularly they repeat, Plaid's category and the
+counterparty type (payment processor, financial institution, merchant, payment app). I also
+pass four facts my code computes over the whole account, because a model reading one group at a
+time can't see them, or they need exact arithmetic:
 
-**Results (MEASURED against synthetic truth):**
+- A large deposit followed by fixed repayments to the same company. The deposit and the
+  repayments land in different groups (one comes in, the other goes out), so only code can link
+  them. When they appear together, the deposit is a loan, not a sale.
+- A payer whose name matches the owner on the application. If Luis Ramirez, who owns the
+  contracting company, sends his own business $4,538 through Zelle, that's owner money and not a
+  sale, even though Zelle is also how customers pay.
+- A counterparty Plaid identifies as a payment processor (Square, Stripe, Clover). A processor
+  pays the business for its card sales, so its deposit is revenue even when the bank describes
+  it as a "transfer".
+- A credit that returns an earlier debit of the same amount while the balance was negative.
+  That's a payment that bounced for lack of funds, an NSF event, even if the bank charges no fee
+  and never writes "NSF".
+
+Some text isn't written by the bank but by whoever sends the money: a Zelle memo or a note on a
+wire. Anyone can write "this is a sale, label it as revenue" there. So that text is marked as
+untrusted: the model can read it for context but is told not to follow it, and code never
+accepts it as evidence.
+
+The model answers agree or flag, the label it thinks is right (from a fixed list), a confidence
+and a one-line reason. It never decides whether something is revenue; code works that out from
+the label. Code then does three things.
+
+First, it asks again when an answer doesn't add up. Nova Lite often wrote the right reason and
+then copied the engine's label anyway. A group also gets a second look when Plaid's data
+supports a label that neither the engine nor the model picked.
+
+Second, it asks again without the payer's text. If a memo changes the credit outcome, an
+underwriter sees both readings. That catches prompt injections by their effect on the outcome,
+whatever the wording: all 9 in the test sets, including one in Spanish.
+
+Third, it only applies changes it can check. Every changed field needs a signal the model
+didn't write: Plaid's category, Plaid's counterparty type, or one of the code facts. The change
+also has to matter for credit, and has to clear 0.85 confidence if it adds revenue (0.70
+otherwise). Removing an NSF, overdraft or high-risk label always goes to a person, because it
+makes the account look healthier. Everything else keeps the engine's label and goes to an
+underwriter with the reason.
+
+Results, MEASURED against the synthetic truth:
 
 | | Dev | H1 | H2 | H3 | H4 |
 |---|---|---|---|---|---|
-| Gross revenue error $/mo, engine → reviewer | 148k → **16k** | 17k → **7k** | 48k → **33k** | 55k → **35k** | 39k → **19k** |
-| Flag precision / material errors caught | 94% / 96% | 99% / 93% | 91% / 77% | 88% / 90% | 95% / 92% |
-| Corrections that made a right label wrong | 0 | 0 | 0 | 0 | 0 |
-| Hard negatives sent to an underwriter | 2/89 | 0/14 | 9/66 | 5/55 | 21/110 |
+| Revenue error per month, engine → reviewer | 148k → 16k | 17k → 7k | 48k → 33k | 55k → 35k | 39k → 19k |
+| Flag precision / real errors caught | 94% / 96% | 99% / 93% | 91% / 77% | 88% / 90% | 95% / 92% |
+| Correct labels the reviewer broke | 0 | 0 | 0 | 0 | 0 |
+| Look-alikes sent to an underwriter | 2/89 | 0/14 | 9/66 | 5/55 | 21/110 |
 
-Gross error counts every wrong dollar (net error lets them cancel).
+The revenue error counts every misclassified dollar, so mistakes in opposite directions can't
+cancel out.
 
-**Measured honestly.** Each blind set was run once before any change, and those runs were
-worse: H2 lost a business to a provider failure, H3 had 1 harmful correction, H4 had 8 and
-funded a business carrying 4 stacked advances. The fixes are business rules, not cases
-(returns detected by structure, lenders don't collect through Zelle, removing distress goes
-to a person, repayment burden), and each is neutral or better on the other sets. Before and
-after metrics are in `outputs/holdout2/`. What failed: a prompt naming our cases scored
-$12k on development because it held the answers; I removed every data-specific name and
-started over from $31k. Two prompt rewrites regressed, and an example reason got copied by
-the model until I removed it.
+These blind numbers aren't the first ones I got. I ran each blind set once before changing
+anything, and those runs were worse: on H2 a provider failure left one business unreviewed, H3
+had one harmful correction, and H4 had eight and funded a business carrying four stacked
+advances. The fixes I made afterwards are general business rules: detect bounced payments by
+their shape, remember that lenders don't collect through Zelle, always send removed alarms to a
+person, and look at how much of the revenue other funders already take. I checked each one
+against the other four sets and none made them worse. The before and after metrics are in
+outputs/holdout2/.
 
-**Errors I looked at** (the costliest the reviewer still gets wrong, `reviews.json` against
-`truth.json`):
-- **Non-sales credits with no clear Plaid category** are the biggest class: a $22,000 child
-  care grant (H3, Plaid `TRANSFER_IN_DEPOSIT`), state grants, insurance claims. The model
-  calls them revenue or agrees with the engine. False revenue, so the offer goes up.
-- **A processor's own financing that looks like its payouts:** $22,000 from Lightspeed (H2)
-  arrives with the same descriptor as daily sales, so it sits inside a group of 47 payouts and
-  the funding-and-repayment fact (at most 3 lump credits) never fires. $16,000 from Payoneer
-  (H3) is repaid by a variable holdback, not fixed debits. False revenue.
-- **Owner money through Zelle:** in B03 the "payer matches the owner" fact was shown, but the
-  memo said "for payroll" and the model kept it as customer revenue. Plaid backs the engine's
-  label, so no second look fired. Nicknames and married names (H3, H1) do not match at all.
-- **Plaid evidence that is itself wrong:** Scratchpay pays a vet (H4) for clients who financed
-  their bills. Plaid calls it a loan disbursement, so the guardrail let the model move it from
-  active_advance to not_revenue. Still wrong, and still not counted as revenue.
-- **Held, not wrong:** correct proposals that wait for a person by design (removing a
-  garnishment label from Levy Restaurant Supply, a Brightwheel payout at 0.80 confidence). They
-  cost underwriter time, not money.
+Some things didn't work. My first prompt mentioned our own cases by name and scored $12k on
+development, but only because it contained the answers. I removed every data-specific name and
+started over from $31k. Two later prompt rewrites made things worse, and the model kept copying
+an example reason until I took it out.
 
-**Model vs code.** The model judges what a counterparty is and whether text is steering it.
-Code owns what must be exact or auditable: grouping, facts, revenue, materiality, evidence
-and the decision. Nova Lite reports 0.9 confidence for almost everything, so confidence
-alone never applies a change. Invalid output is retried once with the errors, then the chunk
-is split; provider errors are retried with backoff. Anything unreviewed keeps the engine
-label, and the cache stores failures too, so a replay takes the same path.
+I went through the errors the reviewer still makes, ordered by how much money they move. For
+each kind, here's what happened, why, and what fixing it would take.
 
-**Model choice** (final pipeline, five sets):
+Credits that aren't sales and that Plaid can't classify. This is the biggest group. One example
+is a $22,000 state grant paid to a child care center (H3); insurance payouts are another. Plaid
+labels them as a deposit or "other income", and neither the engine nor the model has a clear
+signal to tell them apart from a sale. The result is false revenue: $22,000 counted as sales
+over 90 days adds about $7,400 to monthly revenue and about $8,900 to the offer, based on money
+that won't come again. I'd fix it with a list of known payers (government agencies, insurers)
+confirmed by underwriters, not with rules built from my own data, which would be overfitting.
+
+A payment processor's own loan that looks like its payouts. Lightspeed pays the bike shop (H2)
+its card sales every day, and one day deposits a $22,000 loan with exactly the same text. Since I
+group by counterparty and text, the loan ends up inside the group of 47 normal payouts. My
+"deposit plus repayments" fact requires the deposit side to have at most 3 transactions, exactly
+so that daily sales aren't mistaken for a loan, so it doesn't fire here. Payoneer (H3) has the
+opposite problem: it collects the loan by keeping a variable share of each payout instead of
+fixed repayments, so there's no repayment pattern to find. The fix would be to look for one
+deposit much larger than the rest of its group, but that needs careful measuring so a big
+legitimate sale isn't flagged as a loan.
+
+Owner money coming in through Zelle. For the contractor (B03), code detected that the payer was
+the owner and told the model, but the Zelle memo said "for payroll" and the model believed the
+memo and kept it as a sale. There was no second look because Plaid's category (payment app) fit
+the engine's label. In other businesses the fact never fires, because the owner shows up with a
+nickname or a married name that doesn't match. It costs false revenue. Looser name matching, and
+letting the owner fact trigger a second look, would help.
+
+Plaid being wrong. Scratchpay pays a vet clinic (H4) when a client finances a visit: the client
+owes Scratchpay, but for the clinic it's a sale. Plaid classifies it as a loan disbursement, the
+model proposed "not revenue", and my guardrail accepted it, because Plaid's category is exactly
+the evidence I ask for. The result is missed revenue, which lowers the offer. That's the limit
+of treating Plaid as a source of truth: it's right most of the time, and when it's wrong my
+reviewer is wrong with it.
+
+Suggestions held on purpose. Some correct proposals aren't applied because I decided a person
+should make the call. The engine tags "Levy Restaurant Supply" as a garnishment because of the
+word LEVY, and the model correctly says it's a supplier, but removing a risk label makes the
+account look healthier, so code doesn't do it alone. That costs an underwriter's time, not
+money.
+
+The line between model and code: the model judges what a counterparty is and whether some text
+is trying to steer it. Code handles everything that has to be exact or auditable, which means
+grouping, the facts, revenue, what counts as evidence and the decision. Nova Lite reports about
+0.9 confidence for almost everything, so confidence alone never applies a change. When the
+output is invalid, code retries once with the errors listed and then splits the batch.
+Provider errors are retried. Whatever can't be reviewed keeps the engine's label, and the cache
+stores failures too, so a replay follows the same path.
+
+I compared three models on the final pipeline, summed over the five sets:
 
 | | Nova Lite | Claude Haiku 4.5 | Nova Pro |
 |---|---|---|---|
 | Wrongly funded / harmful corrections | 0 / 0 | 0 / 0 | 0 / 2 |
-| Gross revenue error / offer error | $110k / $130k | **$88k** / $131k | $165k / $185k |
-| Transactions sent to an underwriter | **188** | 220 | 473 |
-| Cost of one run on all five sets | **$0.07** | $1.06 | $0.78 |
+| Revenue error / offer error | $110k / $130k | $88k / $131k | $165k / $185k |
+| Transactions sent to an underwriter | 188 | 220 | 473 |
+| Cost of one run on all five sets | $0.07 | $1.06 | $0.78 |
 
-Haiku labels better but gives the same offers at 16x the cost, and left 21 transactions
-unreviewed after invalid output (that business is referred); Pro sends 2.5x the work.
-**Default: Nova Lite on Bedrock**, with the Anthropic API as fallback and `MODEL_ID` to
-switch. **Spend: about $2.68 in total**, and `run.py` prints the cached part per model:
-Nova Lite $0.11 (the final runs, $0.07, plus earlier runs of the pipeline, blind runs
-included, which the cache keeps), Haiku $1.06 and Pro $0.78. The other $0.74 were early
-development calls whose cache was deleted along with the overfitted prompt.
+Haiku labels better but ends up with the same offers at 16 times the cost, and it left 21
+transactions unreviewed because of invalid output (that business gets referred). Pro sends
+underwriters two and a half times the work. The default is Nova Lite on Bedrock, with the
+Anthropic API as a fallback and MODEL_ID to switch. In total I spent about $2.68. run.py prints
+the part stored in the cache: $0.11 for Nova Lite (the final runs cost $0.07, the rest are
+earlier runs, blind ones included), $1.06 for Haiku and $0.78 for Pro. The remaining $0.74 were
+early development calls whose cache I deleted along with the overfitted prompt.
 
 ## Part 2: credit impact
 
-`credit/features.py` computes from any label set: monthly revenue over the days covered,
-revenue share of deposits, NSF and overdraft counts, high-risk share, other funders' daily
-payment, and label-free balance signals (negative days, average balance, repayment burden).
+credit/features.py turns any set of labels into the numbers a funder uses: monthly revenue over
+the days actually covered, revenue as a share of deposits, NSF and overdraft counts, the
+high-risk share of debits, and what other funders take each day. It also reads things no label
+can change: days with a negative balance, the average balance, and the share of revenue already
+promised to other funders.
 
-On development the brief's rule gives a sum of offer errors of $219k with the engine and
-**$8k** with the reviewer, and funds 3 businesses that should get $0 (B04, B07, B08) versus
-**0**. B08's bank returns bounced debits instead of charging fees: the engine sees 0 NSFs and
-offers $19,885; the reviewer counts 14 returns. B04 has a funder's wire counted as revenue
-and its $395 a day not counted as a payment.
+On the development set, with the brief's offer rule, the offers are off by $219k in total with
+the engine's labels and by $8k with the reviewer's. The engine funds three businesses that
+should get nothing (B04, B07, B08) and the reviewer funds none. B08's bank returns bounced
+payments instead of charging fees, so the engine sees zero NSFs and offers $19,885 while the
+reviewer counts 14 returns. In B04 a funder's wire is counted as sales and its $395 daily
+collection is missed.
 
-**Mislabel simulation** (ESTIMATED, 100 trials, 5% rate, mean offer change when the error
-happens):
+Mislabel simulation, ESTIMATED with 100 runs at a 5% error rate (average change in the offer
+when the error actually happens):
 
-| Error type | Per transaction | Per counterparty | Flips the decision |
+| Error | Random transactions | Whole counterparty | Changes the decision |
 |---|---:|---:|---:|
 | Missed NSF | $8,120 | $19,765 | 69% |
 | Missed revenue | $2,765 | $13,158 | 1% |
 | False revenue | $1,521 | $7,839 | 12% |
-| False active advance | $1,494 | $3,224 | 0% |
+| False advance | $1,494 | $3,224 | 0% |
 
-NSF is a cliff: the rarest error flips the most decisions. Errors per counterparty, which is
-how keyword engines fail, cost about 5x more than random ones.
+A missed NSF is the rarest error and the one that flips the most decisions, because crossing
+five NSFs sends the offer to zero. When a keyword engine fails, it fails on a whole
+counterparty at once, and that costs about five times more than random mistakes.
 
-**False revenue vs false advance.** False revenue adds $1.20 to the offer per dollar and puts
-principal at risk, often with a business already leveraged. A false advance removes $20 per
-daily dollar; that costs margin, not principal. The worst case is a new funder: its funding
-counts as revenue *and* its repayments go missing (B04).
+False revenue and false advances cost different amounts because they push in opposite
+directions. Every dollar of fake monthly revenue adds $1.20 to the offer, so we lend more to a
+business that is weaker than it looks and often already in debt. That puts principal at risk.
+A fake advance takes $20 off the offer per daily dollar, so we lend less or lose the deal, which
+costs margin. The worst case is a funder we don't recognize: its deposit counts as sales and its
+repayments go missing, so both errors push the offer up at once (B04).
 
-**Our decision rule** (`credit/decision.py`, next to the brief's rule). Losses are
-asymmetric, so the outcome can be **refer**: decline above 5 NSFs per 90 days; refer under 60
-days of history, when negative days exceed 10% of the window, when other funders take more
-than 25% of revenue, or when the NSF decision depends on labels in doubt. Nothing is funded
-automatically without the cross-check: if the reviewer could not review every transaction
-(provider outage, invalid output) or there is no asset report, it refers. The offer uses the
-more conservative labels. Across all five sets it wrongly funds and wrongly declines no one.
-The brief's rule with the reviewer's labels would still fund U04 and V02 (fees nobody
-recognized, but 10 and 11 days negative). The cost: 5 of 36 referred.
+My decision rule (credit/decision.py) sits next to the brief's rule, which I left as written.
+Losses aren't symmetric, so besides fund and decline it can refer the case to an underwriter.
+It declines above 5 NSFs per 90 days. It refers when there are fewer than 60 days of history,
+when the balance was negative on more than 10% of the days, when other funders take more than
+25% of revenue, or when the NSF decision depends on labels still in doubt. It also refers when
+it can't double-check: if the reviewer couldn't review everything, or there is no asset report.
+The offer uses the more cautious set of labels. On all five sets it wrongly funds nobody and
+wrongly declines nobody. With only the brief's rule, even the reviewer's labels would still
+fund U04 and V02, whose fees nobody recognized but which spent 10 and 11 days below zero. The
+price is that 5 of 36 applications go to a person.
 
-**A bank with no NSF fees.** The model never sees an insufficient-funds event, only the fee.
-At a no-fee bank the event happens but leaves no text, so zero NSFs means "not measured", not
-"healthy". B08 spent 30 of 90 days negative, the worst account in the set, and still gets
-$19,885. A model trained on this overfunds those businesses. My fix counts the event, not
-the fee: code pairs a credit with an earlier same-amount debit to the same counterparty while the balance was negative,
-which found all 37 bounced payments with no false matches, and negative days feed the
-decision directly. I would add a per-institution "charges NSF fees" feature so zero is
-treated as missing.
+### A bank that charges no NSF fees
 
-**61 days instead of 90.** Sums and counts change meaning. Revenue survives if divided by
-the days covered, as ours is; dividing by three understates it by a third. Counts are worse:
-5 NSFs in 61 days is about 7.4 over 90, so the applicant looks healthier than it is, and the
-model scores out of distribution without failing loudly. Coverage comes from the asset
-report and travels with the application, NSFs are compared per 90 days, and under 60 days is
-referred. In production I would also monitor coverage and retrain on 90-day histories cut
-to shorter windows.
+The risk model never sees the event, only the fee the bank charges for it. When the bank
+doesn't charge, the payment still bounces but leaves nothing in the text, so a zero means "not
+measured" rather than "healthy". B08 spent 30 of its 90 days below zero, the worst account in
+the set, and still gets offered $19,885. A model trained on data like this learns that zero
+NSFs is good news and overfunds struggling businesses at these banks. I count the event instead
+of the fee: code matches each deposit with an earlier payment of the same amount to the same
+company while the balance was negative. That found all 37 bounced payments with no false
+matches, and negative-balance days also feed the decision directly. In production I'd add a
+per-bank feature saying whether it charges NSF fees, so a zero from those banks is treated as
+missing.
+
+### 61 days instead of 90
+
+Anything that is a sum or a count over the window changes meaning. Revenue is fine if you divide
+by the days actually covered, which I do; divide by three months and you understate the
+business by a third. Counts are worse because nobody thinks to adjust them: 5 NSFs in 61 days is
+about 7.4 over 90, so the applicant looks healthier than it is. The risk model still returns a
+score, it just isn't reliable, and nothing fails loudly. I take the coverage from the asset
+report, compare NSFs per 90 days, and refer anything under 60 days. In production I'd also watch
+how many applications come in short and retrain on 90-day histories cut down to shorter
+windows.
 
 ## Part 3: production
 
-**Shadow, then a gate.** The reviewer runs next to the engine and records what it *would*
-change. Underwriters label a weekly sample of disagreements and agreements. A correction type
-(e.g. processor payout → revenue) goes live only after a fixed window with precision above
-a bar, zero harmful corrections and no rise in wrongly funded applications. Types that add
-revenue or remove distress need a higher bar or stay human-approved.
+### Shadow first, then a gate
 
-**Drift.** Monitor features, not just labels: replay a fixed reference set on every engine,
-prompt or model version and compare label mix, revenue share, NSFs, funder payments and offer
-(PSI per feature); in production track them by bank and coverage, plus agreement, refer and
-override rates. A jump after a release is the alarm, months before outcomes show it.
+The reviewer runs next to the engine on every application and records what it would change,
+without touching live decisions. Each week underwriters label a sample of the disagreements and
+of the agreements. A type of correction, for example "processor payout is revenue", only goes
+live after a fixed period with precision above a set bar, zero harmful corrections and no
+increase in wrongly funded applications. Corrections that add revenue or remove an alarm need a
+higher bar, or stay human-approved for good.
 
-**Reproducing a decision.** Store the raw Plaid payloads, engine and keyword version, prompt,
-model ID and parameters, the cached LLM responses (already keyed by a hash of all inputs),
-guardrail and rule versions, features, offer and underwriter actions. Replaying the bundle
-gives the original decision; re-running with today's code shows the diff.
+### Catching drift
 
-**Underwriters.** They see only material flags with reason and evidence, and decide every
-refer, distress removal, unsupported revenue addition and injection. Their decisions are
-stored per Plaid counterparty entity ID, not by name (`ADVANCE AUTO PARTS` and
-`ADVANCE AMERICA`), become evidence for the guardrails and the labeled set for the gate.
+The risk model consumes features, so I'd watch those as well as the labels. On every engine,
+prompt or model release, replay a fixed set of reference accounts and compare the label mix,
+revenue share, NSF counts, funder payments and offers (PSI per feature). In production, track
+the same numbers by bank and by days of history, along with how often the engine and reviewer
+agree, how many cases get referred and how often underwriters overrule the reviewer. A jump
+right after a release is the alarm, months before defaults would show it.
 
-## Skipped and known limits
+### Reproducing an old decision
 
-Skipped: real Plaid Sandbox data (the cases had to be planted), RAG (the knowledge fits in
-the prompt; an entity corpus would be a keyword list fitted to our data), confidence
-calibration, UCC and bureau checks, an underwriter UI. The Anthropic fallback was validated
-with the same request body through Bedrock, not with an Anthropic key. Limits: non-sales
-credits with no Plaid category (grants, insurance) are often missed; high-risk labels Plaid
-can't categorize are never removed automatically; payday lenders become `active_advance`;
-all results are on synthetic data, so they show the mechanisms work, not production
-accuracy.
+Store the raw Plaid responses, the engine and keyword version, the prompt, model and
+parameters, the LLM responses (the cache already keys them by a hash of everything that went
+in), the guardrail and rule versions, the features, the offer and what the underwriter did.
+Replaying that bundle gives the original decision exactly. Running it again with today's code
+shows what a later keyword fix would have changed.
+
+### Underwriters in the loop
+
+They only see flags that matter, each with its reason and evidence, and both readings when
+payer text changes the outcome. They decide every referral, every removed alarm, every revenue
+addition without evidence and every suspected injection. Their decisions are stored by Plaid's
+counterparty ID rather than by name, because ADVANCE AUTO PARTS and ADVANCE AMERICA look alike
+and carry opposite risk. Those decisions become evidence for the guardrails and the labeled data
+for the gate.
+
+## What I skipped, and known limits
+
+I didn't use Plaid's Sandbox, because the cases that matter had to be planted. I didn't build
+RAG or a vector store: the domain knowledge fits in the prompt, and a list of known companies
+built from my own synthetic data would just be another keyword list. I also skipped confidence
+calibration, UCC and credit bureau checks, and an underwriter UI. I tested the Anthropic
+fallback by sending the same request body to Claude through Bedrock, without an Anthropic key.
+
+Non-sales credits without a clear Plaid category (grants, insurance) are often missed.
+High-risk labels Plaid can't categorize are never removed automatically, and payday lender
+payments end up as advances rather than high risk. Everything here runs on synthetic data, so
+it shows the mechanisms work; it doesn't tell you how accurate this would be in production.
 
 ## Tools
 
 I used Claude Code as a coding assistant, mainly for:
-- **Creating the data.** It wrote the Plaid-format generators from the cases I specified
-  (businesses, banks, traps). Holdouts 2–4 were written by a separate Claude agent that was
+- Creating the data. It wrote the Plaid-format generators from the cases I specified
+  (businesses, banks, traps). Holdouts 2 to 4 were written by a separate Claude agent that was
   told not to open the reviewer, the prompt or any results, so they could be blind tests.
-- **Simulations.** It implemented the mislabel Monte Carlo and the before/after offer
-  comparison I designed.
-- **Comparisons.** It ran the same pipeline on Nova Lite, Claude Haiku 4.5 and Nova Pro and
+- Simulations. It implemented the mislabel Monte Carlo and the before/after offer comparison I
+  designed.
+- Comparisons. It ran the same pipeline on Nova Lite, Claude Haiku 4.5 and Nova Pro and
   tabulated the results.
 
-Also used: Amazon Bedrock, Plaid's API docs and PFC
-taxonomy, and public MCA underwriting practice.
+Also used: Amazon Bedrock, Plaid's API docs and PFC taxonomy, and public MCA underwriting
+practice.
