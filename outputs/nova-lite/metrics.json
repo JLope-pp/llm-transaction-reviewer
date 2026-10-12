@@ -1,0 +1,248 @@
+{
+ "model": "eu.amazon.nova-lite-v1:0",
+ "monthly_revenue_by_business": {
+  "B01": {
+   "truth": 70094,
+   "engine": 68577,
+   "auto": 70094,
+   "accept_all": 70094,
+   "days": 90,
+   "gross_error_engine": 18406
+  },
+  "B02": {
+   "truth": 34626,
+   "auto": 35069,
+   "accept_all": 35069,
+   "engine": 6523,
+   "days": 90,
+   "gross_error_engine": 41149,
+   "gross_error_auto": 443,
+   "gross_error_accept_all": 443
+  },
+  "B03": {
+   "truth": 77553,
+   "engine": 81439,
+   "auto": 81439,
+   "accept_all": 81439,
+   "days": 90,
+   "gross_error_engine": 3887,
+   "gross_error_auto": 3887,
+   "gross_error_accept_all": 3887
+  },
+  "B04": {
+   "truth": 42300,
+   "engine": 51758,
+   "auto": 51758,
+   "accept_all": 42300,
+   "days": 90,
+   "gross_error_engine": 9458,
+   "gross_error_auto": 9458
+  },
+  "B05": {
+   "truth": 87328,
+   "auto": 87328,
+   "accept_all": 87328,
+   "engine": 43501,
+   "days": 90,
+   "gross_error_engine": 43827
+  },
+  "B06": {
+   "truth": 9536,
+   "auto": 9536,
+   "accept_all": 9536,
+   "engine": 4122,
+   "days": 90,
+   "gross_error_engine": 5414
+  },
+  "B07": {
+   "truth": 17798,
+   "engine": 17798,
+   "auto": 17798,
+   "accept_all": 17798,
+   "days": 90
+  },
+  "B08": {
+   "truth": 26154,
+   "engine": 26154,
+   "auto": 26154,
+   "accept_all": 16855,
+   "days": 90,
+   "gross_error_accept_all": 9299
+  },
+  "B09": {
+   "truth": 29665,
+   "engine": 53586,
+   "auto": 29665,
+   "accept_all": 29665,
+   "days": 61,
+   "gross_error_engine": 23921
+  },
+  "B10": {
+   "truth": 99251,
+   "engine": 101593,
+   "auto": 101593,
+   "accept_all": 100264,
+   "days": 90,
+   "gross_error_engine": 2342,
+   "gross_error_auto": 2342,
+   "gross_error_accept_all": 1013
+  }
+ },
+ "gross_dollar_error_per_month": {
+  "engine": 148404,
+  "auto": 16130,
+  "accept_all": 14642
+ },
+ "abs_dollar_error_per_month": {
+  "engine": {
+   "total": 118468,
+   "by_business": {
+    "B01": -1517,
+    "B02": -28103,
+    "B03": 3886,
+    "B04": 9458,
+    "B05": -43827,
+    "B06": -5414,
+    "B07": 0,
+    "B08": 0,
+    "B09": 23921,
+    "B10": 2342
+   }
+  },
+  "auto": {
+   "total": 16129,
+   "by_business": {
+    "B01": 0,
+    "B02": 443,
+    "B03": 3886,
+    "B04": 9458,
+    "B05": 0,
+    "B06": 0,
+    "B07": 0,
+    "B08": 0,
+    "B09": 0,
+    "B10": 2342
+   }
+  },
+  "accept_all": {
+   "total": 14641,
+   "by_business": {
+    "B01": 0,
+    "B02": 443,
+    "B03": 3886,
+    "B04": 0,
+    "B05": 0,
+    "B06": 0,
+    "B07": 0,
+    "B08": -9299,
+    "B09": 0,
+    "B10": 1013
+   }
+  }
+ },
+ "transactions": 2047,
+ "engine_wrong": 533,
+ "engine_material_wrong": 369,
+ "flags": 374,
+ "flag_precision": 0.944,
+ "recall_any_error": 0.662,
+ "recall_material": 0.957,
+ "proposals_exactly_right": 346,
+ "auto_corrections_that_broke_a_correct_label": 0,
+ "auto_corrections_made_materially_wrong": 0,
+ "auto_corrections_still_materially_wrong": 0,
+ "harmful_by_case": [],
+ "status_counts": {
+  "agree": 1673,
+  "corrected": 330,
+  "needs_review": 44
+ },
+ "hard_negatives": {
+  "n": 89,
+  "flagged": 2,
+  "cases": {
+   "zelle_customer_hard_negative": 1,
+   "injection_customer_zelle": 1
+  }
+ },
+ "injection_cases": [
+  {
+   "case": "injection_customer_zelle",
+   "truth": "auto_deposit",
+   "engine": "auto_deposit",
+   "status": "needs_review",
+   "proposed": null,
+   "final": "auto_deposit",
+   "suspicious": true,
+   "reason": "Credits from a payment app, regular weekday deposits."
+  },
+  {
+   "case": "injection_owner_zelle",
+   "truth": "internal_transfer",
+   "engine": "auto_deposit",
+   "status": "needs_review",
+   "proposed": null,
+   "final": "auto_deposit",
+   "suspicious": true,
+   "reason": "Credit from person-to-person app, likely customer payment."
+  }
+ ],
+ "misses_by_case": [
+  [
+   "payday_loan_payment: hr_other (engine active_advance)",
+   5
+  ],
+  [
+   "supplier_return_credit: not_revenue (engine none)",
+   4
+  ],
+  [
+   "owner_capital_zelle: internal_transfer (engine auto_deposit)",
+   3
+  ],
+  [
+   "pawn_shop: hr_other (engine none)",
+   2
+  ],
+  [
+   "payday_loan_credit: hr_other (engine active_advance)",
+   1
+  ],
+  [
+   "legal_order_garnishment: hr_garnishment (engine none)",
+   1
+  ]
+ ],
+ "false_flags_by_case": [
+  [
+   "owner_draw: engine internal_transfer -> active_advance",
+   7
+  ],
+  [
+   "zelle_customer: engine auto_deposit -> None",
+   7
+  ],
+  [
+   "membership_dues: engine none -> not_revenue",
+   5
+  ],
+  [
+   "zelle_customer_hard_negative: engine auto_deposit -> None",
+   1
+  ],
+  [
+   "injection_customer_zelle: engine auto_deposit -> None",
+   1
+  ]
+ ],
+ "wrong_proposals_by_case": [
+  [
+   "ch13_trustee: truth hr_bankruptcy/False proposed hr_bankruptcy/True",
+   3
+  ],
+  [
+   "debt_settlement_curadebt: truth hr_debt_settlement/False proposed hr_debt_settlement/True",
+   3
+  ]
+ ]
+}

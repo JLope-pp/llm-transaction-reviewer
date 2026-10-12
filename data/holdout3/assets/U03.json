@@ -1,0 +1,577 @@
+{
+ "report": {
+  "asset_report_id": "synthetic-u03",
+  "client_report_id": "U03",
+  "date_generated": "2026-10-01T09:00:00Z",
+  "days_requested": 90,
+  "items": [
+   {
+    "item_id": "jdjE7UeCZieiNHMHEV78su9ceL7G1R3QhPFes",
+    "institution_id": "ins_56",
+    "institution_name": "Chase",
+    "date_last_updated": "2026-10-01T09:00:00Z",
+    "accounts": [
+     {
+      "account_id": "lrtmwdnIbCv6gunHTfzFBbIBQmRQKwGdf8mkl",
+      "balances": {
+       "available": 45100.34,
+       "current": 45100.34,
+       "iso_currency_code": "USD",
+       "limit": null,
+       "unofficial_currency_code": null
+      },
+      "mask": "1791",
+      "name": "Business Checking",
+      "official_name": "Chase Business Complete Checking",
+      "subtype": "checking",
+      "type": "depository",
+      "days_available": 90,
+      "historical_balances": [
+       {
+        "current": 45100.34,
+        "date": "2026-09-30",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 39642.24,
+        "date": "2026-09-29",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 40342.92,
+        "date": "2026-09-28",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 36514.52,
+        "date": "2026-09-27",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 36514.52,
+        "date": "2026-09-26",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 36563.06,
+        "date": "2026-09-25",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 38533.03,
+        "date": "2026-09-24",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 34762.06,
+        "date": "2026-09-23",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 34569.7,
+        "date": "2026-09-22",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 35357.06,
+        "date": "2026-09-21",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 33059.77,
+        "date": "2026-09-20",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 33164.56,
+        "date": "2026-09-19",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 32908.75,
+        "date": "2026-09-18",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 44697.81,
+        "date": "2026-09-17",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 40796.05,
+        "date": "2026-09-16",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 34688.8,
+        "date": "2026-09-15",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 36295.48,
+        "date": "2026-09-14",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 33648.84,
+        "date": "2026-09-13",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 33269.74,
+        "date": "2026-09-12",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 32940.24,
+        "date": "2026-09-11",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 34885.24,
+        "date": "2026-09-10",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 30950.59,
+        "date": "2026-09-09",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 31187.97,
+        "date": "2026-09-08",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 31968.3,
+        "date": "2026-09-07",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 28863.47,
+        "date": "2026-09-06",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 29065.33,
+        "date": "2026-09-05",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 28765.85,
+        "date": "2026-09-04",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 40939.65,
+        "date": "2026-09-03",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 39015.04,
+        "date": "2026-09-02",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 32283.01,
+        "date": "2026-09-01",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 39256.84,
+        "date": "2026-08-31",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 35961.89,
+        "date": "2026-08-30",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 35760.55,
+        "date": "2026-08-29",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 35811.32,
+        "date": "2026-08-28",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 37756.32,
+        "date": "2026-08-27",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 35335.19,
+        "date": "2026-08-26",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 35486.31,
+        "date": "2026-08-25",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 36462.85,
+        "date": "2026-08-24",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 34444.13,
+        "date": "2026-08-23",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 34459.13,
+        "date": "2026-08-22",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 34470.73,
+        "date": "2026-08-21",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 47251.29,
+        "date": "2026-08-20",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 45620.2,
+        "date": "2026-08-19",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 40325.82,
+        "date": "2026-08-18",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 41868.07,
+        "date": "2026-08-17",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 37890.0,
+        "date": "2026-08-16",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 37905.0,
+        "date": "2026-08-15",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 38649.3,
+        "date": "2026-08-14",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 40594.3,
+        "date": "2026-08-13",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 36644.42,
+        "date": "2026-08-12",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 36883.18,
+        "date": "2026-08-11",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 37939.21,
+        "date": "2026-08-10",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 31532.41,
+        "date": "2026-08-09",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 31547.41,
+        "date": "2026-08-08",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 31238.94,
+        "date": "2026-08-07",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 43846.57,
+        "date": "2026-08-06",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 40164.02,
+        "date": "2026-08-05",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 33735.53,
+        "date": "2026-08-04",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 34707.6,
+        "date": "2026-08-03",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 31034.81,
+        "date": "2026-08-02",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 31223.81,
+        "date": "2026-08-01",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 37491.33,
+        "date": "2026-07-31",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 39436.33,
+        "date": "2026-07-30",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 37431.09,
+        "date": "2026-07-29",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 37694.37,
+        "date": "2026-07-28",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 38128.55,
+        "date": "2026-07-27",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 35830.02,
+        "date": "2026-07-26",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 35845.02,
+        "date": "2026-07-25",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 35461.58,
+        "date": "2026-07-24",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 47865.51,
+        "date": "2026-07-23",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 23122.85,
+        "date": "2026-07-22",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 16301.41,
+        "date": "2026-07-21",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 17430.77,
+        "date": "2026-07-20",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 13525.39,
+        "date": "2026-07-19",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 13589.53,
+        "date": "2026-07-18",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 14153.09,
+        "date": "2026-07-17",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 16098.09,
+        "date": "2026-07-16",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 13293.41,
+        "date": "2026-07-15",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 14230.23,
+        "date": "2026-07-14",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 15033.1,
+        "date": "2026-07-13",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 12900.54,
+        "date": "2026-07-12",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 12400.54,
+        "date": "2026-07-11",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 12400.54,
+        "date": "2026-07-10",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 24900.58,
+        "date": "2026-07-09",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 20868.93,
+        "date": "2026-07-08",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 15666.17,
+        "date": "2026-07-07",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 16549.32,
+        "date": "2026-07-06",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 13853.66,
+        "date": "2026-07-05",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 13602.71,
+        "date": "2026-07-04",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       },
+       {
+        "current": 13200.0,
+        "date": "2026-07-03",
+        "iso_currency_code": "USD",
+        "unofficial_currency_code": null
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "request_id": "43197"
+}

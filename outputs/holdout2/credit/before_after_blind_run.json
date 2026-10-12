@@ -1,0 +1,278 @@
+{
+ "by_business": {
+  "T01": {
+   "truth": {
+    "days": 90,
+    "monthly_revenue": 60172,
+    "revenue_share": 0.81,
+    "nsf_count": 0,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 412.5,
+    "funders": {
+     "CREDIBLY": 412.5
+    },
+    "offer": 63957
+   },
+   "engine": {
+    "days": 90,
+    "monthly_revenue": 67740,
+    "revenue_share": 0.912,
+    "nsf_count": 0,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 81289
+   },
+   "auto": {
+    "days": 90,
+    "monthly_revenue": 67740,
+    "revenue_share": 0.912,
+    "nsf_count": 0,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 81289
+   },
+   "accept_all": {
+    "days": 90,
+    "monthly_revenue": 68365,
+    "revenue_share": 0.92,
+    "nsf_count": 0,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 82038
+   }
+  },
+  "T02": {
+   "truth": {
+    "days": 75,
+    "monthly_revenue": 64979,
+    "revenue_share": 0.689,
+    "nsf_count": 0,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 209.09,
+    "funders": {
+     "PEARL CAP BUS FUND": 209.09
+    },
+    "offer": 73793
+   },
+   "engine": {
+    "days": 75,
+    "monthly_revenue": 67107,
+    "revenue_share": 0.711,
+    "nsf_count": 0,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 80528
+   },
+   "auto": {
+    "days": 75,
+    "monthly_revenue": 71306,
+    "revenue_share": 0.756,
+    "nsf_count": 0,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 85567
+   },
+   "accept_all": {
+    "days": 75,
+    "monthly_revenue": 71306,
+    "revenue_share": 0.756,
+    "nsf_count": 0,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 481.82,
+    "funders": {
+     "PEARL CAP BUS FUND": 209.09,
+     "ONLINE TRANSFER": 272.73
+    },
+    "offer": 75931
+   }
+  },
+  "T03": {
+   "truth": {
+    "days": 90,
+    "monthly_revenue": 24365,
+    "revenue_share": 0.704,
+    "nsf_count": 10,
+    "overdraft_count": 4,
+    "high_risk_share": 0.0627,
+    "other_funders_daily": 587.0,
+    "funders": {
+     "LIGHTSPEED PAYMNTS": 238.0,
+     "KAPITUS": 349.0
+    },
+    "offer": 0
+   },
+   "engine": {
+    "days": 90,
+    "monthly_revenue": 31597,
+    "revenue_share": 0.913,
+    "nsf_count": 5,
+    "overdraft_count": 3,
+    "high_risk_share": 0.019,
+    "other_funders_daily": 187.66,
+    "funders": {
+     "ADVANCED SPORTS ENT": 187.66
+    },
+    "offer": 34163
+   },
+   "auto": {
+    "days": 90,
+    "monthly_revenue": 31597,
+    "revenue_share": 0.913,
+    "nsf_count": 6,
+    "overdraft_count": 4,
+    "high_risk_share": 0.019,
+    "other_funders_daily": 349.0,
+    "funders": {
+     "KAPITUS": 349.0
+    },
+    "offer": 0
+   },
+   "accept_all": {
+    "days": 90,
+    "monthly_revenue": 34607,
+    "revenue_share": 1.0,
+    "nsf_count": 6,
+    "overdraft_count": 4,
+    "high_risk_share": 0.019,
+    "other_funders_daily": 349.0,
+    "funders": {
+     "KAPITUS": 349.0
+    },
+    "offer": 0
+   }
+  },
+  "T04": {
+   "truth": {
+    "days": 64,
+    "monthly_revenue": 9694,
+    "revenue_share": 0.528,
+    "nsf_count": 6,
+    "overdraft_count": 0,
+    "high_risk_share": 0.24,
+    "other_funders_daily": 180.68,
+    "funders": {
+     "SLATEROCK FDG": 180.68
+    },
+    "offer": 0
+   },
+   "engine": {
+    "days": 64,
+    "monthly_revenue": 10722,
+    "revenue_share": 0.584,
+    "nsf_count": 4,
+    "overdraft_count": 0,
+    "high_risk_share": 0.1372,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 12867
+   },
+   "auto": {
+    "days": 64,
+    "monthly_revenue": 10722,
+    "revenue_share": 0.584,
+    "nsf_count": 6,
+    "overdraft_count": 0,
+    "high_risk_share": 0.2266,
+    "other_funders_daily": 196.36,
+    "funders": {
+     "SLATEROCK FDG": 180.68,
+     "CHECK INTO CASH": 15.68
+    },
+    "offer": 0
+   },
+   "accept_all": {
+    "days": 64,
+    "monthly_revenue": 10722,
+    "revenue_share": 0.584,
+    "nsf_count": 6,
+    "overdraft_count": 0,
+    "high_risk_share": 0.2266,
+    "other_funders_daily": 196.36,
+    "funders": {
+     "SLATEROCK FDG": 180.68,
+     "CHECK INTO CASH": 15.68
+    },
+    "offer": 0
+   }
+  },
+  "T05": {
+   "truth": {
+    "days": 82,
+    "monthly_revenue": 64263,
+    "revenue_share": 0.895,
+    "nsf_count": 0,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0072,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 77116
+   },
+   "engine": {
+    "days": 82,
+    "monthly_revenue": 66784,
+    "revenue_share": 0.93,
+    "nsf_count": 0,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0072,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 80141
+   },
+   "auto": {
+    "days": 82,
+    "monthly_revenue": 66784,
+    "revenue_share": 0.93,
+    "nsf_count": 0,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0072,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 80141
+   },
+   "accept_all": {
+    "days": 82,
+    "monthly_revenue": 68267,
+    "revenue_share": 0.951,
+    "nsf_count": 0,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0072,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 81921
+   }
+  }
+ },
+ "summary": {
+  "engine": {
+   "abs_offer_error_total": 74122,
+   "offer_overstated_total": 74122,
+   "wrong_decisions": [
+    "T03",
+    "T04"
+   ]
+  },
+  "auto": {
+   "abs_offer_error_total": 32131,
+   "offer_overstated_total": 32131,
+   "wrong_decisions": []
+  },
+  "accept_all": {
+   "abs_offer_error_total": 25024,
+   "offer_overstated_total": 25024,
+   "wrong_decisions": []
+  }
+ }
+}

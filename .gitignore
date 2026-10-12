@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+dist/
+*.zip
+
+# ad-hoc runs of --input
+outputs/input/

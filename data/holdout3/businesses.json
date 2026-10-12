@@ -1,0 +1,52 @@
+[
+ {
+  "business_id": "U01",
+  "name": "Tri-County Comfort HVAC & Plumbing LLC",
+  "owner_name": "Rafael Quintanilla",
+  "industry": "hvac contractor",
+  "institution_name": "Northstar Digital Bank",
+  "bank_charges_nsf_fees": false,
+  "transactions_file": "plaid/U01.json",
+  "assets_file": "assets/U01.json"
+ },
+ {
+  "business_id": "U02",
+  "name": "Pinecrest Freight Lines LLC",
+  "owner_name": "Gerald Lindholm",
+  "industry": "trucking",
+  "institution_name": "Bank of America",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/U02.json",
+  "assets_file": "assets/U02.json"
+ },
+ {
+  "business_id": "U03",
+  "name": "Little Acorns Early Learning LLC",
+  "owner_name": "Shonda Gaines",
+  "industry": "child care",
+  "institution_name": "Chase",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/U03.json",
+  "assets_file": "assets/U03.json"
+ },
+ {
+  "business_id": "U04",
+  "name": "Hollow Creek Orchards LLC",
+  "owner_name": "Wendell Ashby",
+  "industry": "agriculture (orchard)",
+  "institution_name": "TD Bank",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/U04.json",
+  "assets_file": "assets/U04.json"
+ },
+ {
+  "business_id": "U05",
+  "name": "Lattice Point Software LLC",
+  "owner_name": "Nikolai Lindqvist",
+  "industry": "software & IT services",
+  "institution_name": "Wells Fargo",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/U05.json",
+  "assets_file": "assets/U05.json"
+ }
+]

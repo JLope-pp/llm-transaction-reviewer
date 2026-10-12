@@ -1,0 +1,52 @@
+[
+ {
+  "business_id": "H01",
+  "name": "Bayou Wholesale Supply LLC",
+  "owner_name": "Thomas Nguyen",
+  "industry": "food distribution",
+  "institution_name": "TD Bank",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/H01.json",
+  "assets_file": "assets/H01.json"
+ },
+ {
+  "business_id": "H02",
+  "name": "Paws & Claws Veterinary PLLC",
+  "owner_name": "Priya Raman",
+  "industry": "veterinary clinic",
+  "institution_name": "Bank of America",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/H02.json",
+  "assets_file": "assets/H02.json"
+ },
+ {
+  "business_id": "H03",
+  "name": "Rolling Smoke Food Truck",
+  "owner_name": "Maria Gonzalez",
+  "industry": "food truck",
+  "institution_name": "Wells Fargo",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/H03.json",
+  "assets_file": "assets/H03.json"
+ },
+ {
+  "business_id": "H04",
+  "name": "Keystone Lock & Key LLC",
+  "owner_name": "Derek Walsh",
+  "industry": "locksmith",
+  "institution_name": "Chase",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/H04.json",
+  "assets_file": "assets/H04.json"
+ },
+ {
+  "business_id": "H05",
+  "name": "Lotus Flow Yoga LLC",
+  "owner_name": "Olivia Park",
+  "industry": "yoga studio",
+  "institution_name": "Lumen Digital Bank",
+  "bank_charges_nsf_fees": false,
+  "transactions_file": "plaid/H05.json",
+  "assets_file": "assets/H05.json"
+ }
+]

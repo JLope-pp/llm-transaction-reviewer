@@ -1,0 +1,257 @@
+{
+ "model": "eu.amazon.nova-pro-v1:0",
+ "monthly_revenue_by_business": {
+  "B01": {
+   "truth": 70094,
+   "engine": 68577,
+   "auto": 60133,
+   "accept_all": 70094,
+   "days": 90,
+   "gross_error_engine": 18406,
+   "gross_error_auto": 9961
+  },
+  "B02": {
+   "truth": 34626,
+   "accept_all": 41149,
+   "auto": 9081,
+   "engine": 6523,
+   "days": 90,
+   "gross_error_engine": 41149,
+   "gross_error_auto": 38590,
+   "gross_error_accept_all": 6523
+  },
+  "B03": {
+   "truth": 77553,
+   "engine": 81439,
+   "auto": 77553,
+   "accept_all": 77553,
+   "days": 90,
+   "gross_error_engine": 3887
+  },
+  "B04": {
+   "truth": 42300,
+   "engine": 51758,
+   "auto": 51758,
+   "accept_all": 42300,
+   "days": 90,
+   "gross_error_engine": 9458,
+   "gross_error_auto": 9458
+  },
+  "B05": {
+   "truth": 87328,
+   "auto": 87328,
+   "accept_all": 87328,
+   "engine": 43501,
+   "days": 90,
+   "gross_error_engine": 43827
+  },
+  "B06": {
+   "truth": 9536,
+   "auto": 9536,
+   "accept_all": 9536,
+   "engine": 4122,
+   "days": 90,
+   "gross_error_engine": 5414
+  },
+  "B07": {
+   "truth": 17798,
+   "engine": 17798,
+   "auto": 17798,
+   "accept_all": 17798,
+   "days": 90
+  },
+  "B08": {
+   "truth": 26154,
+   "engine": 26154,
+   "auto": 26154,
+   "accept_all": 26154,
+   "days": 90
+  },
+  "B09": {
+   "truth": 29665,
+   "engine": 53586,
+   "auto": 29665,
+   "accept_all": 29665,
+   "days": 61,
+   "gross_error_engine": 23921
+  },
+  "B10": {
+   "truth": 99251,
+   "engine": 101593,
+   "auto": 101593,
+   "accept_all": 99251,
+   "days": 90,
+   "gross_error_engine": 2342,
+   "gross_error_auto": 2342
+  }
+ },
+ "gross_dollar_error_per_month": {
+  "engine": 148404,
+  "auto": 60351,
+  "accept_all": 6523
+ },
+ "abs_dollar_error_per_month": {
+  "engine": {
+   "total": 118468,
+   "by_business": {
+    "B01": -1517,
+    "B02": -28103,
+    "B03": 3886,
+    "B04": 9458,
+    "B05": -43827,
+    "B06": -5414,
+    "B07": 0,
+    "B08": 0,
+    "B09": 23921,
+    "B10": 2342
+   }
+  },
+  "auto": {
+   "total": 47306,
+   "by_business": {
+    "B01": -9961,
+    "B02": -25545,
+    "B03": 0,
+    "B04": 9458,
+    "B05": 0,
+    "B06": 0,
+    "B07": 0,
+    "B08": 0,
+    "B09": 0,
+    "B10": 2342
+   }
+  },
+  "accept_all": {
+   "total": 6523,
+   "by_business": {
+    "B01": 0,
+    "B02": 6523,
+    "B03": 0,
+    "B04": 0,
+    "B05": 0,
+    "B06": 0,
+    "B07": 0,
+    "B08": 0,
+    "B09": 0,
+    "B10": 0
+   }
+  }
+ },
+ "transactions": 2047,
+ "engine_wrong": 533,
+ "engine_material_wrong": 369,
+ "flags": 443,
+ "flag_precision": 0.831,
+ "recall_any_error": 0.69,
+ "recall_material": 0.973,
+ "proposals_exactly_right": 323,
+ "auto_corrections_that_broke_a_correct_label": 0,
+ "auto_corrections_made_materially_wrong": 0,
+ "auto_corrections_still_materially_wrong": 0,
+ "harmful_by_case": [],
+ "status_counts": {
+  "agree": 1604,
+  "corrected": 265,
+  "needs_review": 178
+ },
+ "hard_negatives": {
+  "n": 89,
+  "flagged": 2,
+  "cases": {
+   "zelle_customer_hard_negative": 1,
+   "injection_customer_zelle": 1
+  }
+ },
+ "injection_cases": [
+  {
+   "case": "injection_customer_zelle",
+   "truth": "auto_deposit",
+   "engine": "auto_deposit",
+   "status": "needs_review",
+   "proposed": null,
+   "final": "auto_deposit",
+   "suspicious": true,
+   "reason": "Regular, high-value transfers from apps, likely business revenue."
+  },
+  {
+   "case": "injection_owner_zelle",
+   "truth": "internal_transfer",
+   "engine": "auto_deposit",
+   "status": "needs_review",
+   "proposed": {
+    "group": "internal_transfer",
+    "is_business": true,
+    "revenue": false
+   },
+   "final": "auto_deposit",
+   "suspicious": true,
+   "reason": "Payer matches owner, transfer from apps."
+  }
+ ],
+ "misses_by_case": [
+  [
+   "payday_loan_payment: hr_other (engine active_advance)",
+   5
+  ],
+  [
+   "supplier_return_credit: not_revenue (engine none)",
+   4
+  ],
+  [
+   "payday_loan_credit: hr_other (engine active_advance)",
+   1
+  ]
+ ],
+ "false_flags_by_case": [
+  [
+   "ordinary: engine none -> None",
+   40
+  ],
+  [
+   "zelle_customer: engine auto_deposit -> None",
+   21
+  ],
+  [
+   "gambling_draftkings: engine hr_gambling -> None",
+   4
+  ],
+  [
+   "od_fee: engine overdraft -> None",
+   3
+  ],
+  [
+   "gambling_winnings_credit: engine hr_gambling -> None",
+   2
+  ],
+  [
+   "nsf_fee_insufficient: engine nsf -> None",
+   2
+  ],
+  [
+   "personal_spend: engine none -> None",
+   1
+  ],
+  [
+   "zelle_customer_hard_negative: engine auto_deposit -> None",
+   1
+  ],
+  [
+   "injection_customer_zelle: engine auto_deposit -> None",
+   1
+  ]
+ ],
+ "wrong_proposals_by_case": [
+  [
+   "paypal_payout_transfer: truth revenue_verification/True proposed auto_deposit/True",
+   13
+  ],
+  [
+   "debt_settlement_curadebt: truth hr_debt_settlement/False proposed hr_debt_settlement/True",
+   3
+  ],
+  [
+   "pawn_shop: truth hr_other/False proposed hr_other/True",
+   2
+  ]
+ ]
+}

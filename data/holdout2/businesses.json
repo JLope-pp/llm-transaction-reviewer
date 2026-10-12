@@ -1,0 +1,52 @@
+[
+ {
+  "business_id": "T01",
+  "name": "Cedar & Sage Kitchen LLC",
+  "owner_name": "Marisol Fuentes-Ortega",
+  "industry": "restaurant",
+  "institution_name": "TD Bank",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/T01.json",
+  "assets_file": "assets/T01.json"
+ },
+ {
+  "business_id": "T02",
+  "name": "Northgate Home Goods Co",
+  "owner_name": "Daniel Okonkwo",
+  "industry": "e-commerce home goods",
+  "institution_name": "Chase",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/T02.json",
+  "assets_file": "assets/T02.json"
+ },
+ {
+  "business_id": "T03",
+  "name": "Ridgeway Cycle & Ski",
+  "owner_name": "Priya Ramanathan",
+  "industry": "sporting goods retail",
+  "institution_name": "Wells Fargo",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/T03.json",
+  "assets_file": "assets/T03.json"
+ },
+ {
+  "business_id": "T04",
+  "name": "Bluewater Mobile Detailing LLC",
+  "owner_name": "Terrence Whitaker",
+  "industry": "auto detailing",
+  "institution_name": "Lumen Digital Bank",
+  "bank_charges_nsf_fees": false,
+  "transactions_file": "plaid/T04.json",
+  "assets_file": "assets/T04.json"
+ },
+ {
+  "business_id": "T05",
+  "name": "Summit Ridge Physical Therapy PLLC",
+  "owner_name": "Dr. Alan Brzezinski",
+  "industry": "physical therapy",
+  "institution_name": "Bank of America",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/T05.json",
+  "assets_file": "assets/T05.json"
+ }
+]

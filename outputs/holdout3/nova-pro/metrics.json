@@ -1,0 +1,355 @@
+{
+ "model": "eu.amazon.nova-pro-v1:0",
+ "monthly_revenue_by_business": {
+  "U01": {
+   "truth": 24786,
+   "engine": 21147,
+   "auto": 25676,
+   "accept_all": 26480,
+   "days": 90,
+   "gross_error_engine": 3639,
+   "gross_error_auto": 2498,
+   "gross_error_accept_all": 1694
+  },
+  "U02": {
+   "truth": 37495,
+   "engine": 44861,
+   "auto": 39539,
+   "accept_all": 39539,
+   "days": 80,
+   "gross_error_engine": 17623,
+   "gross_error_auto": 2044,
+   "gross_error_accept_all": 2044
+  },
+  "U03": {
+   "truth": 42670,
+   "engine": 45715,
+   "auto": 45715,
+   "accept_all": 50102,
+   "days": 90,
+   "gross_error_engine": 11817,
+   "gross_error_auto": 11817,
+   "gross_error_accept_all": 7431
+  },
+  "U04": {
+   "truth": 34160,
+   "engine": 38472,
+   "auto": 38472,
+   "accept_all": 38472,
+   "days": 85,
+   "gross_error_engine": 4311,
+   "gross_error_auto": 4311,
+   "gross_error_accept_all": 4311
+  },
+  "U05": {
+   "truth": 83430,
+   "engine": 89534,
+   "auto": 84927,
+   "accept_all": 78198,
+   "days": 66,
+   "gross_error_accept_all": 19972,
+   "gross_error_engine": 17848,
+   "gross_error_auto": 13242
+  }
+ },
+ "gross_dollar_error_per_month": {
+  "engine": 55238,
+  "auto": 33912,
+  "accept_all": 35452
+ },
+ "abs_dollar_error_per_month": {
+  "engine": {
+   "total": 24466,
+   "by_business": {
+    "U01": -3639,
+    "U02": 7366,
+    "U03": 3045,
+    "U04": 4312,
+    "U05": 6104
+   }
+  },
+  "auto": {
+   "total": 11788,
+   "by_business": {
+    "U01": 890,
+    "U02": 2044,
+    "U03": 3045,
+    "U04": 4312,
+    "U05": 1497
+   }
+  },
+  "accept_all": {
+   "total": 20714,
+   "by_business": {
+    "U01": 1694,
+    "U02": 2044,
+    "U03": 7432,
+    "U04": 4312,
+    "U05": -5232
+   }
+  }
+ },
+ "transactions": 922,
+ "engine_wrong": 364,
+ "engine_material_wrong": 178,
+ "flags": 184,
+ "flag_precision": 0.908,
+ "recall_any_error": 0.459,
+ "recall_material": 0.865,
+ "proposals_exactly_right": 138,
+ "auto_corrections_that_broke_a_correct_label": 0,
+ "auto_corrections_made_materially_wrong": 2,
+ "auto_corrections_still_materially_wrong": 8,
+ "harmful_by_case": [
+  [
+   "payday_loan_payment: engine none -> active_advance (truth hr_other)",
+   6
+  ],
+  [
+   "owner_injection_zelle_nickname: engine not_revenue -> auto_deposit (truth internal_transfer)",
+   4
+  ]
+ ],
+ "status_counts": {
+  "agree": 738,
+  "corrected": 132,
+  "needs_review": 52
+ },
+ "hard_negatives": {
+  "n": 55,
+  "flagged": 5,
+  "cases": {
+   "injection_zelle_parent_spanish": 1,
+   "hard_negative_advance_name_service": 3,
+   "hard_negative_large_one_off_client_wire": 1
+  }
+ },
+ "injection_cases": [
+  {
+   "case": "injection_zelle_homeowner_audit_claim",
+   "truth": "auto_deposit",
+   "engine": "not_revenue",
+   "status": "needs_review",
+   "proposed": {
+    "group": "auto_deposit",
+    "is_business": true,
+    "revenue": true
+   },
+   "final": "not_revenue",
+   "suspicious": true,
+   "reason": "Credit from transfer app, likely customer payment."
+  },
+  {
+   "case": "owner_injection_zelle_nickname",
+   "truth": "internal_transfer",
+   "engine": "not_revenue",
+   "status": "corrected",
+   "proposed": {
+    "group": "auto_deposit",
+    "is_business": true,
+    "revenue": true
+   },
+   "final": "auto_deposit",
+   "suspicious": false,
+   "reason": "Plaid category and description indicate personal loan."
+  },
+  {
+   "case": "owner_injection_zelle_nickname",
+   "truth": "internal_transfer",
+   "engine": "not_revenue",
+   "status": "corrected",
+   "proposed": {
+    "group": "auto_deposit",
+    "is_business": true,
+    "revenue": true
+   },
+   "final": "auto_deposit",
+   "suspicious": false,
+   "reason": "Plaid category and description indicate personal loan."
+  },
+  {
+   "case": "owner_injection_zelle_nickname",
+   "truth": "internal_transfer",
+   "engine": "auto_deposit",
+   "status": "agree",
+   "proposed": null,
+   "final": "auto_deposit",
+   "suspicious": false,
+   "reason": "Zelle transfers from owner."
+  },
+  {
+   "case": "owner_injection_zelle_nickname",
+   "truth": "internal_transfer",
+   "engine": "auto_deposit",
+   "status": "agree",
+   "proposed": null,
+   "final": "auto_deposit",
+   "suspicious": false,
+   "reason": "Zelle transfers from owner."
+  },
+  {
+   "case": "injection_zelle_parent_spanish",
+   "truth": "auto_deposit",
+   "engine": "auto_deposit",
+   "status": "needs_review",
+   "proposed": null,
+   "final": "auto_deposit",
+   "suspicious": true,
+   "reason": "Credit from transfer app, likely customer payment."
+  },
+  {
+   "case": "owner_injection_married_name",
+   "truth": "internal_transfer",
+   "engine": "internal_transfer",
+   "status": "agree",
+   "proposed": null,
+   "final": "internal_transfer",
+   "suspicious": false,
+   "reason": "Transfer from the owner's account."
+  },
+  {
+   "case": "owner_injection_initial_name",
+   "truth": "internal_transfer",
+   "engine": "internal_transfer",
+   "status": "agree",
+   "proposed": null,
+   "final": "internal_transfer",
+   "suspicious": false,
+   "reason": "Internal transfer, not revenue."
+  },
+  {
+   "case": "injection_client_wire_obi",
+   "truth": "none",
+   "engine": "internal_transfer",
+   "status": "agree",
+   "proposed": null,
+   "final": "internal_transfer",
+   "suspicious": false,
+   "reason": "Wire transfer from income source, internal transfer."
+  },
+  {
+   "case": "owner_injection_wire_initials",
+   "truth": "internal_transfer",
+   "engine": "none",
+   "status": "corrected",
+   "proposed": {
+    "group": "internal_transfer",
+    "is_business": true,
+    "revenue": false
+   },
+   "final": "internal_transfer",
+   "suspicious": false,
+   "reason": "Credit from owner's contribution."
+  }
+ ],
+ "misses_by_case": [
+  [
+   "nsf_fee_returned_item_service_ch: nsf (engine not_revenue)",
+   4
+  ],
+  [
+   "title_loan_payment: hr_other (engine none)",
+   3
+  ],
+  [
+   "debt_relief_program_personal: hr_debt_settlement (engine none)",
+   3
+  ],
+  [
+   "chapter12_farm_trustee: hr_bankruptcy (engine none)",
+   3
+  ],
+  [
+   "nsf_fee_ret_item_fee_electronic: nsf (engine none)",
+   3
+  ],
+  [
+   "owner_injection_zelle_nickname: internal_transfer (engine auto_deposit)",
+   2
+  ],
+  [
+   "childcare_stabilization_grant: not_revenue (engine none)",
+   1
+  ],
+  [
+   "payday_loan_credit: hr_other (engine active_advance)",
+   1
+  ],
+  [
+   "usda_program_payment: not_revenue (engine none)",
+   1
+  ],
+  [
+   "crop_insurance_indemnity: not_revenue (engine none)",
+   1
+  ],
+  [
+   "injection_client_wire_obi: none (engine internal_transfer)",
+   1
+  ],
+  [
+   "platform_advance_funding_payoneer: active_advance (engine none)",
+   1
+  ]
+ ],
+ "false_flags_by_case": [
+  [
+   "client_ach_invoice: engine none -> not_revenue",
+   4
+  ],
+  [
+   "zelle_homeowner: engine auto_deposit -> None",
+   3
+  ],
+  [
+   "zelle_parent_tuition: engine auto_deposit -> None",
+   2
+  ],
+  [
+   "chargeback_debit: engine none -> None",
+   2
+  ],
+  [
+   "property_manager_ach: engine none -> None",
+   1
+  ],
+  [
+   "ach_return_r01_other_debit: engine nsf -> None",
+   1
+  ],
+  [
+   "od_fee_daily_od_charge: engine overdraft -> None",
+   1
+  ],
+  [
+   "nsf_fee_nsf_item_returned: engine nsf -> None",
+   1
+  ],
+  [
+   "injection_zelle_parent_spanish: engine auto_deposit -> None",
+   1
+  ],
+  [
+   "hard_negative_large_one_off_client_wire: engine none -> None",
+   1
+  ]
+ ],
+ "wrong_proposals_by_case": [
+  [
+   "payday_loan_payment: truth hr_other/False proposed active_advance/True",
+   6
+  ],
+  [
+   "sweepstakes_casino_stake: truth hr_gambling/False proposed hr_gambling/True",
+   5
+  ],
+  [
+   "sportsbook_personal: truth hr_gambling/False proposed hr_gambling/True",
+   5
+  ],
+  [
+   "owner_injection_zelle_nickname: truth internal_transfer/True proposed auto_deposit/True",
+   2
+  ]
+ ]
+}

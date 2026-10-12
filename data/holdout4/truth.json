@@ -1,0 +1,6547 @@
+{
+ "wkRDBEUXRClxrx2HYBrBN4KzGcoINpTefrzTC": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "ach_return_r01_truncated_style1"
+ },
+ "mnwAA1g5b2EtgFlMVoPBFlo7YVPfzRB1fZahs": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "qWX00vP5UF319WGJi2TF1cXK2ORyKwzOiLXHT": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "nBHFYI71khdWLswqdFCkOOZc3bWdZYtuLSWQx": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "x9vejUkwPLNgZ8nBGZXWzRcs281yyFsun4eaC": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "Cdu4Ep48x8MTd4sMLEMdh5UG5S8s28g2sf9eC": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "seEyZ9a2z4xaTsT6bLKL6SmV964P3VCbA4exo": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "izfVwPGaBSFyTb91765TzzVQi9w7pke0J5MV3": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "nxbMgUJhlcZU34DssSOVNa9v0uf7Ws5Igq3NU": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "zNFsk6OuTLRHJujui3i1A4pxmQQpwU8oETZq9": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "mWqwWFOweRF1AwRmhbEbxAyDZieDibuDVkiEo": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "bGAeWTpyUNsy8IZgtg5qXJfhdqsPDSohsVh2q": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "gUMwLqohJbx7y1fulnhDHdE5CWXNqbkPC6UMO": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "fa2zhwjX42oYQVQrx5NqT9EBHzWXKGMkD8UPz": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "UgCR0ht9Em3mOVT5cNQLAHYxdI7jw1aQ1HqAM": {
+  "group": "ucc",
+  "is_business": true,
+  "case": "box_truck_loan"
+ },
+ "n7nOxqSrPIeH1FRaNAG4H02Maz1dPKjvcLRUF": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "ach_return_r01_truncated_style2"
+ },
+ "pme8FNnYIgWivzbhgUIqHZb3UxgShGDgj15lq": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "HOFjljOJ203B17kZJkYS7C087gUDKQrjm2zhz": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "7DLOZZmv48kQHhT8ZObYBKozau6BNXbA2D7z3": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "U5rDu4bVkE59gBqRUNDs7q1nZwPVVsoUIQZEH": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "hrN6ZzY7y18e2S8KIL7M8umidZqYzq8XItKnJ": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_customer"
+ },
+ "ZAekQ4SNmfkWf149RIOuKtm6lrENQ9VRk3y8i": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "srbFjw9WDcQE0S9qmz9Rf8nOom2bkBeFfWiTc": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "XR9VGcKaYtKC2ecg7qMALyVQm5koMmhyXxW78": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "QJjrKExx7VF7KNtSHvEbpRUtNWT7o9SGFb3Hw": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "dPmZRJXK4Lln8seqWAGe428yH9twx5oxQAORz": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "s7BKuzK4WsPhaq8l6Ct5drsHciOJKpQLv6OlH": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "dyHFxIZz428ItqOAV24ag5X4OCejhAwYnJsJw": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_customer"
+ },
+ "DpH69ulnOcEeKCrfFS4J0Epv9FJA4PzRfagma": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "PVkd8CPgAGBwtfDCFDUhhj4BqUMvJ72FxWexw": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "XaUkmFiutBl7WdggzhanATAQmoc3LOCEce3eE": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle"
+ },
+ "rPjmCH9IZNzPwAsvAiOImvBAJwP91G0RG2Ean": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "ach_return_r01_truncated_style0"
+ },
+ "vzm5lpcpmUhjK4ogm02nqYJEhOs03osYKEbP1": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "FBaE36jcCn4vxcDTrRTcK4qmEvMYoNyuJtlPp": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "ach_return_r01_truncated_style1"
+ },
+ "EsVoxvkomqpxMEmv2EukdbKPHRZOZy9sOpNaJ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "6O4pWTv1vVEB6DxdQzd9nvPmflQRESlDsQeWj": {
+  "group": "hr_bankruptcy",
+  "is_business": false,
+  "case": "bankruptcy_trustee_personal"
+ },
+ "09Z91IhWE5WzkF8kIxUfXWlSQaRPXW1TiEkRT": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "pdS21rOH9ODJ1Su14Tfk32FzL3fIiFltuiB6W": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "i9WAHv2FYz2J7vh0YibxBJzYbLbohoAfonMJJ": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_customer"
+ },
+ "xFWqxrH0gZUipFzv5SlzNfvmsFOzFVKDUW9ZR": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "KeCKZd9NiXXkKzd9Mq3KxPoY8ZMaFWsbw65BG": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "Zq6wTmlbpOb7J5mzWdbhCM6QEgSyOkVTpw8Bo": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "ach_return_r09_truncated_style2"
+ },
+ "j5xgBfWPOMPpRIjgP6TQi3ph5NzbyzeAYt4X3": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "slxZrH5uZReQ2gEcgnQVfTDsd5A39pCEuQ6oo": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_customer"
+ },
+ "gDFVGOED16AEdt7k7jR3fkl5DeZiw35UXKnQY": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "AIeYoKsqgRpr6oIa7FjurFnOvLhTat3QKeqgq": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "FqwfWVJZSBHAruPFi1EP7uf5RaXOl5WAE8HkI": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "dSRQADfUOwRWRxlVRvNsGkkvj0f4xoNKcKoJp": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_batch_reads_deposit"
+ },
+ "JnkWI5MehiYpO54rwAKHV75mJ2aqoBQ1NeDrx": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "HHeYx2MrFwqYWiJZseb0oSyHi5QcdHrvFIhxf": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "Vc6h1AEZZ4oyvQp6MpMIPgv8rTaxDSiCAgW50": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "jpQL1lilLHvQdeSEePWzmVm2vaYEAs9JPPAvL": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "4yBG784DFEBY2FwCcQtkoWCD3EvHx4w1RnjFz": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "ach_return_r01_truncated_style0"
+ },
+ "hgZuIKRX5xbHloDYQvyLhaIx0oWjL2MF2njY6": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_customer"
+ },
+ "zidRXerzyrfOGPuTGGA23XEsq1H4rt9JdTqaf": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "62YMdjpY87eog8WhSJ1DWKAYCwgTgOcm2VXCK": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "9BtjGWQkYq5ZLRuPtXZ2RrlvT7SER7hm1lkpW": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "N2zDn8nFZq5xNU44xyXHzeDS4lYEvROiVlMi3": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "qDNVnVNpC8N6cXSc8nI6d0bDzfjtwPOCAHiki": {
+  "group": "not_revenue",
+  "is_business": true,
+  "case": "cargo_insurance_claim"
+ },
+ "yfKqSyBP5KUqeh4S7iiSSZSVrv3rmHHqUIXhc": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "oRkQ6c045cJFaQKuM4mTYhfJNoCmTqWvhKxEI": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "ug0Ade15aWNz4Kk3wLyZbjKTisz5xspoc922K": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "iTi2dEgPklZGlxFFEUrDwvzdf5FsRPQug5H77": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "6Sqr6m5u9eVLsDvoFfWxZtWYWahcBTNqScR34": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "ipJOYYaotqtpZwxD1bIcOA309FeQbB7AR8jQU": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "dZCaVyCfAr5tfeGL84IGsKEmV4QA816pRZo4U": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "cQQ0uhc8QvVNfg5FmHsxBGkpfZSkPTn9Vu786": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "cHv9TSbS3MwtwOVsvMUp7XSpKTNO1gdDztTeI": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "7MOVeWmzqO13nWCyX75KkcL9D4aS1j8AOFfVA": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "KjdRbT5LQ8tHpNNXVl61rxROqV3lWsKZxvyPR": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "eWSsZh8Ok9j6MAk5acWICOH6Cb776ZqgBjRfQ": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "A62PYWvpnYCw82FRVHkYX6KYBp1oX0O5kcDLj": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "skgQb3ImcVdS4xfZPYxwS6n0mJdH02MPa7NmG": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "ach_return_r01_truncated_style1"
+ },
+ "CGOQiWYD8x3fHu1o0S9vcRMqxwe2KlH5jcJbm": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "oJZXlxK4sY3Zp4r9JaePugc6rDVmSRV5DLqKR": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle"
+ },
+ "oUXTAzdifvMxKqgEQFAL2WDqltB7YUlLKPOM1": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "RLs7S6BFjEw5iOARZdiKuVtl3479kKXtojj2Z": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "jiaQWieTMWVxMBDtFXxtn2vrbnKsc5AwkvPtl": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "ZIX4NxxzdG18L0vBxQ5HcVfyaV3zbRi8Bk8kP": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_batch_reads_deposit"
+ },
+ "XNhjuqbsVUV0AjX87kmYzmFZIM70rb6oMrFvD": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "oWgIVFW2P2gJAvwXCd5Ph027pTsuxyu4aleUg": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "EoAUhs8daHh4sRgWymF0h87LUl2t8HoV8JDss": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "PiilZEMN6LLinYBKyEuMlyLwu9PanmVVMyQZH": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "ponuibscmnIEn6zid9hwLVjJm6L2ekBgqJO6n": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "Ztiwn5EVz8LueSCpbnXmYOMyDFOGCzRKr0kAj": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_funding"
+ },
+ "RgBddxyVV1xGbDxSUvuU0RKWTQNUi17lEfPZi": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "0W1pjErQG0JTXkJiE7AJP4K8knfFfcVCMeAc5": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "VvkwGQJfQdbM6SkPxWkHUBUW2vPXuOyTprVWc": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "npOF4z52l8kwBVA3QSXtXIQ14B5yfl1BxlJNp": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_customer"
+ },
+ "asaynmVRrXjXTAMN0AF48QxWmg5G7B6vktDDd": {
+  "group": "ucc",
+  "is_business": true,
+  "case": "box_truck_loan"
+ },
+ "PCG9A6jkdUfjK4dFAVEnQQAXVVxuCV8gL1akg": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "YNO2DrbNqsl1gE5Tk2JvKa7SA91soKwIR9itX": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "Dxgm2jIRvKu9KSPQaTsCXZeIZdOttgyj64JQJ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "5b0bdDlG1BUPfixu1DBLZi8SDNEgknTVQKuOQ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "ZhGjteTZx2y1qq1h5t2GWDOCEldrt3UXaHwcH": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "vFBNnpBPFe2x8h3LTHu98k5K5A1YP8atgVjtP": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "inVGAF8xjNr9PtU3ZIH0rhu10VtgmthRNcOnH": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "gdHAOPtltxq99HsSuoir7WUJIpmke7gPwI1dw": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_batch_reads_deposit"
+ },
+ "mCjyoHb7hVCBw8E2KcQYo1i1heSylnjbtzxAb": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "NozREuFQEMPk8lM02KYjPZTUo3Y0JKXGeCr69": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "kRzGqSzWHVYbupqS9BJQwYzywAWzrVi7Zr0Z5": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "TkitjSI2mQW4wAopH1vCBLEXJ06h79fDLI2Kg": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "lQK93Ga1LuDK32UxFQGnUvMNd94x6JnYUMgY9": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "Gx0XoBaky6zliAMuoFO1ZI6tYKRnLobh0URq2": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "eUBPqc4pVHnDK9iKJbOuZ9Hk1wHxcyiMOIuWg": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "PyN3XcgTc8mw0rx3aQ1ktuZTaGT81TX0k6Qmb": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "gdwEFOIWPtYkBcCAbgB23rT0z4kFmBmfuXeuZ": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_customer"
+ },
+ "iMAgMkgT7dxIRl4IAvapH33MDkNyDjA3zHlCb": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "RhcA28pFcyitP2ByDtJOsZ8zcWUIYstUbYnJb": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "trIM8cdWICI5ZlT8R9WZ9O3vaDiQwO8FSuH89": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "1VWLDnGMypqFdG0LTMsiyYgpWyg6CAYCkbzWQ": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "8HmKAKdzb7kzndtUJu8Viv1g7qNMhpHKIVXzH": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle"
+ },
+ "aa7WhsR4wpZIHk3xZm86A9YIaGRn7u988qjUK": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "UfYK4uB4K0a2BlLRZJMFf1QqlPV9lqEjat7a9": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "Dqlh55BRFzgVE7eJZ1uUQ1iOarAdwYEFYPGLA": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "mTRJ3L7jlJ2H97OEDrb4h6y0V0pO5cAtQWErj": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "CM81cveiU9fQy56a1j7haaj9iUtI9I0sggvYT": {
+  "group": "hr_bankruptcy",
+  "is_business": false,
+  "case": "bankruptcy_trustee_personal"
+ },
+ "1Vfbkruygnkp8smE2xgxm1QTFevEUpzmw2Ru4": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_batch_reads_deposit"
+ },
+ "1HitnNi5nTr3IGZErXdJk6VIsbdCKWQpMXNWY": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "G7436HGAcA4eJUV4syKlrALJn0FC3CHMkpS4B": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "LK8mWPeskdPwq1tHSGTZqjltk2vv5k7Sl7jiY": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "00PxoYJf1BiaV9RcgnqhE9uomE1dpYCqNdERk": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "o2GpfDIkF2N1cm8rNqmos68yziuBRwkXd7Q2Y": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "VFuPmO86Z2YOo49Dmw5VUIMZXiZy8fACruhm0": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "nO6wr3YyIbLXnVvAJEzuReuAxG2ovhpE9vWxB": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "bpXoTRNCRstmGfNlyTQe8nhwPXnOAT0ByO0at": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "yJfwy1oaQE1JjTMbpJGWA1FEIoUg5r3BDKe6T": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "aMrE2JKsO7AMbpq7GTdyCykfrZaojrKiA4f4j": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "vkvHnEFH3wNhLekchDJPuuSv4xJwXcmTQvKLe": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "XV3LNs8yKEsvlqXdMpM2F7hsFx2Kjtj2gadIZ": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "ach_return_r01_truncated_style2"
+ },
+ "k5ndJhIICmF8MMzFl7TKtsghCICpphf3CMN0F": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "WR57UdJZfn2mgFpIHwIe0XUVpVNSGVhXlzvYi": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "1opATw3XCXCssE16nWf60qloXLisKlU1RJkdF": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "rsfwBs45yJlIQvjt4m6k20HUd0V78UcSeIFvG": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "r9vpxlUsQf69rj3TgOzXOhRdXs45XcfIQWth7": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "a4hoKWqJDZgjaJHVCrjs03S3MyNWZpxnsllvK": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_customer"
+ },
+ "cMkNypnO4oWDjHSNhMx74vZMtS20JKHp0Hmgu": {
+  "group": "none",
+  "is_business": true,
+  "case": "injection_customer_wire_obi_returns"
+ },
+ "we8QtKF5iTBcsDZ4iOP3TsgwYjZmGUvv4mshq": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_customer"
+ },
+ "0zIs5AhqocuNJPFTFWb62hjlmNAmVGDfvE0W8": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "lR1Ra9NZ96UmjEPGQP0pGPsfKn1A1QnZukN0u": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "pixYqtFFhxzrpaZCyixFwik9EQW2zNgvilp6N": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "VOhvmaUZXSeEsZlxaEZV8ySHhlniVZLHPbDoK": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "oBTYIu4R2bL569TlW5magVAOpcZIJ0xjkTQ1F": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "F6aJIC0XuQU4zeNhO9uKjSch2tlvQvUbDJD1k": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "4pHRuhUgwWV4WMNbofKkILpFkif8wMQ1Pxe5C": {
+  "group": "hr_other",
+  "is_business": false,
+  "case": "pawn_shop"
+ },
+ "5moF1evjznotHg0zFte7RpkTXR3PfKlLZhM4I": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "D8x3lHgyHJkJscYBQhpFAD3ceMkRosU71v5Tj": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "32MFiV56BpI2q9j5iaciS6iAUK9Ta3eKqc7t9": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "JAmeKqBlCKn8C8MLaagQsfCW8Mi1Q0ic8xHh6": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "vOjhZL81BBOhlqXsKVfcalCx6kC4coQtq7o0L": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "HXjpbJtbGK8f4tGhTpMES6uAYxqdrJykwZvVC": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "mLK889jP9GpZChLxmnWh8vHXbDWxTxUsYGGCj": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "UCpCfuqQkBj3WYxe3Nf8ZYXacTT3TAf4R85R7": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "l8dtKdEw4wJqqmlFqPXRtkft5BEROLuCcknOs": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "NY5VlwQYPOr5yIIL9KNwsaDX0KreWtijDpMSl": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "jE6Gvd5YpZEqUCdq3fArSImKF6ed8AGqpwwGl": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "b33cpkZ1GA6pEQ0HZrsTLPMeResd6QfvLpUvv": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "GPQ9QpNrUXyRaoD8kghamJPKbPPn6LgWlM3qX": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "PNj1tue4g8IoOJEC6zuFHhn1xkZistD8hbjRv": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "iE7arYY40DjBgFBcYXH3zUfiM1noVq4QKUU4Y": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "ach_return_r01_truncated_style0"
+ },
+ "VxroY3VSjQ7axPWC9mgEX9sNBrrM5j0HacDZU": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "7lSZnScY5h6DFvDWBJnII21q6mcTKe65hkD3X": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "ArzzDlWiNSebXxWSrGaX19okc5qDfDySEuvGA": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle"
+ },
+ "Tr5kaWymWMalITmeWBLzqarosg3SFKg30h1u9": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "Ns57E0jUhPB55SGs23g0IQiXmacgN9uIsP6T3": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "ach_return_r09_truncated_style1"
+ },
+ "HLap99WARzPwS5nxjCzUoszS6x6HRwtfA64xL": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "7fL2JXUBwbMinkUY8uY2iwQlezfyGKQto3cyv": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "JYhhjvDKOp7OWvZn5eYZilNcdeGQ102CKGqPB": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "W3rlg5Zx2sQHFMiLaYyU1UJyuHUKDoQ2pzxNc": {
+  "group": "none",
+  "is_business": true,
+  "case": "relocation_firm_ach"
+ },
+ "gAgfClW01etNkEDXE1j6hrEAkyMRagbFl2dHf": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "EuEQskDTURLbi63GmE6CLRZAdFSjPfPGHt2rv": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "zY46pcx02VUZDSTwS0BxCrH6TJ9POAIy8heox": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "E3UNJBCEa2o6XWGzejzEqi6cfFAYWg7bxadzV": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "VJ5XkjmCyvXB7SnkKeqSu1JqCbJhpCdYdpw3i": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "dUiKCuncfSMdHfBuRJVQRFTNxqsT6GTZz1MQU": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "KuP0n6di48lSEBdBILppu3YlUrS75rWf7fQur": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "DBQEiBIbnp6LqVcFgzn6HrsYxNnnHQz5Kgpjl": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "ewe8iAFKtY4Mb884QblHdOPtlyaOdfn4vze9k": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_injection_zelle_nickname"
+ },
+ "QnETixHpGeaETJEdTEjO6N3Wdpq5A9SEy8AdG": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "jm4yMWg8VCH2LDxPK7er65lnrg4I5Qp5k2HeS": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "a0wJEum9xEftSgpEVcQ4rVfKGJkDYWl0CCxv2": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "9he5Cc9VFIcdcZf0pzOtmfCr1N9KyWRekqBYU": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "4qcP6r1nfad2WdWZxJeoOSGcFEUbw1WAjCQiF": {
+  "group": "none",
+  "is_business": true,
+  "case": "relocation_firm_ach"
+ },
+ "c85Fl9sb1bHOxgUJJjPNoLN0mZl76gYkaxGRS": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "WcltPTx6MG6mNLMvEN76v76qBNREbE7QBC48m": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "U80uwvMSxzorTRGoLn4YuEsQFy8FPfC6SR1dM": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "yFVvZ2JpmAtjds39F6Sng9sYlL5ErLGwcuERc": {
+  "group": "ucc",
+  "is_business": true,
+  "case": "box_truck_loan"
+ },
+ "fvUuOFXrAN7QAgAIQgv9kEt9pZVcwrPMMNCeT": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "oPxpmdQzxby4LL7s3TcnZflGnYFLoRHZkMBw5": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "p4KpY8igKXGwPcOyrs61RG3sl2AKfwAyhoXIu": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "HVlmqt016OvJhZO7K2FyvylyWPlLpbCc9aCIj": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "ach_return_r01_truncated_style2"
+ },
+ "WeCvl3u6w4ST9pG8Bu3jPCMBapxrbkgBRRiVC": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "W4d0d6Hht05OD1m4Dtw6RzN1g5kzmJHt9QrAl": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "qXOYUkEHcSMUCAXRzschpQAV0gAXF0V0S3J5x": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "kP8jZYKO3h79wtF7Vr4D5pEBqJy1CBysojfzF": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "WG3IDl5tHOyHgqMnHTrIXYXMuVLCQ6V1n6EN6": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "F5khgEBl01ESqEzgENA2A1puI22qpjyXO7oEc": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "pcpKjt5fbA7nzVtXldBZ77sXKaQuoUNMKcD7N": {
+  "group": "hr_other",
+  "is_business": false,
+  "case": "pawn_shop"
+ },
+ "9636JotM8gQFOE7Qti4vXMcdwEVZbQatKz7Lp": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "oaL0yzFKIXKpbVjQ2koeRYCNI11VmehIuztTN": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "HaIHv8z7e8KMAeZDzKX0tDv0UwjSFKqwo0vTj": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "ach_return_r01_truncated_style0"
+ },
+ "RARFgbbThVZlSxOTeZVPQpTihMayoid1R9d7O": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "FAHt0GLmnVVQ9bl0WMw2z7j5Yp2b0AMyl2RR4": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "oCmzIRYe2dtbLGmYuSOZtJjBeLwsLeCtziIAG": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle"
+ },
+ "EObERaTFNqAgI5AfrYjhIPF3SEbTrBnLJ2HdY": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "daMef6CsOsT6JGOpSteWcUAtTl6kzHKyRCHGZ": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "elYq39ZfwTZg1BxPgCJLOYLxKk7nQmdOUV8eY": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "ZnLWYptJBtQvejcYzGXTukuHozbeYanjq2pKi": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "KFruShjDZMenoUUMySqEJxKJxpEkTWBXAVpMD": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "xGy27D34LeIXUzM5t586n9L4rjxYhhilmNoTT": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "ach_return_r01_truncated_style1"
+ },
+ "HZHP3eQSTanpSFPbcfBIdyaPhakLXjtwxu7VW": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "jaYUPdLp9gQtWSoDPdUJp3u5nKqoTfNTSvcBT": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "lI3CGjvd9ZDiITFoDiOGbqcb9a6N7NkB2b67O": {
+  "group": "hr_bankruptcy",
+  "is_business": false,
+  "case": "bankruptcy_trustee_personal"
+ },
+ "NzeJasOY53tVpSj2EYPMyeV0JjojzsZscUQ0W": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "ach_return_r01_truncated_style2"
+ },
+ "O9MLa9pjpaKaY0jhpW8Q85RstSmXG0XeCRpvc": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "ZjYv4fMY9p0yFi03FFw25uYm59Txc0PPpbtOu": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "91esqqYd3jh76mS5HF4Nf0dEYQiR30UovU0px": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "Ko4JaVniODMopwr4MFHkK0iIBTS0TIqak4dk8": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "U8TDovkQc4MKMHySiHmGqgCDBCb1JNq4PSeEj": {
+  "group": "none",
+  "is_business": true,
+  "case": "relocation_firm_ach"
+ },
+ "FS5IldGfefbuEQyNCcd3Epqtxt0SvFY7KaSiv": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_customer"
+ },
+ "4UpKeStxmELLFHiE4W53sm91Og5bKuyvQpY8v": {
+  "group": "none",
+  "is_business": true,
+  "case": "relocation_firm_ach"
+ },
+ "22gPHFsnjOTIzFd2sUkfoJgNpN59d2Kfiaq8B": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_batch_reads_deposit"
+ },
+ "zXcxRiMBMB3BNAWsBzmgOYMGxiIvLbu5BcGgH": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "IXMydLNEMwN1L7pDrublVSjL4ovtVGPISXKYH": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "ZeXGTkkKmqNtMfXKmKBT1NzNOgJkDLo3x6yuD": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "vLbegrNqrkKi6Us5aFdrco7i8wcgbrMtuLYW9": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "7y5PySu7NQMx2ueirMbTOBbIKgKugmFrOok9G": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "3CSMRSRuedrGpyLlbNxF9A8DVvqvl9jb1fq1W": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "ktSnGvBYuhgPNbiaTk7WZQ3jT6KD1pD7cZLjT": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "s2emSxikuWBtxlSsGlqtrD0h63iYCs9BxEgcD": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "IDiJ2h6Dec5MVvjNj9nps8X65bfqaHne46x0D": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "QesSY6C93Qr2xLQw3DgrGM6sWZQX6DFbpgK6a": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "7fcn6JNwoW9QI9f8pBO7iUbnEgYqZq0FgFdY9": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "CGRv5YFX3ZRUab4Ws5uUoqEf9wCB2lmLtTJIb": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "gDlpVh6tzLAtafnIUSQ0jSx6x8S10BphjSTg8": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "0VfJcmmvPZHsGAg6uZDoDUOU4ATwx0BoGcQZG": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "XMnjOpjmHBJ3vdtBp8ETgJfIg6rcukOLQpp47": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "4eu6G9vnZFBcxpuQ6Ldrt22SGTVEV7ZdO9RWh": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "fRsCS2av3efiginWfErDnYlLN8gLwTan47Ut0": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "LPv6W09AqzOOqWZY2qoky9rXr92780DX8gRfe": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "wNaVu4vKiQFL2AEniAa9M3s67ahmNJ3Z075mH": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "UgLkNhCElwXh9g1M81Ro4uHSz30MgQwLwGWSF": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "r0Ufpn4KMcsCRsmTt4rUZG4qpzNCi2SiqXO4H": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "xmGx1B6ANNlXqo4szbt0O4n7eH4cHpFEuhzxZ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "7fwGxYmIZhdMM56yCoYP8ZEIYv0Tqnt3WYbeb": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "PViPU5JnX9aO6VifbWxxiP295jzkfc1Pgesd9": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "BCgnJmbBaPQCJRPqISaMlR1LfwiYmvDjXZNZK": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "vOXkEjuUKh4Z2SOkpE7hlzsUMe0bS5TmfeT8I": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_worldpay"
+ },
+ "Mf1BkD4r087NtoOaZZp5rbUnFkXvcGups91nG": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "GdBcU6osgrcVshfAdQKL8JMKBoeroLdXquRMr": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "cUG4DJ8STRZeFb01o1xYAzX3ZDr9U8T9IVART": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "oCYFKOQ9oGDXZDCAQPz6dJKo7m4m4ZjXGyngy": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_everest_prefunded_debit"
+ },
+ "bADmCckLqbRT0z1ejkxn6L9Kj0chNh706gjXJ": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "chR7XnYAtxcY7rqon9yEThzGc0EPlbyx2GpfJ": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "nsf_fee_item_declined_bal_insuff"
+ },
+ "ev4UKsLohDdtHL2U4BBNkEbrPEx1sNiQixx9p": {
+  "group": "hr_gambling",
+  "is_business": false,
+  "case": "online_casino_personal"
+ },
+ "I0qBMTWdBT47ZF9HTwS8j3M5RYzFY3swi0M7S": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "CLH1Qyp7SPykmx3niPmAuHO31hpglXrkHAwaW": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "MLezrspFmJp97M5ei8e7eLtp5FFpuEkJ65Yli": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "J98fRYDY7Rsj8Zk7UMUOPHYbXW5NGfUb41jWn": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "nsf_fee_presentment_fee_item_unpai"
+ },
+ "POm4KvVNDcADyi1niQV3nFs0tH7ou86kla8Vr": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "N89bStXfNfYpnavwzV5VJukDogi6ICXqiuExv": {
+  "group": "hr_gambling",
+  "is_business": false,
+  "case": "online_casino_personal"
+ },
+ "kgG2D60RJLzCgxIW6AgozYQdlRUDohHaF8IjE": {
+  "group": "overdraft",
+  "is_business": true,
+  "case": "od_fee_shortfall_coverage_charge"
+ },
+ "K18akcwkFGnikOWRCQVPUzObDWKtTieQzJKaZ": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout_reads_transfer"
+ },
+ "rC00ec38etZr0awezyLzRHBV1t53CIXOI7ndM": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "nsf_fee_ret_debit_item_svc_chg"
+ },
+ "Y7ANQ94eotMd7zHYhQ1Gy9IuB3uedwQoxF8T9": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "npAB359sKW08JpcnIMu41shc9vLIzPcLVvsaj": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "GDngwM6ZnrK2x3gQGffYqzWjynW6GqwnEdIKs": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "nsf_fee_uncoll_funds_item_charge"
+ },
+ "ibAhnkYTMNqSg8cVEMep8naQcatCdYA3rAQID": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "dzBGCZmhUotjtABKNcML6q2YzDpNvI7eOEzYV": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "Cb3lciuXAwxGAKGH3aOoQXglWY2p8XZanLDnq": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "r3lVJya5hYO7WuNgCBNZkSrlrTiUao3qjv1ii": {
+  "group": "overdraft",
+  "is_business": true,
+  "case": "od_fee_neg_bal_paid_item_assessme"
+ },
+ "wWq6ZJUtENv3aJYJ0zRcIsig21j2iXSFacgFY": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "0rUzoKOXFVAanb2eJRpIKkulstl192JYPBeCZ": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout_reads_transfer"
+ },
+ "WEihRZqmTOncJSpdmC4KgNq2qfbLzhkZXKsBc": {
+  "group": "none",
+  "is_business": true,
+  "case": "distributor_payment"
+ },
+ "xHmX16gM0jFCtS4PqeRNNQ71fqJKcmFkD16i0": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "nsf_fee_item_declined_bal_insuff"
+ },
+ "0SuqzZBzPMNk8Kju370xtEk5TXIIEbgBQyI5t": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "fAKLFf6EaKjcobqRmSD0wW33UCAP2RZt8x26B": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "eQVkuOQxQmhxMWHtc5cWfMMmaByEdl7YYXXou": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout_reads_transfer"
+ },
+ "er3ZPLnu3zjS1QTyiaRyk1yT1E0rxsnEAd6iy": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "nsf_fee_ret_debit_item_svc_chg"
+ },
+ "WYUGEPyvibwvqFmqOrPQiBHCAnNo1bC4LayC0": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "THkNZmoGBcLvW4d7uTZejuMYgQXdxExvRtgSJ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "PL4yGgOwIV1dyIwipqlh9CPWNzKOu3dEuSJle": {
+  "group": "overdraft",
+  "is_business": true,
+  "case": "od_fee_neg_bal_paid_item_assessme"
+ },
+ "DTpabxh3D0s4c3lzVWX5YAFyeiJyFNcx1Gajr": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "nsf_fee_presentment_fee_item_unpai"
+ },
+ "7wdW2ABl9HoTLlWqLKU3jl5RaQClwCEmB9kcb": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "Oxz5RgQVeKbYn1h0pimyRRoWAY5w4UUwWBafF": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "x19Gqv7LnP9OPea3JS7GjT9tPOxxZiT7CtZ3x": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "3Bu9eHOitmn9Mrp2LWoZp8kT47OeQtOM3eY1v": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "TJBtZJheTSZQ6UptvTHOrG6jyEZbm7iwyEuUK": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "ONPIWGp82srb3XLEcocshDfsi9AaL59IwIMQQ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "CTn101MqjWDLu2VhrQgD8blzzeuh0VRmDoScr": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "qSJiACfwODHNlb8CMfqwHJ5XEaHn7g4z7jN7G": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "8MECakdbWt96xaYf6BmdjSb2nFg0BgxbuZzvg": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "HUH5u34WmNxYB45LfwKIx5LgQt79jFn0KxGwy": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "15futB4VlX0BID0uvNDHKd84gCtpvQ8badC5c": {
+  "group": "none",
+  "is_business": true,
+  "case": "distributor_payment"
+ },
+ "LQKBeKlJjKhnLdinjjfdB7iIFAMFV4xiUcL8j": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "9WsAS5JZsdktWkx7jkTDKBE8AxOJlVdOCQVTm": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "HE2nxBfId2ftsGW6Z0T8vzFyYd1ZfoN2U9nPz": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "9pBHTEWznvAVkXo9JZzux7sY8pjCB2WhHQ3N2": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "nsf_fee_presentment_fee_item_unpai"
+ },
+ "NwG7u4rfe4jnjwxtbsTCOJ9uyQGI1tp5VLZ3q": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "i8cqVXGTKtgiXZPlaT13UQnYgeQ6LRVeMrrHc": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "1b7BcB88MrW87VsFmmUQBrcgyfOjJNMx9wjOW": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "R2ecViNv55z1EzQPYNjqNhAGwPFfzRbKOBgaD": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "fdqrx2NsItce4cgXrp2Lr5YdyH5qFaiiVEkFF": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_funding_reads_income"
+ },
+ "NZiSHdHYFR6b449SaRRu1S3p4xAyDtNG2zDZO": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "9XDQbuxRRouRVXzhLoRenab1JzjQex20mwgvp": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "IGJWE6ypWqENcEfrC8hQtwqZqkNHLDz1c4pua": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "2VDBxAjNv1j4Vt5nFCC8HjuNwKKXls1609qNz": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "5En6rGTj2zjBDEFur1KsFMNTcMuEJIrzSw3VZ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "d77ATDawbi2eAiGzvXtEyZvVLXWZGjuSG2jhI": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_weekly_debit"
+ },
+ "sdwmanZXN7aOE9maa0Vp8c35CVMhH1maSVPFj": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "OIy8VlPMwaLir1cMby9xHTQFu2HiMxuk8BuU8": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "ZIoEMz04mFHzH3RLlEm5fRtfBuBfhBAODAHdn": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "GNNEqD2PWeAzoBOhnpDAjusqASYa2FTL8qmsB": {
+  "group": "none",
+  "is_business": true,
+  "case": "distributor_payment"
+ },
+ "MLx9mRWaj2EiEiKHSCuWmA8lsxwcGlvyrDJBt": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "m34FTPmsa6p6p6rKPFYy9Pd677grfXCSvT8yl": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "yIK7EPYdaLHqIDftr3qvAZ4hK2BoDmAIw0Rzt": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "Q7qGek6T2emkKcjTsDuxKheTar8jv57hL6Xw4": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "RcJRH4LTnQrJdj8XWOZzBUVGg1xwVxGwSF6x8": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "crguJOU24s64Kt1NfyOYdBCzoqcLSGwRaECfx": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "2Zv87prQywBeg1bfuQmXh1pJhwzCXthMHWwqy": {
+  "group": "hr_gambling",
+  "is_business": false,
+  "case": "online_casino_personal"
+ },
+ "1DXDUijigFqDyCvjLtVxmPDhRMdmBSXvkyhtg": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "6OFhqSBij7J16xu5DGyntzP4S4nWw5jnqYZEo": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "8p60FBLzYl1jluw1pnXRE1eSDBNDa5gpRrcPa": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "HzTffsKO6cbhoBxio2q6InXraL3y9xlgzWNji": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "5dRWNlPmeTtY0u0rb3hA9HV8J956Bsd5xj37T": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "YOngTrlPBAL9q9QTL5EqNdCibChT3QY5lA0k1": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_weekly_debit"
+ },
+ "qE7lsIQb6Spa2LApBOxhc7JqLPr4pBFrkCFT6": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "8CFxqVFODs4rmZ6GdT5ul3Agqs0GaQnZ2VTeR": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "2EzAmQhGG8InkSu4Y6y9DfbnYYEbGrVcGLcGd": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "5J06SxCQFPYOBw4dCi6SiOaqLDwOHO1Vm6V1L": {
+  "group": "none",
+  "is_business": true,
+  "case": "distributor_payment"
+ },
+ "uMpRIWbkg1oGZ8LqL8WMg6w9HeQhyZNyAZcNX": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "lgtYoCgUzcL9XO5VydnU3Pxb4KzwFwBVvm6Kp": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "ZUjPET2ziAzDVjvsOrKCXiR5hyFPedbsn0dFd": {
+  "group": "not_revenue",
+  "is_business": true,
+  "case": "employee_retention_credit_refund"
+ },
+ "GMuKgRIl5OXxKDAoAlIG7BBtiORJG0NSXAEF0": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "dwRQmvmbsxulAYeVmYnZn6Z1DlmfsU7kbsYCm": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "MYTGigNZnX90TMQwdW6BXlMzsd4EGeVmMZvfe": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "1x3aKmrIAQZMeJMuhd4bNQbp988m189TdRFFD": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "zAgintPCmfMDxiRTUQtUD8Hh4sFcVBtgcdS9L": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "qbdTgq1ytDEktuktKgpxqLLTLqixSTibE00DB": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "v3v20hrQGigWJQuu07DRl8BC4sMHRnDF66lCM": {
+  "group": "hr_gambling",
+  "is_business": false,
+  "case": "online_casino_personal"
+ },
+ "XUyVPgAUnjvGHqclxVfMWXvyBo0825lvVQUNU": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "CvDKkoZCH8WncVj8sMsJ0j1p9sCILBn7ZI3Gd": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "fgIdNY8vPeR4jgMKI6w2lc6FdNMBsWhI8UOMI": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "yCP0kbavLtVtl2lm1XG3c8HE3n9TCFKqom6fn": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "4Mcu3hJVcJ2drvSrTXHo2IrRuGXsYQwWafdnB": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_weekly_debit"
+ },
+ "n1FsQRZ03v3VaHiKDAlqRwN9nVLVHgGNc4PY0": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "DhUkvD6jI2c2n9JekNe91YQKe8ivyG7HSbObz": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout_reads_transfer"
+ },
+ "u1CXAnFyYajUCtgRnMLHtd2BOFTIbbbc2VB4W": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "zR4SkTDBBl2AqDKUoSzxpyu0tDb4j70awjVSN": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "jQwTBKw3SEXNK6ZbyR10mst1lTAkkdHeqMBQo": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "jnDGXYqONqYC3Ndteq6tBer3W4joU7dzMULF7": {
+  "group": "none",
+  "is_business": true,
+  "case": "distributor_payment"
+ },
+ "TwFsmZqZHKYSwOxD7ZhvNcycBGPtgBtBlkasZ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "AJApfp5U2JRHzbVFxc57YTtKhn6JRPmtnIvcr": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "5HX9UMuUXFWASWhdn3KNeQOdmvZlARVhYQP7y": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "t7ORdxOeqbqH73gSo48rRaMjTKGyAx8U9chPN": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "4H2LDrFI4plozRQdnVP5ZNak1q4JGvlNksupP": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout_reads_transfer"
+ },
+ "yYMqV6uT4KOoasojk2NZY4PAsL9qRYUUTt2cv": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "fRfWYVO3c2Ds4V3hDCsK1VbuOFdGY4IxHqb8t": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "BM8ZBe15J7wTBY9BO5YjWicWwMYhqi5lmmq4U": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "6uBdEwhN8FWFfOTl1ErfjD1tksyGt0hseq2Kl": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_weekly_debit"
+ },
+ "TXjJQzx4oYBvh5Z0UgzuNIo8NEN5HTSe6ZFOH": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "ZUjrvrniATTi3aWlwu1ILGoywACBNigcSrr70": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "XUSBnIRtMM5YpejLM9uHSeOxXcgQX9HEw03Ef": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "YlYho0A02hymqSdjVWsiXdxXmc9g67ww7nrm8": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "dZuPiULW8GIbPXFGweXxLoVsYck99RRu1IXNS": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "9JQdCVpQ0qEeOK4QIuNQKeRWK6pcxjzd5YSLr": {
+  "group": "none",
+  "is_business": true,
+  "case": "distributor_payment"
+ },
+ "V3ntRq9TGrELUB4YY6rvfZnlur6yGci33CxX8": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "XjMyEoYBb3ciQtXiu9L3cI7KVQhME71YLC0kb": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "RbjMpFPr1Kljy8M9cg5K59LXy3BkuErESByLv": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "CpX8iRnCXtBuk6Q5082SAzQTH3IlJDNRqYkBt": {
+  "group": "hr_gambling",
+  "is_business": false,
+  "case": "online_casino_personal"
+ },
+ "zY6AjLboVOWBgj5bhzfahY3wvX69jVPwBMN6m": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "yNlPjrN0vzTYws9T19eXbQZGg5BfV6SZAhkCl": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "TGiaTkgg47sX8JJ60vPOH248CH2N7FRJkj1sW": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "cjgz3jFACrdz722SyvJPdU5LtDSD7p4YHHSdd": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "eEYcuK1yueZA7r7KUupCTsUQ198W6LQ2f0sOH": {
+  "group": "hr_gambling",
+  "is_business": false,
+  "case": "online_casino_cashout_credit"
+ },
+ "dWpj7FKGNCWH9YEAEniqMCjGxwpMW4yhhdESR": {
+  "group": "hr_gambling",
+  "is_business": false,
+  "case": "online_casino_personal"
+ },
+ "LjmNhYqUayLpBDdfxDdzQQpbJMapeVG5W9niw": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "DbBYhGb4o9DSqdvOB1kZgGBvOgofMJESSlOGZ": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "p3cezylxab4lxw5XTb0YkKEIaQcr307sf9iVo": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "jHwJ2K6LinR3TIDuRv72Nk28EnPuHQfDXOiRd": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "RalEh62jyeLKXf1VrQZhrhDZ6XxjlOriDv0MX": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "W15DRFvlk65dMY4lvqSb0bp0XDilljmHW48FL": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "x9ZGngyWVpcY6zbk9lgqvrFGUWsE5u1IGejk6": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_weekly_debit"
+ },
+ "iKTNfmqHIYmxDo1ePLu57xCK0EYOXQpH75kD1": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "azZzlYU7LLcMrsmPRubtZTcZV1kAp4CqQRmt4": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout_reads_transfer"
+ },
+ "85YdMVWlJjYWesnAl75ZgKBnj9blmJSSxW2VB": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "hQFqIc45VMWK0qlFBBDtiYFzACqHWOCpzddnc": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout_reads_transfer"
+ },
+ "jRwAsVyAxg8Pj4ffgzlKMxGl22gGgtMnBdLQq": {
+  "group": "none",
+  "is_business": true,
+  "case": "distributor_payment"
+ },
+ "KlkQtIsvcKpDfGx0nolMXHXBbl5zYUHnR1IFl": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "DPi8cuQWg33F4LNwliaLyh7aWVKsjSGVL3gRd": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "8Fm5031FUewjgjlIWSiaNgSQSjtLqXfwD4d5R": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "t8Ne33BIKsT1KMokZL71Pv9pqxRATXD3wJTfE": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "f95FDGsEji9Nrlrx4Wxdu2VGjBWUN3I49N8q4": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "gPcm6M7DCZ73ddMP0sVt4FkfFXEVeAmerKaZG": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "geaM7VzjcnW8KsIHGVZetr3H3zp1KUjWAhBJv": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "cseibN2uuGekvTCw5lrvVLCVLxhXj0cGjlsFj": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "pqeIW52QNwwJzJY7bJipfDd0s53o5TKR9dWFw": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout_reads_transfer"
+ },
+ "VHNn1CemZLob7togpZudJDY2vIZDvfsQgDcvN": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "LpCoEjvbI6ExqREdUihNHBDEjy0OeydllIU10": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_weekly_debit"
+ },
+ "UToO85ygHvZiHI2lFD3wR7iel7JzSRaAsOuMG": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "lKxXgVfL5S0IFdQCzog9XGch9dcEUW1jgFVib": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "FObvYpGWZ1R9xMk2hoK32KJfFjCCTnY17uC8f": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "opNrpVKLy8gnuq24m1o3y81CVY46XyRla71UT": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "scyBwee6ficBQup8VQ3UkNT2FT9CnliQNGOKd": {
+  "group": "none",
+  "is_business": true,
+  "case": "distributor_payment"
+ },
+ "6NEDSFohkNIh2qnaiHshqKDGR3TWQrglXJPoo": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "Shp1hF2hoHFeUwlOsJyxI9aasL3zFmklVhYe6": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "kZ4aAsfN1dwKgPInxiQ3Py1fiXNnCen37cOxr": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout_reads_transfer"
+ },
+ "3rtRULyTtqBdUshYnuUdUBpqQePEMxovCddjP": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "Ya1YzH0xVxfGTMaU0p0e3jdLHoDZlpl4SJf3B": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "c6a1TFT22mKv9PrS2dFC3lU3jHA0vQRLWb46R": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "LnTCQSQCBebAsRB2Om0iFAajt8lTYbmJGJoUG": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "zxEg4lcrPoPcXNtI0WhlHSlc6ZzK4mWgWkkNg": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "rGv3IRrmSvs4B9VJ25YTDVn13qAlOhOA8nICm": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "injection_owner_zelle_says_customer"
+ },
+ "DSAj3llMFxhOgSi5X2LTqcV204CM56jTFV8ge": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout_reads_transfer"
+ },
+ "Oe0TT0gUuN75ZgyMkSCdycppVIuoL5SOG5QOS": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "J3ZjRw8a2UpbfHCT3eYycs6S5h5pz4lflaDCJ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "p2rURSSe3oJoK6RYzf9c7OoZm8y4PUhlDcpvy": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "ZQk6pLOvlY72pswqGCigIS8KonTWCr1G2TkmE": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "m85m651I2AEUuFFZK4btlVQ6lD3CvxrEsxj88": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_weekly_debit"
+ },
+ "wffww8UhGOQTekg0nv6nPIUWa17PcbEsd3uMO": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "y4HAqzlc1gs8tB0vSjdwoGZbzQsgxFBCAb1PN": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "vbsLmGOuEJZCeviI1jVz71OexW1SarCI2zZUd": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "rZr1kvdunY1daaFCr1C3wAPxxXOUfmWeNIeua": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "pyh4G2tFdzqUKl97N5nF23uSnIXcnvW6ljJML": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "veZjkczrTwIbucnLlwfjtkCTg1Lv21XZ1KDe7": {
+  "group": "none",
+  "is_business": true,
+  "case": "distributor_payment"
+ },
+ "EaDm3hYTGzhyiOmPLNbITNlgw9Pfun000Ui4F": {
+  "group": "hr_gambling",
+  "is_business": false,
+  "case": "online_casino_personal"
+ },
+ "TLNuk8RSBJXAOK75akdaycXaIALRGOCMPvvVW": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "nIUnk4UHUoNg2i6NjpoG9Y5br8bVw6Cxi3wga": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "NQxzj93DmUrQtLq4M5EhfITA840rgZLheflvQ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "cvjKc8JvOfnnbCAmVXBQiNTB4mCi3OF6c3wvz": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "QYD53ZQ6hUZWGhmbyo744ozE9ij6S7Y6EhvU8": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "WGpho8oFe7SeG2n8uNSAcx5f4ZTfHDFGY05F5": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "PEbn99xekezFe3ZNiu4lO4QFp5cStzcKIrzKU": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "nRaCkiTL2wGdoFTs7t25kUb0yjMxvX4WKMEkd": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "CKiRfrPVELdlBgFzbhzYzHWJEraOe7nykeJUb": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_weekly_debit"
+ },
+ "MAgOcBZpuFgpHouKyZ3NbJpe6tjVvF8rw3Mby": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "5qyM9pJ1tC0LJPzhUKEuPgddknNHtFgA245gY": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "6WTrLj0rIGNiYundPOmT3nnhDRGvo1C7zX8yY": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "4GS0dLF8xWEfGrhvak1DNzrUwbY953rNU8Ueu": {
+  "group": "none",
+  "is_business": true,
+  "case": "distributor_payment"
+ },
+ "xWRQvFmnNRykiLxy1WCZQL5b58QJLYX8CTQq9": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "LVmnr0UBt48GMjGLt3yCedAqc9hfuZahN9FNg": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "mRx1axgtReVZPK70C8AvQKVtRp52UIxJgKM6l": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "WcGqzFq6nPXyV3kbyb9KS5QMt1wy16UerhkmZ": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "8GvocQcShSI3fh22pkLDtoaj5ssUqAu41DzXU": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "rbhjYaB1z6QYvQo5V4bryISvYVU1RWb9KJTr9": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "fJkxfU39Q99l72xjs5cVBBKfYx3rulwQwNcn7": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "0KMPyyBrHPZqjMfM4kDpSqI8b1nASWOvtnGWy": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "G8af7A2kDvrcDOtD1rkCu1LvIeDHwvwYy2bCU": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "0M5KuOvUtMkY7MOYwOFYkblfU5jp7hCiyQzUU": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "mrz3gOmCNDMGX1Y6V4y8iHd867J5Jq2HSs534": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "yB38b4FPCWdEgoTJlHEm7JmvvxTSw6MD8lJ36": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "V2Thf9NiiJKLoa2cr0NSDDZNdcNZvwbns5CJ5": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "AoaYIfHqZJUnLiPF9rmQU8P0m9PRc8flcdOue": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_weekly_debit"
+ },
+ "Ss7rciYN0gMRRSCOMZMTAOU5e98HdibWZxz1N": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "z0pbxakqs87fm4nSKWSGhuN88oxeeZxwQbZDi": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "8B1M2PQhMiWim6IYIkFAxO8W1xZ30GhtA49F6": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "J2TetZPG7uMPf60Z4U8vUA5v4Mdj2ONkQu1As": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "m3JL5YNWdHHrf3vVtbnv6vZU2njStWsXirz0s": {
+  "group": "none",
+  "is_business": true,
+  "case": "distributor_payment"
+ },
+ "w1zRT1CQkDngAE9RIEARNO4pqGtW5rs3S5xjy": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "AKOqnzUiBhsnEdlSC5Rk2VKM0ZU9yESpUFHGG": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "3ykKZg5i9aEQltNmXKbfoKuAhEwFJfh7W5ttp": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "cUqPIXWPs6aAdOYM3NWfzRisRvH2cJJROfevs": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "6dhb6hQuwRHK2SBibNVOte8PYSLlPHzwB9LWN": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout_reads_transfer"
+ },
+ "er21tPWSKb2C7NKzozu5WE3KyqTRgyDPellHY": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "KnxuV9a29QxTYs8wU1Y7t6HETUcC6QWNt04dJ": {
+  "group": "hr_gambling",
+  "is_business": false,
+  "case": "online_casino_personal"
+ },
+ "NjAJmSNBMQdvhbxoHqPo7tVIfG1AkTsvlnpI4": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "Ogct2St0JTGyIyGv0bK0xxdsy9U1Iylz2MoG7": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "fPTuhylew4sIl7w4M45XJgwXXKEWXfBSmtSCf": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "B0qYZmA8VJabzGv2STgq9IwByCvOjGrdqUQin": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "MnGU1cBfvnzJlP2jiCOfYHy67qgCKVkO6kya7": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "Rg3spFudZWBcfpLVDpEe64wOvZRcieAvnSN1m": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_weekly_debit"
+ },
+ "au1ACAJc97am5ZTmaBfNKESdSa74xS4pJTqZt": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "iUjpAXi7l1gu0vDTkyjAFwEzuOU5f4LQZsOP0": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout_reads_transfer"
+ },
+ "PbvnrTf4WSfo5mNnXSBbHksk2oDGdMxC3ZKw4": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "tfcUr4RMX3sdiYcn80QRQTNgazAJSbgoS2O6o": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "JYabNauCeJQFYE9SyhnRfue0uKk67NJrbPmfy": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout_reads_transfer"
+ },
+ "zXs74E30FLXPP3tBhnMcD1QXkVQmhSvMCt3wR": {
+  "group": "none",
+  "is_business": true,
+  "case": "distributor_payment"
+ },
+ "rV4lpAD0SWEXObPR1SB9VZeFoeMFbZisr8H3j": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "XLLbAWFuvwv5Jp9SwHw4SeWBAS5ZOakWpkViZ": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "ughpea2qKljJVRa2b2Xi8ZRXJZWe2cgi1uP8c": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "jqhpDFp2rXsLvul1XLBnoR3vriYfnX7wZrsyo": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "Sh2vepUcnSwQKG4U9nXVKWBbkpVEsKoxXgPOz": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "sEl5YrWGKSR3oLoo9US4ZkRZTqB7D290QrJer": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "bJ0iN9Fnoen0XsDkywuslaDLOsPBa6mWZJAIw": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout_reads_transfer"
+ },
+ "Wqtk8gB1yGJhefyDx0m9L5XQmhy4BUio5Ux4S": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "VRCEWnWAGae8x8lVDhXQmzEIlltE7lFnWVWy7": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "A5DBFPKOJw03QOPlbCxqD6AgOtLRj190xH3ek": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "Ay1UODhRQwhkvdfKpNoiCFIHZX5KPiVs0MccH": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_weekly_debit"
+ },
+ "Qk1GY4olS3Ulu6sY5gdOGToXWIdhTqPw1P1HS": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "bplMHI4qBuedepkz2tlmVWOxG3omkmKllFTU9": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "taproom_pos_payout"
+ },
+ "sk8gBEIxarJHBJ9BY5KrzIuDHwck89pCABvCU": {
+  "group": "hr_gambling",
+  "is_business": false,
+  "case": "online_casino_personal"
+ },
+ "234jmIZPO71iquaFXggKFWp3pIMl4CdQn44rX": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_lendini_prefunded_debit"
+ },
+ "0ATDmv4EQcMyBhA8RYIJa5ffUR14T7vbUjAFr": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "dPl9DWSCDyv6aSZdGoPiRtNooi3e9S7kEdzBP": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_event_client"
+ },
+ "pUPyCc5Jxe0pR0Ksq75g1kU79AxPjrXFcJjBY": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "0KeGf7VnhO38Av7YFwF63mDN1ucZjzrV7PJw8": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "c8fgTzItL88tiBbOqn6hpWGPqNXduvZY4z81S": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "dsqR2aojR93hyXSogXY0TWrSmMo7KKUEx2DMg": {
+  "group": "none",
+  "is_business": true,
+  "case": "event_client_ach"
+ },
+ "KiQ3KURsP1xZL9NmRpnqVp8S4hGyrthUjaxlu": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle"
+ },
+ "lBDovCVsZzKir6290JQ9icAg962lJS87jCMFJ": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "EuPEuS9qFYNi1zElUfVmUL6c4ZCCRu0nerWY4": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "EjShdckn1Yu3KnRLLbj9gxUeD9PjUEaSCrUPP": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "STGAFhkF677RdrKxBoHu0INYvTEePQgQnunic": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "Kre9zfi4sgLLrC3vXFmXTlwwAN1nZsllDd4s9": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "j07OLhEGwL2w5GbIrczKJKdFyHhRxqPyaqfMh": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "T0h3KcGsDp52GsN95KFpciquXrmuPuPTSKQVC": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "0Fek5VfrRFj25HZViNBJRjlCipzFDmveAeVpl": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "R7lCbTVnyrRlUxgkkSEyp7MMWUtU25M5jTqDy": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "2TROLHQq7flU1QqHxJO26JN1QhplOhw6jSV8R": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "xeSITjEcJghAU1MXtTWrIAA2TAHIqzN2KxTbX": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "5psGwA6Fp6sbNo7fth84D1L6OgIgZSjaayBJ1": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "0BTdHFAc8xqdgyYmFXeF9Ug4r4A4k4SSLI2xR": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "PFOqK71J1fmXkLSJ3ysMVsj2wFU3iuGV4zI4p": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "6owT6vHt44y5phZhXVZ1v13oANYjBkW0YoYFV": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "KxBLBym4C0V4panHK4am79AphLmmh5DeZAnPu": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "iili4WcpYm3XXJzMl29KOpkiVFSnchoY36XEJ": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_injection_zelle_short_name"
+ },
+ "JTRUhqrHkEzY8aPzxOcYuo8rodjzbAYDvVWVe": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "T8ZxhlDt9W0xiy7tn80gWxzsin4aeQeTFXGAB": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "tRq3wZWtVc0LVccMuQaYO1DNMBA26j5KY0Vcr": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_event_client"
+ },
+ "81DylLTG42k3CTYvsGzq7pNdH0Qw2ogBAB7AQ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "Pfd3QVXGgY0lOvBMZgZ3vCdYZ92E9ysU1dyDS": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "eFLkTeYM2H77jfJXvWxWxI0mTIfDUVfEfUj1x": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "u3s1fM5toKXYitpBs3F2gN00A4acG2WPfd9wn": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "Z2ZuuEajrq7jKAoJYOJaz4hwgTYhj2J1zsLmF": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "WQwBuJfVx6LvPTVWzt4qinsFNAota4BGX2RTl": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "w0sdlJVDAGN33bJExIRhuswXtN6eQ198Wzg2m": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "8eiZKXUdjnv691VeUewVnLASVDX6V4FMpjKHs": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "wnpPkS7Ob6urlSCqnbuZFAW9XwIGKAmWMuHRY": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle"
+ },
+ "M2sXA0yCIsx0jYLyOjcahkqgIBgrte9cSoMIA": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "rMWcNLvzwqeOzva15XQ6U7JUnoiMwW7a9l6Gt": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "HlWHfqhQfwKVUMp8P27lZsWA8ZhTYqhu73ZdD": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "p86rYVMg0eqWJ3iH9mHn219JJpfb9l3VcBeh5": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "UWOC4mvdSAg1HIYi97TlYTcUtPNt2PXzOcTGL": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "9ip6j7ZCp8UrnpSlS3RPjq8igf6Ucd7u7vMYR": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "U7TSvlM56EOPothPxzxNOH0YS3ZXsSt9GuELN": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_funding"
+ },
+ "Qap0BO90S5SkOKCl5Drg27Rv0fK6TtDU3WyuV": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "LjR2fIiQwoK4gOeINjxWmJiBensh95fhAwjew": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "HJEsGiWUrJZG9GXHX2I9YAGp8DDioRS3vLlTj": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "ZqNwy1vLzIOe4asj3oqoRW5KvPFDuHgrxHQSN": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "RZBHs2bJoy31BDRyoDLowKVKIXGj2Rxx2r6rz": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "oXmI50DtsS4fU1AJBkXOfrc5BXsaxyy31Dwyj": {
+  "group": "none",
+  "is_business": true,
+  "case": "event_client_ach"
+ },
+ "A1BBQ1QQyyHo1ud6DUbxxOFf9iHqYlG3k7UE4": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "2NK6MXCra6BOjseTVgYpkEFUzai4qEj6BLF5y": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "e1FBtHU4w3GViL8RCoKlDPMU3ZN5T46MhaZKx": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "lY4YJrbGdi2m67NOsgYD0579ydSBH4AdJAURl": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "19zi2kqsIB5edJLbRwlJHzfcN5OUr25e3PaXs": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "z1k7uujborTP4RysJogD3DR9hZtfXlJVYYdeg": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "SMCkjpnSL5pjoiRZjGaCpjmHlIQQ2og10u87T": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "BzfH47Cb6H6ZQqa7kOOrIx4qP5mZGLRl2or6c": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "LlJgr5IsPlQbUvrSn21FcnXmfHSu9N3laa6wF": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "8Cm47dInfZ8YpbRfRZmpmu4CZlcx2hPegHxv2": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "O14SlS4bJGFNBeS4pBUywOyo8vNA4n7FTz49K": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "y0PFQJ39QyHWeJusTpiQInVMVIjkMLbIeLbyI": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "x8bN2nSvuCoaR4Fuai0Mc0gjQzFJ2xdi6IvU2": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "gAWBOISn8czMM8zRmxvHTP4K2ms7UFVYNmKv6": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "UU5UGQvy3xKQH2GRf9WR1ZHw8nzgiWZc9ZuL5": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "Udjj3OdY31OQ7ewKMdPBW15t9oSLOVwTJTGTp": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "bEgTqX60tOaNWINeHulSy8Chvzcf3dRyCN70Y": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "eextnfpnwKdbK7zmGFsYjaKxcAiPJ2XarKHl5": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "CgWmP25PpivDT321bKAk8wJbKWq5IreWQ0Z4g": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "bkbchTP3F6M5jPwwthzZttmRWcpOKY7G2UilL": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "44z1AplVFiNaxEiEvKzvygLCLFTB9tVue4mAg": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "b4tRwcvrHtLMvcXRGnBrZXs0BsfrEEMrlEuib": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "LPdlu2LfVst8AdkvPj6sCrh5TmGXAXjPte2re": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "WUA18pcW6zzHBdxg6Y1ltcwYPttvHZfdHhuVq": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "kwHbjKsfpEV5RkTBjNuhW3MTjV6sCOwmFd6DE": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "eB2It8GIOv5BbHKZsmd87DUK2rEta8Rqn48V6": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "wX9ulZq824NDPCKT50Uq5JAYY1PHJwO6jOzIP": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "Wl4uSPocJZJhR4PNX4kNqhVS9lTXgfU7yRZjO": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "QRHiOZcFkX64PHszW3KAyTCe1TofiL6RlhBGT": {
+  "group": "not_revenue",
+  "is_business": true,
+  "case": "venue_security_deposit_refund"
+ },
+ "KgZNGEQRuAPUKDsoN7dK0rDNJb4reGZDqfivI": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "j6rpp0bZMJSqrbFzpt8OraFc5J6VF0WaOj45L": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "W9CGmsenujzo6dvp3ldK73Wvh9omb7X9Np9O5": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "tTrdkbj4zaaPsWuzOe46opJWzCf2WfXVIzxHR": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle"
+ },
+ "dEcMpCxddkLWqKp8dCr96v6wBk2TL5WL5w39E": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "MXgeYq1KmPzlsj1DHw3ZagNmJ5u4RWQKlaoUf": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "Q6keADhhkh2rmaihOYQ1S6Ql2h6hvSYsjiFD0": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "DanMveznO6c56PK7mf8qwAmeeuJ5N59hurCsC": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "FbVAtD2FFLq1P3KKNP6vaX6swhnHr4VxGMIrM": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "Xi7YwmCupwvMv1RYZhyki8g9Jz96ZDlgpqkzv": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "tQXUPbvREz71D3VYFJQQfkgSbIb3qb49S06B2": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "JaFLekVjv3MPExX8x33f2K8GEVro7mKabkGEx": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "XUIVCS6fZYAv2xBeBNxd0nsJHIlqz6852CKQR": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "4gP3whU3YVJYiY4rSYxOQZFJiJqxVZVJFx5Qf": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "xR9tlbY6XEyM5VKcwN4v9mLsq4vYx5Hy6HZSy": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "rLP9mBseYOlNL7cG1VcGcp4iJQxtHuIDoev1x": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "aKPl5yaoTWzSZoUDlVjAV4hCcDESK67m10Fzq": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "o1p1ZImjfOkpwqb6oZsB2HPHraCVsdaXi3mbs": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "lipW5xB0nvxiU6ODmHLhor5MItVxnITJXX2fC": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "P84lRW5gxCRP2CmqZKrkMgq5Vo82CWAriOPPe": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "Al2ByaJJuXCrzy1bfGVyljmnP9I08u38xChOv": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "7CdTEompogKA7vKmjfSeImW7sTOaoha1D49Kt": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "dJ2KHe2vyNksTzp2MTdU77PpnwKSZInoJw7hT": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "zdzF7TXswqwFgymXOs2sXiDhh9KMJ8x4g9gP2": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "4aECAZOVw8HJvFvO9AhHgApkYBjTcO0hEdko9": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "5sH1jfP5Hd7LE9XoQt0lDxrWw9rZsb4mlHtpc": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "npo5q0SDtP34tN2VDbYcaAXM3RcxeAkuvqm7A": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "oV525kr8bggfZuRcsRJ1J9cGAWhXsJi0N82cy": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "WtSPBIxzWELZgw7cHqMpqWm0QE17F4QlbnUn6": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "kzFvwqQj4KiZ87Wsh5ZDvFpRHrV0exIZ2vm8V": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_cloudfund_weekly_funding"
+ },
+ "Gbz7AGSAJticX8YBnPr9DhCGP7DFPLh2Z9GFR": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "4pm35RjJv6OC3mZM6CNnrEI0nWUNinFuRfOHl": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "enrpxJzsHqXQve7MtqAuARe0T4zX8qQkD7nFy": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "7nQOCLbNzKomLY0ajSdI5LqDn43gXymdNl2DV": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "GetZ65H2T6RCzUkT9a5qf0M1zWvR9b9wVAJRC": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "cvGOs2CkVRmHTzf8GUKw74AZ22RxYb6auqLKM": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "VVjUqYVMWV8gZa15ubTQcTZ4OXvIf013OyIOG": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "Hk8cowlkSB3Nu7FB2QaVutag2W9uCd36KkacI": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "SnlikU4zVTaimrIGeecW5U2pujaevMYn7N3SL": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "aOzkvh3FBVsn6KHraGfs4jg312q3nNIITZqmu": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "k1BfJUIJK1zFEi5HgJ9HaCCqMz0lmlCHftuVj": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "5klT0HzA11niadubtASrzlBNOQ5NNedIwPtmq": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_cloudfund_weekly_debit"
+ },
+ "1n0w1HBMaXrLzvQktwqNW47RJdoiNPAF0sSdQ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "VIRcXYbdsKdmeA5eUIXAlEXbf8j1ANqXM87BI": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "QgjUFaQViWBRTOwX0IhDWRGpeFTMQTL7v4J68": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle"
+ },
+ "s2FGOl7qJwIcKF6R6ssI6nueiG3jmf8480wTj": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "KgFeqilubFtnckyISaJmME8Maca6aXy58MzIO": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "uwc5gER42AAqLYC4grxuJDHr9yB6a4ho2OgxC": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "Xg2BY24h83lhnuCaRa0Q7j6eCEdj9sFt96eVD": {
+  "group": "none",
+  "is_business": true,
+  "case": "event_client_ach"
+ },
+ "4521KbolIAoUSagohzt19EvZrjGU6ULVLLTRA": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "TngghD6aBKt4V4NJhIADOTLvNeyApykXR6pq0": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "eIQs623OnehLx9ItABiRUG0QnhY3vhvD2VSQP": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "InuImCuZwDdZqrUswyWJuO0iCKc4LzEeVoSvR": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "AKzdhVct24FBh1SOxDQyx6FossWK8Xk0khXUp": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "RtVsNnosLYvUTdIg9nLNf3zTEPaj2r7aTjMmS": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "9phFcpZNVg6diM0UO30A46bTTc4936b5itrlU": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "hPUZhanRVBZeYeV0wXtQejLVlPRKfCHCpGLsv": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "6yHqXsaMlTVvV5X9RTi7yOqq5p1hmD257Lws6": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "HkyGMhBh13BG9GSNETOhUPmEziPfs0u7wWbke": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_cloudfund_weekly_debit"
+ },
+ "jNZNzqSmSjUqNttIjkiCN7XXcR08EBh7ahitn": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "8TtAJz7rb3NeCrbt25XTRqZQIiOkZ9daYuyDi": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "XAbpsNJselBGQVcQXQdpIQDjEqUIPGeYb7W8e": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "fsOwxaPqssjvj3eVhcDMrl7TELTG270Xivpd1": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "WO2DzmLySxp3VgqxeVCGFN8RGLFzjOnYI0YFx": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "03CsdYyZs58PPAko8yq4KqAA9Sf4XnZ5gTpFO": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "yrenpkPJ8JL11fOx6eCjFkmowZvTPZ4FCZzuJ": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "OW6S6MnBENJhFNUCeGsAWhwFVQmzwjjab3ve9": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "t2edCgwzrEmxgukDLYUD5WHzVPG6OtFTEMmfP": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "3M29XfCfkupnInmt8FscmXx2CDCjn3mMqqjlw": {
+  "group": "hr_garnishment",
+  "is_business": true,
+  "case": "state_tax_levy_business"
+ },
+ "Nv1pg08t5qvl4hp84SEwshCv1ict0X4lgbRIP": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "r7PRjr1yMtZKlXAMuZjYwb6kWKcyIGqRTLtcy": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "H1D8CFcqixGW5QSTb3Qg1E2uejq9ScwVzFo7b": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "VWs1gHzVwSgfXuIe0yyrMM1oI3GI6xEnlRiyO": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "gltPsBxoTsCc3vwlhvuGYHstx6KSe0v3wL3vf": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "H1utNrh0o35HgMuTStZ8bwcdgtUAbKkn39rmo": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "tIIPadTjA7A50OWT2ij7rX8gXW9t5O0eYaUmr": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "xA8hRYIxCaEdtFc0J4bMEZbt2xxLHJRuEYybc": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "rO0uuEvH2jzmR1nuRU1iaBcoIIi3MtvO9fSV7": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "l7fIqz31noJbHrremW3hLQvlYWZ5ROOfAgUNS": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "hxihjNel3K5vAcYKxY5uUoBP7FXiaSrQWLkgG": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_cloudfund_weekly_debit"
+ },
+ "k1ky4PAbXOATlClzUDm9mOl64ZJH8gT9Ure4H": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "L41Vfi0yCjSAf8cOmsSFjF2VRLi2l7JU18sDD": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "efD4ofXK3tkot3jZir3F8icA5CrmlJmkuFO2N": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "6iF5eKS4uPZR139Qet37aPwxwh9u9CXqQH13j": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "py0HZi9U0faV2Xeq7BT6zVjWzE0mNnmLglesI": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "TKjoR4wMurjZkeIaz3javdAJ898kIYijPeyFs": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle"
+ },
+ "Orwezxi5JqvPa2pIeSKMql9UNkvdXzGTTqFY5": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_event_client"
+ },
+ "APEsvi983syNUD8VaUz3G5pRys2ZD5bBF4r8i": {
+  "group": "none",
+  "is_business": true,
+  "case": "event_client_ach"
+ },
+ "tHbAtCz9cYSVAes2jboq3rjwKj28Hn4vAvICw": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "iuvYA9JmHCUFaByWOFGyapOz8uF7lQw8HIThF": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "JWviLs0I7ssca9UD2gVFcVdjtL5sESF42wP9B": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "AKi23OJMb1XWhyqFu6YAHJLmVDdFcdhSL671O": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "euCJYWGSDDek7yuCkVHf1uUIM4xK2ABX5LmsN": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "injection_zelle_client_override_tag"
+ },
+ "MuqXEmbYpbTVxXs3TgJcESL5wF70HVV8azB6A": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "FJbbjmBRMvII0C7GNbHLMYS17MRuR3hEwMr60": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "3kr6zGPn8f3EjznApfTu97QXoIgqA7pyA57WJ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "YrRAdGVmEYGPFq9Oi4EZKpTRlisPcaHTYeWAQ": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "Y96Mlx7WaZQbmrcVtqj3xGDjwAMStEgS1vyrB": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "LTIzfamrvrpUXG7kecprsXRClmMbAqbBh88P6": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "egWQMQqNAHjT7BJfU5Bo10g45oZH2SkoiU0n3": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_cloudfund_weekly_debit"
+ },
+ "rcU9Q0jvbdZH8acQDH9hu5zn3hnwZsaVZASPh": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "QI8i4li7CKioVBtlTjWE86iyerw7dTOFY0h24": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "H35kUVB53qnldX5l6qquNArPpEc7ymHOsKCvc": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_funding"
+ },
+ "mM5apwBcezizMYcqutvpomqCqTPk21PIuT0lo": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "2YejLo7p2BGNS7pCAMIFBYnKBiSEQSN2v1tMp": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "xeczQAUTfwxd8MqG21vgIqXekVxr6Y4zBE4YY": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "fAKlzOwUeFrfVwwFN47V6fEAhpb88z9Qtj80E": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "GP24mJDZix8vGSkOGkr2BWF84IdUQxPBRaJZm": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "h8xrkrATrQvsj5ONFP9WQ8O9zVRb2vXd5Jx1F": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "irpTLIB3rZHKKRt1tfkG8CluoM9i0RcWeqt8G": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "yARKhyaC3tgYnjvw4A225mn36NWXbhrp7eYWv": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "B97LikRT9gO4lBU7wQBKkcIQ5BQuITPbpjLYO": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "WosEwxMO2uRPYcEluXcNzZmOaYDBYQdVYrFk4": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "fpxOoA3MKE8GexhT7fqVeRiTLGHjLfh8k4M2E": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "9pZqvBSJyxOksl5R4YRj1STnCxbMSNnnVLsSD": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "woe7KH7OFtTuLM0sIuwnNvRtk0zOMYcfqhUFX": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "aV1a1jBTZbgFt40qzAJYfhkonDA5SF3PmvPkD": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "GyIKX71lS9QP1vC3ZCzHXFfoQcJMN8FakMIJC": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "5XQrDps6MlNIanr0uTqlpOUaKrgVo3R7erGNe": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "NIAMCrI25kuybvTXzFKQLK8YUw25y32w6hzDY": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "FO79wnb1diAinpXemCpnS7RDxA4NEErh9T80o": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "JULHGd253rmpEw1LKBXOIgGCyUI8fJ5myR9jR": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "We7YnOCx4fEdLPRkyRJASfjR5d7KpTGIrNywJ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "ud4FooQ9XJq9RpH1BZQP1sBsRyO1uRTcyuluu": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "sTBO2xMwq67S7S1CkRBi6qm05YnrHC25vKASz": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_cloudfund_weekly_debit"
+ },
+ "sEhDQPAmfd5ycsNXMEAq8dPT5QrvpgmFEVgIZ": {
+  "group": "none",
+  "is_business": true,
+  "case": "event_client_ach"
+ },
+ "wtIJNDxYBTg72AHizZxceLcK8WqiemoWgPFdV": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "zFy5xeGOoW9MYJdZQOzm8Weea5XswNH3f2VvI": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "h0bLnsR5l6ogamlHmObq0dgDuVO3tjAsfhGJO": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "pJ124FK3DSCTbXKvfcAKb7lBd39S3Fnoo4crT": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "ltJmOTyFvLjDrwifJZ2mRVxY34c6TysU49gzf": {
+  "group": "none",
+  "is_business": true,
+  "case": "event_client_ach"
+ },
+ "JXNsUPEaHBgGRiCnyYHxzWZ2uP1jv1swrWh9N": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "dsjbbEPqiX7zR7WwpxT0KvVKyF7PXFHVYYhPT": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "e8pIkUOeMORZHrcQvaL7Z4GAoXyTDigoMvjNe": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "TrQuaBRi54msY73H7Wz8qr3IVHvDkSkb36KVl": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "W3tjf1wCMyO1PwHcepH7YdxveEHoKM7tuRC6S": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle"
+ },
+ "0aktH9W97NZekDK8E9pvSiayZ8xPttriTqMw7": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "6VhtTFxlgbBfIdvwZkOIDWTQ8LXQGMc3hLaTv": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "bybEYSRBh2wueXgCFU3i3HV1s4zVLKNLSFJzk": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "hotiuNnMoaKolHbHrBjSZDQVFqzhc9n0q2QbW": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "1OcNnRUR6vppZAIRtMG7ffx6nW3dQBX8yV2TK": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_event_client"
+ },
+ "TSjEqG19npOuWwcLCt3DjMUQmPQaD7aPhCS1v": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "dDmS9hQTGoktXwgt3jIksUn2EtDr0j1pN7JgD": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "AEgzyxFpEw1L1eaVnLjY236rkpV9zUhzV2T0c": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "t46gfm2p3uxPsWEjeingAyBzgXV8VEBDlimai": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "CMGIfF5vAerQpPORDAWqffQSGjQ0Vy03cHAKo": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "5vHPo6shBmtFyjbqUVu55qT1yPDON00VHqgVL": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "uJhOY3ehZdP44LIFzW5OQPueCJySsiLDddKIb": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "dWbGUfdtPO9mMKvqpCFetmMx2yEGqqW5FPHQ9": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "V70rmV2kFn5fnijYdzZWXssjmVuacndKPRa84": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_cloudfund_weekly_debit"
+ },
+ "zsS1dLcZTLP5My1chymSPaK4mBmAUIRRcrt8c": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "mZFmqdQuwQnScepKz0QhgDCNsabIgsxxp6XIL": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_event_client"
+ },
+ "ZE2ZoUhMNOSLUPTXylej5clgUA3RRQcaa3X4a": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "82um0nUNL7xMLYYVytAyWTuLVaud7F6mxbKRQ": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "iR71Me07CddJypljUzEIdTinnXeRxTjFVltJw": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "MxCDFq2ISmYXJtNC6I3m87HVCD6MirOtedAFm": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "A4WLxnipZ8H52q3yxmBPYjFhUoPkjnDToDR33": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "zxJWMPpFwkkQBMbYlZvhGFIVL0fS0KssDStZF": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "0sp4pHaggqB54EX7paxZ4eLURNhUX1SF8vJCn": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "uyzQmZjxhxP50u3WQb2om6JYqjA2shtsbJO6Z": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "X3eeSixMyNUrTcwYtq9KPwAOyw1qYqE3Po81f": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "Tyhe8ZPHnuS79HloYg1sA3Oe9eoIusOY5XeFL": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "ZAS0knAki3HWPXHSdN1ImpvSRCo5U9ZR5xx4o": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "5Jf4PmW1spfUkObdJYtSl1KN9rWx8ZmUdEZZf": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "3ySyhhnPyJNccDEeyJY2IJtbGjbgZBeTVCR7r": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "glADNiihx7whWOyJ8i669JkbqrVfMOqUyzeES": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "yqqmDRZcGTi4rS0f4azJNuFVjEMbnqs6NJHy3": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "214eKOULi5N45h7o2X5DxLmicUA0qQQSHIs41": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "kMGVNVlf8NgLf5KraN5UC2YCg2IScvfVJQP4T": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "3QtEmTMarBdsgzBCxN09okchLtnxKqf3tEoFO": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "c2WKpgvlhZ2xv9lTfMPGPd5o8JVcOFcfGauiU": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "PWkALkgIocuary9jgMwxDWOaptSGzW8oQmwLf": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "GIqdpD5KnPm8ZOU0rIghcb9EjOrldikrSolvy": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_payroc"
+ },
+ "gBJiIw6V2lw3b9J8vW45eS7uPw8JcShVS7FvH": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_event_client"
+ },
+ "xhuKHmJ6Rr4ZIvVbEQAxer4ClQoeAU9DM9cnf": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_unrecognized_daily_debit"
+ },
+ "KW49RwjQ8L3tbC89Z1jIfCwoiCIiYQFpW4iQb": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_kalamata_debit"
+ },
+ "xNlicsR7QSCrvPMn2dGRcJdsnQbwAkxlaJKhK": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_mulligan_prefunded_debit"
+ },
+ "8zow79BGCdH0qLcSVzH1ySo54pgVBlizwHO5N": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_cloudfund_weekly_debit"
+ },
+ "t6kUA1dAiseY4eZuBCgVfnJJGEnUP78JMxKFD": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "pZ0r82KgEzEUqsu1VRVYcSlMiHtyGzlo5zQw9": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_reads_transfer"
+ },
+ "kptQvhRN9fgOSFAfteVwr9b8uzGfyvLk9L9dh": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_residential_client"
+ },
+ "XWp1bjUcgB499Wayu68dO5KSBAMxC6H44s3tj": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "uYyoATHTfv6sYBm4QoSVQDfGK3XoVbwCIq7Z6": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "ogtm8lTF8ZUPpRe8SRHjOfDn0M9qMrJ00LXBU": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "sqm0sm6GsnVMbltlLtjuw0otbnNOy2u8zQ4gr": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "Zj5VXPTjWFoYH3UKBjotmQcxMTObOjpSnfJrX": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "GXXI4NUqOu7IfJAlzLTr6ilpGaXxAK2pQFeDN": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle_nickname"
+ },
+ "l6owV1GRZ3eD0qtc8shtRfE5v7skndoEOUEnp": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "IPAYoRECOWUyaEHmITcWCDuO78wAglzozFT6C": {
+  "group": "none",
+  "is_business": true,
+  "case": "commercial_contract_ach"
+ },
+ "ylejs9SxKNLcSymi6JVHlI10zc3AWigt9ngJh": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "hgWFYCo0jkeQitLf5VC2RspL8rxfYuEt7x2z7": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "rcEJ0yJHmOhplQ4mZ0ZnpmWD0q32kRWymf6e0": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "mrRQs8i7OaWqaqNVqdJ8mAjhPhfdXZ1nPiCYW": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_residential_client"
+ },
+ "DyQzfU37qzKpN7p2RBUpudQBliqpdkY7ELrzm": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "ScGCLKrNIpv1NDnoIrlDCDd4EbdKx2JNFzdXG": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "62IBVkZASevxop5E7lHDJWNwu47j3H1lrJyBw": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "lkfIOgqmSjnNYC2Lo1DpOtwyTXYOAcFuzWS3A": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "agGDBmwQoRjWgGkvau8geIxQe2AvA3yDvTg6f": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "zgWcVJEE3hskWrhYoeOq72c4o3lMDIT8Oxd8h": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "CWnh1jsdy3nnYnMRLKKABT4jSRfQGcfXrjidD": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "THEDK1YV6wj3CWsghceiZM7RjYwnhaoGg6nOW": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "WY9Vj5Ky4ebxjO68Tdre5p7qVLSW5o9tdZNSY": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "YWlamx2vSuXR7vhnWxtA457O5PcmHrnJQogbs": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "hkAuiIpyLKlJ3EgLBCOPViuL74Soddfo0XKYm": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_residential_client"
+ },
+ "v8id9hy7FUycVrWX9vQcjYg9GKaBogPodHbjn": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "xTNqZxyMbCy3fAzKa8Tq72Z6vcWkpDbOjMIPu": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "wn69HUoCBQcSJhryEFjUnGJZ1u1hu7K29sM7Y": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "zTom6bTfFvuvK1jweedV2EV3iIvYxUws0ycot": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "1IGKbRKUguGJ7Lmhi98hSFtk2pnuictpLccrM": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_residential_client"
+ },
+ "H6piuvNT87F9xGC3JtbKqDFdH9pMr007UTSeO": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "Etn4xB1eAJqpRL4bWzUHRHwOhStDBL9eXzzfD": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "I1VbDmB6z9De0aA4LgZWtXzclpLnVJT67ftza": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "v92cn0ICFslSsDNDRXJmg8cZBdNX3W0Wmm4MI": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "O2zCTUWTEknQW0vE2GVnYuh51GYN41f3FIRFc": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "9M7aLoMwmTUz2cd9YlyOI6ujnZDVlNyA6NO0h": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "nsf_fee_nsf_fee_item_presented"
+ },
+ "3b7WgNvKmDlRpGyBFCztaH2GyZhebQcfBfB2h": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "jkFNWjM8yHbg5edgJydnc84Jj40I9O6muLH1s": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "nCYZ5yBMBOCiz2Z6Ssbf4qnpJhtpwhlGhiBWA": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "x6rhKkZeYDDBJEsgUGuhlJGzMko6gs5ODOHvS": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "9BMrRfh7q1WnM4OpZdjlojVY1uku1gqfoAK1o": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_reads_transfer"
+ },
+ "CNRMhLwqwqFyphj1sna04zDlRBUEFBDW7ubke": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_residential_client"
+ },
+ "GMmiivtRMwJTztBiWKq3Kw9tQCvfmOwJE6S1c": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "nsf_fee_nsf_fee_item_presented"
+ },
+ "hacfuAIuJydChz59686ebYfB7MYwmCzi1YZYl": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "EwYBGXlGtJ4XLvwqpFiTN7Hv1nKBmrzGSwlte": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle_nickname"
+ },
+ "U5uQmQeu3IWNT5WCY5t3Z966jcFf6j4TxRU2w": {
+  "group": "overdraft",
+  "is_business": true,
+  "case": "od_fee_od_fee_paid_item"
+ },
+ "wKb7GF6QIJprm9S86JIkxtbnv7atgjfUArNXV": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "nsf_fee_nsf_fee_item_presented"
+ },
+ "JrZJnUUdFlPq6eb4zRa8Cy1V7ygIui8KE4oOZ": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "eoZiTSKpDSX9zpLSdQzQh5fdWb5OCWGmrl6vT": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "hoFqxF5Xp4icepBS6urhwiCzhD9aFJypm2r7K": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_bizfund_weekly_funding"
+ },
+ "WgHwPCDvjE84GvaC987QDpQurySdpPkUuWa8a": {
+  "group": "none",
+  "is_business": true,
+  "case": "commercial_contract_ach"
+ },
+ "CQ4lBAQcIfFpqnaLMuy2z1vkW8fH674mbNvr0": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "VfdIK8O7SOe7R5HSZHaT5fo1GJci6jMfVNXQb": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "spEEQPJM3cW16K8OUKdSCRa3dElYLCHd8TTA6": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "PXQDjnfHPdnJnmQ92HWEYN2t5Yz2DyL1kTXBD": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "6zsBMSIE4OfVQbslv373BaFUCu1BD8H5VzDCQ": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_residential_client"
+ },
+ "WCryBGgf8ibicqg9sAYXHfuTGgJ6zjd0WpKJi": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "AhbaToznpGiGKyC2bsU7kxsSiZSF0tMPfGcwa": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "BblgZ7EdMsatEqsNB0wgHwdPGHMG924RizQvc": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "2ZlND6gaOklCIkBw4gUzJpKvWXtkhCIkle2re": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "Cgl4eRXyiYEh6jzvDQKG3eLkBNZYxaIM2NMZs": {
+  "group": "hr_debt_settlement",
+  "is_business": false,
+  "case": "debt_relief_personal"
+ },
+ "1oeSv7BQHJHiO0wG1YdBAGONbgv5fVtNHF4nN": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "JHI1HigbwODehwlXsKAOOwYxGf4U3GwWLSeVi": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "E9uqCkEmTaE0xpw1h7PAvHmD3YcLeLk64hZ4q": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "MVvkOzIbQGJJb4vwPopiuD4QIlrGDrJGnEs3h": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_bizfund_weekly_debit"
+ },
+ "ta6jHUCNP8CXYtQ1NWrMmWbdeaI1d5krAniKf": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "ttJibevFXqUF5kKBdPkmAGklNjY8BUbHmnC7z": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_residential_client"
+ },
+ "EJB0yqVy5G1QUkxVk5zEOh9nuicwlfTePdn5Q": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "M3lGj0lq4lIApzW3fyG9TT7adacRt8qfu63cH": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "3zqlzrQ6H77umf4aAq6MjTF3Tq2x8iNyQn7UE": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "eRn9o8kSB8GckMaJ2SxXTc2DDEr2gJm1XQFgP": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_reads_transfer"
+ },
+ "tQUTylZLoA6YhmW1aln1xG2dpbgG9rXKIw0qB": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_residential_client"
+ },
+ "ZzVOwTBVdjzyI5EZAEa6hGkDbWtNmPfYIAOuo": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "mpQDQSNXgVF7TcN7JnZxfWDZuL227Ra3eCKnA": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "oziuvvmozWgARoL4ytbr1TfZc6jgGOKrT18Us": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "hF49ZsGs5eGWnbxaKQ6RPi1UjICtzEVHytl9r": {
+  "group": "not_revenue",
+  "is_business": true,
+  "case": "city_small_business_grant"
+ },
+ "iA4NIsvqX6FI4wig9llXWAZFA8qKqKXAUAbK7": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "MIqw1YpzEOW6Qr6NV5CDcINU2VINRA1jzyMYP": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "IDcrtpbvZ6Jt4tPSidRCBVagd3IjftpFI1iXZ": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle_nickname"
+ },
+ "khzF02O2aUnwlvOU2e6P6AEzOCwgG2pckPpbv": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_residential_client"
+ },
+ "0QIWdrRAjSykxBDkF3ccOsk63jQujOlSYGIyX": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "V4GC4LvVrNDlfzUhiR6r63J0dhSLLTWPkcetl": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "IK45vva9PceUWnI9AcEtmg4FMxAwr2IDr0qMB": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_bizfund_weekly_debit"
+ },
+ "DgjiHdlyKhwONVkhERvtRtvG5pJekCAgo9yUZ": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "YnOmwEyBLB820smv0wW5wGIeW8oBPJ9VrjEwD": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "1zrZ6CflA18H0ZvzEDJj4lphuqzxV6lfoXKjZ": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "rto4A5pMb0awpZCfrj3apOlBueZ9TrXUEAhmW": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "RqkwygD801f1pxQL4Wze3NPRmZxKhy7BrceLZ": {
+  "group": "none",
+  "is_business": true,
+  "case": "commercial_contract_ach"
+ },
+ "9qiWcoz8rWaqBbmmC3ewJb2kUNvmC2rrA9JRy": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "w8NWhkBSXvifTrr1RNWsqGTuRdHexiPY8sMXi": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "BbkGVWvGnRFRbZiphgWkB6QRR0RpZonlqxmBx": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "EaPnlhG6H1GLGqZMwNVoIOAzZsQ9uSmET1J5M": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "GI6qbAj0loZogeKfgCqkF0EmrRuH4tD6nVbNw": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "kebnUhStoWuu3g1sjyvQwMp5aPPZGCS7oPIyi": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "8MXUUK9i2aQwieL6skGsOSEpcmxW0S6ALSjqJ": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_residential_client"
+ },
+ "zmWquxTsPwPvAOwdrWv2BgxwEEYa8wi4944Om": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "SpFUN6nzEUpwhNuqfuVKEqpp2CHCo5w4SzEkx": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "cSTcO073xo18lwlnLKnYDleSJGwgfrCGYlTgS": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_bizfund_weekly_debit"
+ },
+ "CrruAm1ddQ6hrbFE21UAaGsU5Pb81EXCP2ny2": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "transfer_from_savings"
+ },
+ "Pgd39Z7g3QmLphBY8UwWmKq06Ai8rmjDWypoa": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "vA358zHeslK6uwpw2XFZz4ZEPnXmlk23VpdfE": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "RCMi7XwiyrUJIEKGiDOO3qkqul1oLFOKHzTqw": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "fpgedPJkLcU8JlbiXfNkZ8kIoP2Ah6BzQkNj2": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "UFG4wahh8n4b2TwGN4JXQR6qrr4hu529Lsw2c": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "lmXViKXEOLUzsROgUUAaVc19AQtCpipLXfu3U": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_reads_transfer"
+ },
+ "5qyG6HuiSiXOZhVp2OEvmq79QzVgSoPySRzlp": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "Je3kkyIjUlhwJURScCIHixFiDLJ639yYaT6n3": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "4L3Y0Plgp3yEu1VmOzeAaBTdfLF7vV4c3HJz4": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "CFyrtWSQLLwdxFfaP5VkH8Su5aXNZliHMv3cB": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "2Obya1pUuAkP2M9aqRXhHx0ndWvlAKUwmn7VO": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "MvEgpj28XtjTxCdtcYKAMOr1JQAx5HGg7r7Mp": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "BrLxV82a1eW30z1TA6B4etzhpAsc7lVpm52IN": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle_nickname"
+ },
+ "mcpS0r5aZIc0UU7IUQKwzcYrYh2lRRfdm0Ycm": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "eIGECO1tuYpNNU7QaaZJjUPGaP7sGKdG19tTu": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_bizfund_weekly_debit"
+ },
+ "QFzqNQrfIHSyMuSILWCixWqDalkN61XGgc0Xj": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "CrtAabdgN6SMictiBrOr0GJ1iKr3llIgdY41i": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_residential_client"
+ },
+ "wec3G12MsiphWEuon7Pblm2Vq9EbvLeAKnDCR": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "g0FAx9ppEiIZqBluNFm9WrCNHRZRT7inib5Dj": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_reads_transfer"
+ },
+ "gw6jvpmnetIccMOv4O7dLwqJOyZ7l26GQOFim": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "smeQZ3fYGYotHXGqaYGLm6YTFxRYQdaPdIRDq": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "yf0q3gYLEtIt88S4EFbuhcawPm4aoxiFIhOZ8": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "LBCZHOb0jnZr4jJoSKjsp4ELkMyMYTZMl4yc4": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "WnD0n5i46NCzGjsIVVrTKyqiOXhBRr2cKKxCE": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "zRQc7CSx8Mbwt5pH9eYmzfPlZ0i8JlWe0vdih": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "j11bwwmexiTbf2nz1eSxwHR9gxCIi910vuPqz": {
+  "group": "none",
+  "is_business": true,
+  "case": "commercial_contract_ach"
+ },
+ "9Cs9lFoxIGx1bUzREsPUV5E2iBdPznbMWt0Ts": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "0GNaCt1vrta1xjmPC0GzVRpeLI1dyojYbcbif": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "ueb92vdgxNqngTJByf85c9MCskGCc9hb1C8r9": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "hq0khE0xP5xRHsfpaBWv8S5L4PX4WTbWDvS31": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "Pujue5fxcYvfRhUNdbsXvhjXzUROdsJOuvHUI": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "1CxePmiBY8vrxDX7TQYHLdnuJJhkDNX69FMl3": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "EG2V9ikI2Hiv6Yd1JsOO2Zfb7ThJ8shopJT6J": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_bizfund_weekly_debit"
+ },
+ "Kual3EuW800LTPZG40pngBTtLqSpa9tsLRhQ0": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "SKCCwELZ0rjUT93t8cZUcdbyKI7RvgnJGE2E5": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_residential_client"
+ },
+ "BTo6uJifysbDFj0513e1kdyGQg9Q565d0oWBF": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "nHEtA0Uq1JSE5r9YYTkaC0dX4nwHkYhQQrfXZ": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "CBQB5VwkVLZ9i9ZmRN6r4nzwxIZbeOozEBAoz": {
+  "group": "hr_debt_settlement",
+  "is_business": false,
+  "case": "debt_relief_personal"
+ },
+ "Zzoj5u64Y6hFpmx0cosTBfCelqMP4da2hPEA3": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "MhYI3LXmB4AGHXmFx2TNYZWGAKUZHQZxgOSdT": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "hAMKyQl0q3T8sKcIoIh3d8gcaHOWBcCkoRH2p": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "ePo5SxmZcu9oqbBQBFZ49wdKUkhO0UB8yvwBa": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "KU6SJfqGT4E9oMiCRYW4GDtPTaTmuSKpuJ4lT": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "pdgNXRMy3KtvJell7k1tneblytFlHweqPe56i": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "AKe8He9MAWxCFFZ3AVFABnjiWElCxVvaivOMe": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "3FoOSkzbCUVpml0RqQnVydnVymmnvwbl182O9": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "TlH9llFsY9JHyc8y9k2NgYC8yp9InlBZz3Aa4": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_zelle_nickname"
+ },
+ "bHA33hcBu5UtIilOiVVlLR9Asjlii0adCJg98": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_residential_client"
+ },
+ "6zWQQSglfOBmyXtYjPRSFBGIW9RVECDtufie4": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "hB99TO4r25fxpyCY1OvfI3b7MkO4rfRsnlqVc": {
+  "group": "auto_deposit",
+  "is_business": true,
+  "case": "zelle_residential_client"
+ },
+ "BmSfpj29F0UlQt5aCMxLmbp3wNb6LfnRxeOdD": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "HeyrP9p2HqWqiU5Pa1hITJ4T6l2M8Xph2JBgL": {
+  "group": "active_advance",
+  "is_business": true,
+  "case": "mca_bizfund_weekly_debit"
+ },
+ "Q4JtdgTNyY7IXn40naAEidjF6JmtiPbtLMsO5": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "URD4OfEUz4r8XDd8GReK1cnWR6JsHUeWJ1VOv": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "9JlW3C6M7m6gFCuwSECOJHrdHi6YnHeP7epP1": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "xeKh2I1HHqQnqkcWYQRUTx2XhitJ4b5NiiivU": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "field_service_payout_jobber"
+ },
+ "xhjrsCMEQ3RMPa4740Bm9ZkTBLhNg4q7sEyL9": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "ymS51meR9qXlSfnwNoNRM8TNcRNNJJtJ2hVlp": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "r7AR4C8EJ8XT8JzN3F2PbffHOWGE6T7Ds90Dg": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "o5W48IMEWUdnwCQ16QilDLIEigkPK8MwlkMLl": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "cdh3vxirYGbq1xQ9Ayn2KtDQvH3Xj91TnDEyj": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "nYfqupi80amqwGNOTlZ67JZey7MEiRrCnnxi6": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "SOVCQsJfGhJAZnSndjqBBPcyXiuTH8e85tKEc": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "xaVKDd5qGERpYlQdqGanCrhoECFDmeFXSpH9H": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "EHvcuKB8SrcJ4IJsERyIH4IpQJkl4AbaGjvvZ": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "w0QhEFqu0U7pbqCiV16jCaccqZhexoQV8UrmW": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "YdwmxuQWaSmpbUmm4T6sVUdWuoE1HGhkBoaFK": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "f9ydWW4GQ0OrsqdNoYsDfu6M1KOW6CYuKf8k9": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "CxpjTXsQiVVFyoGRWFmUNtc57LYVJTURiHxir": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "TT2dIf5doFy7nISvtr63xkvVA09urWMAcw78T": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "kxGT2U2HccT5G3C8jN652Au4WkiCSJqctBF8l": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_casino_wholesale_customer"
+ },
+ "zeQomuyNjdpLXs7ME9FfHPTBbuN3vOzxmj477": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "Cvyv7A5QNirtc9DjtK15557V5kQJaisBMk7Uu": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "WBilmGak6YQ127fI61PLdXlkDqElbl8Jmp6TA": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "ClPuZdHS6dZEMvmp4CoZ4NsGlj7zlWk8Pg7vT": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "DiNfECaHnGBXOzxa5w4xZqtlQhoBCKZLcwcVJ": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "JUdyjAnflIICRBN1XYqQdCB8AcPxgPAS8rlsc": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "CWJWENL3rKaANtipGO0L86vFs3EzEK8hJqzMd": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "KiWUNNsGSYGw0VH5Nkpo8AfS4cTXZTvRYw24n": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fund_name_donation"
+ },
+ "dnhu6C1XrJ3saPCs3SBzDU1g5qMN4svKBSF1n": {
+  "group": "not_revenue",
+  "is_business": true,
+  "case": "equipment_loan_proceeds"
+ },
+ "dWRG6zivRmgFdVHfVpAOujs4OzyXpsqCJVwEy": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "v4FiITbZa5z7muadtHcTtiaABmkmbiH6kKulR": {
+  "group": "none",
+  "is_business": true,
+  "case": "roaster_purchase"
+ },
+ "tZ1CjFEZP4ETSJ29bHA87ZY5ImjysW1Ph8ngm": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "nGOCKTBBBe8Du7viX1JZmQDLOmxJplFGkdyOU": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "LM5QbJ7zBqtgW3fKmA0Gtzp7LHJEvSOMZiFSC": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "vIPTByfFY5VMzXUNFgINMhAAFslrWNESm6Gic": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "iHjeI9PZx6jRSBtj26PJT1NwrSk60AZbvfE2D": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "ohadYU7BFWZUPzj0ulcttD4bXwZJZCybSex6b": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "cb5J7kO386WBYH12i5NUHfrj8hgBDR8tQWgMI": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "xyp3k9p27R15IwkHXMfXS2lMHFrPJXy76xc8H": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "R0FQeOJKn9W51Q3emTECO3sj32tMaR2DlgwCX": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "UatWZIeKPNSyTdkDCe0tsIHveP2cKaKpq9rYO": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "v26KA2sZMOigsczUpkz7UC59WW3uGGcav7Cqk": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "MrCHHYYOTt989f2s3pcLG1yT40cVTBMoe0kzk": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "t58rhlKgFkI40mmYMJbKPtpyRSZJQfoqUEWqy": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "U2GnQfERDencboVJXQRgBjMMNYEDOwj7Zrh9F": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "XjW1BHVDWAz2s9OFprao7SraGT39JznN9MNcN": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "LoFzsDUW7uyrU9kqt8eD0sQ5WXNAgJeAs9C3y": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "g5jpHyO1hVON9w74NZDuC6qInUeplmptnJZDh": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "jMf9r1B1EB0Z0wRc0CTognTTZ6e4UkVSqR71h": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "aARXr31f5W1HW6TayC38cpz4nxJh2hLx5z1FE": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "SU7aKXy8eaV0QjQ3I8WKs5bwyCbYxykrxrMYN": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "M4wJl6mb9iUY361KTan1LJlEIABuE5HP9lvLZ": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "7ohOMQ2ojWm7uhLT65JD8XVvAA3tYe9DbvVn3": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "aNEHOoAwZtjZYEHY2QFkkda6HUzQGjJLIt4mt": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "mj7Iti7auBclxXPV3b3dYNWNZhMphIpZ6DSvr": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "viPZedVmMVophIZtunXP45AW9OkD2HKJdvPa3": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_casino_wholesale_customer"
+ },
+ "CmoryuKbxQ8SkFtNvPeJTXJsHx9c1FjdgP9wr": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_payout_reads_transfer"
+ },
+ "0gqltdEq49wP3t9OMIFlCHefoUlm8ISyh8IHM": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "xUKCTqahM51ZpKhx2FwRMoWcee6FoNNWZSaxX": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "xssMSeGJJSyVWp5Zev0lcmLNEbSSXeRNpfDkw": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "Fkrh2mUUYkCZCeD911IbcT1qL2IlDfHRuatbj": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "lrSiHyV0fIEjCV9eutFFAp8nvRMUFOLX8fAOi": {
+  "group": "ucc",
+  "is_business": true,
+  "case": "equipment_loan_payment"
+ },
+ "rvbh7HIJ113g7EtpNwYy9o3jH6SuaYQBFYN9x": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "mthUrCbezkBZZJe05zyJg9PZ5TFHrXIYi2VE8": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "oMow6NYshResMK9J8x8LgBulzOeaqnfDepbv8": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "gQaM5MnuNbtGZ6eVWq1i5PAfamCU4AfKNHyAg": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "YmaWDDzbhlDhCeEsBradet9IWwqFmrzQY6Bg8": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "av0r6VZXMgKLRCRaGzs1gtscca1OfoGse220c": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "FqKC8wz09gu7otBqya5UnCP0IZPiOGvhQifIy": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "KEuqlQKTA5uN7WfI0yK92BEDjkm9PDIkRJg3b": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "UUdIZ608h4orucogZcXW3M0i3xu9h0GsOUxcN": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_payout_reads_transfer"
+ },
+ "89rtSfNnOQRpzRTv0voWj8UgyT4Z0IqnynkSc": {
+  "group": "not_revenue",
+  "is_business": true,
+  "case": "interest_credit"
+ },
+ "QRkIx7xdaZWQZgY0CV8VPI9UIvGqmEfwI4SQo": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "3mNChJzQeTS8pmuKgEy6HYIg2HV0VGser8QlF": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "6FCzoUutF0MFxk065W3LYCs5WrG1fqcdDb5Ng": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_payout_reads_transfer"
+ },
+ "ZWVOBAZgh6qKzCcKMevoqz2hpsroJRB1L9npY": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "wZ68jWUvtXI5gKxLHF7FpVNWxhE7KyLsU2KZ1": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "gzClcwOzZ4A8Z9xhZpsoEVliL1HhNOMhEZXHv": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "cf3XS3t2lGjhihcWRLOP6rnkdMTjKOy9GP4q8": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "mU7SHIhJWpArzsDWVniYIn0xgPzkK0A93ns0t": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "3jkWdbth4I19DEkONDG4RdNvhICDfWnyIshvv": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "NVRv8oegTQpZqCN8gxhW1ET1Ubvx6Tj3OtSxp": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "tEFfe0nmphypPWgrAztPEk4s0OD7EjKgl62lr": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "0YRckI2foz2FJ3ewD6Wm3YsAUFdoFHjigs9uq": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "Tqs4kuUgV1jHpMIzmsZmtpmi4O7ieYiZINdiU": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "BVYrdLPrGWCZKvrnmITF5Vec4zZvFGwlrupF4": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "1Zuq7CCnm2nFy12VJHRNwIZeig3R7apS4dR4y": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "QTQFDkBUJHIPtyz026NEfDDQKy252YOCV96B0": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "tujV0ybg765faScoOaGFuHG7Bwiu5UjvXnLyP": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "nfGeV3cRoJsXFU8pdOENRydjP1lf1jKnha6dI": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "LGIMODjBzdunwYqSBPd5oVJoI4eMxKs5AXEVs": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_casino_wholesale_customer"
+ },
+ "KtfaJuP4tUxOpGEhFEOduR1Du9Bnes0DCt6Rs": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "CZtG1DCDycdeMKCVptVmMexur0QVnv3lUU6su": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "wZmvEVD3pdfZoXtKYNcsLJzolHV1X7PSWYE0Z": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "Df9PcSOquGmZsX7Nc5eOM27t0k25uYrHZXJl3": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_payout_reads_transfer"
+ },
+ "FjmWaiaDFOy3G9ddpTF3WDK3AzhG2eC9VtoJo": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "hf2wPubMWSnBFWdd8ldu7w4CibyDdnLsD8JhR": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "Ev3dcHiUtQanJ1gbfiAeenpjW283NQMrwMK3H": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "TTcO8DfIXkDn7dS93xzcJK09p8qCBCYAfvJpk": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fund_name_donation"
+ },
+ "79B2Xb7ooQiBeaaxEzm5yKg9Kk2i8f9Tq2vWF": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "VVRX5iIxoYQ0vsrBchdcsEgEgKuTxjgPLf88Q": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_payout_reads_transfer"
+ },
+ "WmDhRzdCm5aLb17f5eWifxnOav1aK83BqzhkO": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "H9PtdrioW31N0iZXQXeYYKeIQ2cmfUbxHQd0s": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "Yy7oh5RiquQCYgtyIwKFwasUWU4WW51uJeS8m": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "pXYoXIdIHEOqXxM8o6yCY18r0Oh9ijfjlXG0v": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "oRzkYktrsj5Q7YZooKD5vNh1621Q81b7KVhNg": {
+  "group": "none",
+  "is_business": true,
+  "case": "green_coffee_container_wire"
+ },
+ "DwuP8Uc4o8zMSNe0mwoAOB9QbdCXBjCuL3hmI": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_payout_reads_transfer"
+ },
+ "rCe7od6OrNookWO3M2vshkbIRUb72SioYzKS9": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "QsdyDLj9tP5RllXrNLDYAdKmJ1ygpVDZAOh4i": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "4CKBkDBoncJC83cJjZeU53KxHdYrTfKHkA37p": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "8BQxvMqyqd1mzm3mjTGfFj5QOrog8HOvqvGPu": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "nsf_fee_returned_item_nsf_fee"
+ },
+ "jiydpTzexY6TVnda2pn54o8YocOfmHjJIiT2J": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "w3K48lBWxe0KlkZT7jT5WglSpO3ixAD6tnbBC": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "Mgm5xlU9Ge2UfpMz16uZGNqK6GUmCPO0aESo0": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "gmyTCHbs6KfiuWT2zlt93TX2miyxMJnjl9VIM": {
+  "group": "nsf",
+  "is_business": true,
+  "case": "nsf_fee_returned_item_nsf_fee"
+ },
+ "JL98sdGOaQa9VPzOO7I8eabcW5xvtbtbRCaAr": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "4oqkfjhO4utba6LKQqdYbHsL5DeZ0uFScJmce": {
+  "group": "overdraft",
+  "is_business": true,
+  "case": "od_fee_item_paid_into_overdraft_f"
+ },
+ "obqGcZzshRsKRXuLfEJXOtVLnlLuXHOkClw1d": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "LjLOEFlmxatEwcoVUCrks4gilVw3rC2YCvW3N": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "HGnwEv8GVG2Xjsg0n7G4uWD116shxPoCNqs6D": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "hzrH5Hq51aVFCzzRfetJyOga70nR3Ua2PX66x": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_large_one_off_customer"
+ },
+ "Df5GZabChZ710LaSknX9D7PDH6hsl7Y4j5RtI": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "ReQMZv6KxkwHGP8gEIBBViXGKgMokS16qbtXx": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "urvKwXOGbSA5iixh5kGNfXU1f1fpzURYlHm1s": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "baK7H8zHVd0OK7n01kFauesRRAm4nz9nUGUFR": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_injection_middle_initial"
+ },
+ "CWylg51XOZlhZpeo5484fq4BCpynLIm8sI8LS": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "4xeX90bvZi1fwx12Y9MXByHggjbed6ljLjMBX": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "FXSCAbRWbXad5rXXMECGLjExwUFWbPa1hUEyK": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "UlSQddnK0XclZOXNllaXU0PfWUFYeSwIYKMGy": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_casino_wholesale_customer"
+ },
+ "m9DDI2j67DGm9LwCHkzCNGET58bvE3owYC2HN": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "GE1HWDkveb4evo0cryHoABFxoPJNh3nOPX5vN": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "SgfWQYknD4BYJ8dDtrs5BQEWla3wElOEXEKBL": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "e0ns3nL4JUN3kRWKEYfPORZLRH8P4dFh7Kiln": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "THUQlDn47cUQyIeJyvuh8vX1txR7H9y3Q300e": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "pCoBsXe5jneaSGjel5MhFXslkQvUP0eFsfx6y": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "gZqp5dl1I0wA7aACSpH0EU9VVBKhhDQnni4dP": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "O1bW3SKR56jKzPxV9w1tPpX30cVweoTzwOHFL": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "3tOifdY9nVtGzk4qfCVM51XbOqylZadcfpw8F": {
+  "group": "ucc",
+  "is_business": true,
+  "case": "equipment_loan_payment"
+ },
+ "Rqt6ZykBA2vZdjgHxOBX2J4WXPNqqHzGBNiM8": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "rkVSjybMgTG8bvnlInSCtbMw7SmrLVHdXVtrn": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "iIQX4RhE8Iie5CvA7oPHcwIewJzmdxeMU1Evp": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "zUlQxyJ577yzpcJhHKV06Mga1dmVKj7nGo2kB": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "TjENm97hubdjptK966IH6yvePIA6WeimKRIK9": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "yUfpJfYpWoJT8tBdsOGpV0rbBjIDNoajcxYko": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "Wu9U9EkiObkAMyeaQW44fRNFygd03DW4gQ3v7": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "NwoawaMpIfi2vZ9OA8RnvAakx9PMBysrNu6bM": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "GrndN7HKHcA9LJr6bP4Q63Vi6oQsn2DQHkMv6": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "vXB9JLfttb9FwWsGhen8l28moYXDKmFSGEuUM": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "vcnlqex9lq8dEs1jr60C3YyRuRjZNhAR7Gjqq": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "U4EFvCm5bFlg6W58qPJX4g5plWpx9247EkGR0": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "R1duxUfTEnieAttK74LrqgDZS43NiAg3790sx": {
+  "group": "not_revenue",
+  "is_business": true,
+  "case": "interest_credit"
+ },
+ "tHNBfGp8jERFgB0w05t7STEwhWPKtVhPY549o": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "5ZNhAYQo5ryKRmnvBO3bffeiCC31fx681KeZw": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "PBGnB0y2AcStXVszzVxBbg0ZBgPScyd3IqKL1": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "Gomi8UQn3C19rKgayFAP3HnyceZ0J1ZZUxXEU": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "JzkweV5bo26sFmm7KY0kBMjgG0VVnXOsy4zx8": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_payout_reads_transfer"
+ },
+ "kretwJoLxlhKWotCJtfyTrNS72LqRyDwCOvXI": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "wdSwrFbs0XMWzmoxU4Czz2eoH0kBNsk95Tnkq": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "eUt6v93aRlgSp8yxuvMHesJiMfi9Q4MSLVpiw": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "1jnewGjttRn3fxfrmOhm1YrBxkB1bXPC5Gbo0": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "35A7utrOyCtF4yx7ac79phisqb9m3gDKGD7X1": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_payout_reads_transfer"
+ },
+ "DoNUSOkwBNzJ9cfYpDR1CqmOsRUHsLgDeZrlQ": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "uXuTePPV566n3HSq6udzUaR71vTmHVmodZR8D": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "hSSgqtTL8SVpvFjSjsXHa0jpx0vff9JqRwk0Z": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "H6bbufgzGp6rjGtjA2u4Br2rOJgupvKfXUaaN": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_casino_wholesale_customer"
+ },
+ "mupthkXCEBI212UHBbks6pJqbF2UDup5bRv5k": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "dMG3Wvd6Y74nYv0euGmL2M42Pi278eYMOlfzV": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "zcXNQo1NWhXgmVIfGwY341DIEAkScgNUwQ6iu": {
+  "group": "not_revenue",
+  "is_business": true,
+  "case": "state_tax_refund"
+ },
+ "UM1AND57yKMZzXFLDG0YQdXIoABTuxvWfXhQz": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "bxGyIhsUmGCQW8EL4IhnmaoUUeVWHJjDhcktM": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "9gaGMKLGZpBhMt3n0wqSP61lzmN4m5U3Hfqbr": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "1QoAvmZ1uMpxvOecD5J9DyiRLcIwJcm2oO1Go": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "nhzPoL1dxwhZQMf93B2Zt0sbBEMkWHbehh1Zv": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "IDZ9qpg5ABlmQZfeJbC0DEnGaMNrLAxxeHlir": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "YOAfMQ3sZyLAaBvhUDRprgT3hF8iFT1WT7avb": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "EtDzpxLBklcsMX1Ylz0eqj1JMkJEnAbySKj4w": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "35WAl6GtxjPqbPupWf1BinAbtPHUETlv1v4wy": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "jmN2uCXmM6uteQ1Bw0oFFBSRBlK95AtyJ9b7G": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "grYiT17gHvcDpjnQ3yE5IruunoEFJRpsWnBfE": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fund_name_donation"
+ },
+ "PgxDvZkcmIvWn9TIcXgxrnhIn5szuCAgpQ267": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "KEuBoirWiBhejl7j6yuy4qGpBi3J80k2QAxMk": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "XSJci18UzzIm3mxfIf2YDEvhtU9QNy5Tx3lCw": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "hFUTAN1LBLkVNXhTFRcpaDxBgY8xKOzp0EBP5": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "puBIrBC8VURTX0z5rnfn01VmAxn3z1djeBmnD": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "BcqD42A6xX0Z7X4SNBgjEZllxkUGUN1OG9xQw": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "Rz7XtgORCd3BPM0xM6sWJpNQUGSGoQ713iRa3": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "ogFIhPRidW2rTS6Ur0AohXcqECU9b9ZoAujrM": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "wAcZzhFoGcCnYQ9KnrpnUfW6rwmPbwGtGEQ4n": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "SAdYWADOX8APDEeIAEUGASuraOoGJB8ifdwmf": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "we4omU6wSlrSLqWrM9UaFhGl3cKA6wUCWz8GE": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "8SrzBp6XRDigWSVprKsJqkjTgDeQuhoX1SZ06": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "12h0cl6IkxZAwv0nnbhWBMOcpQr9VJGBeLMgU": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "Ur20kYCNzTGbz3SL3AbBKR2tWolyhQ2Qr2maZ": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "XGhy0TVkRo8k5PpSrlfz25rFhcTtHbbpuQWGV": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "TUjF3LYBm09pA4BEvZbGq51fWBjiLgoLjo3pZ": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_casino_wholesale_customer"
+ },
+ "dcsMICEueGtLEki5Y0SHr8a43Ncgxp36yt60h": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "aWyeupY3hr92E1S6av3Bw1jdhXaEyUpvWK1CU": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "paVJOdjs3OlLYAD7FnvoNjKG0hAfwXtvI5rT7": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "fbl6Yn0uItJgX5NvlqFHdv3RyuqQm0Zhr1HBi": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_payout_reads_transfer"
+ },
+ "WjY7X3tj8uTnSLDWxIOeIiMEFqgvFDYq7wQa4": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "AwEqfjZE0JnkYlf3w3O6IgZQSb0ZEX0NRuWNR": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "xdIzK9S3PoRakQ0paTBdsR9j9uA7f30StrTrU": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "ezEUEIsTWvmNLF1nhCKpIagJbPAjXZWDLHh3G": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "daqXxc8JYV77DfeNyqRPB1jsRPxTtKvqfBNX5": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "1JSGJKnatnohDWqVzH95z6DPSlSR7zf2KghhI": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "QtLfKdwzW7tjLIMWwzaLE9lDju3awAmjucje5": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "Z4keMGPXq1SurcgL8tXrOKtBdNzGONOMx55aV": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "HUOdx32hXXHPOCnvJ1rauuDM5KK1Sk0bP76RV": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "hJpOYcZU5tRxx8Tv1678ZBRgfHOR7eZh6LUNS": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "0KcHhX91At3xncfc3j8If1kWtkDxIYsaDVGbE": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "5buY7Y50Km0QAt2VP3n8cIdNW0cT6EOsRBd07": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "ZpPlwFMVyJ7RpluDoaiCpxTrUwRSwz5Mdp5St": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "axYJc0VVdYmuHzc719vx2z58RMCGuQFMrIwS7": {
+  "group": "ucc",
+  "is_business": true,
+  "case": "equipment_loan_payment"
+ },
+ "e9m9aRBIiz2U4bV99i0MgomuCHErT6vqBrP2F": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "TDEjzR96icsrAfeMh4Ky7mPWcfN1Bzx7yHpao": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "3GTtkO7Ra3LFE4pO53ZqNvu0BIQNwVz3marro": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "Y7TrKMGcspNuXpa2mrgzkeTR9mETs4oiPpti0": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "vnLQ6ig2mUO9mMPxoLqt5Iz93dmR368Tvl0M8": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "5rGVJGbm3zGtVxzXebkxHZDlUuwyAhlykJUyc": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_payout_reads_transfer"
+ },
+ "9dsFpAGUP8xkG98I5gDD4ANXf6M3O5oLu80MQ": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "yRnYcdHbzYZQGufJMPzCW7DSBYBG2eS7Yr8Ay": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "TjGe1iIZWx8gvVKmqRrtGgpFI1ZjEykMlQX6z": {
+  "group": "none",
+  "is_business": true,
+  "case": "wholesale_account_ach"
+ },
+ "pOqpcOGJe4REOp43R8zdPGILaMbwiRNNrMnKo": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "XtWm7FSlj7pEtJJysVtLk9LLEWHsPqutLfFsP": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "r81wCDu3B4UesNAM6htGWnbIHjOmljURryh85": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "ecommerce_processor_payout"
+ },
+ "hgdNow6swSYp2z5FH32fgrhu5ytles0R6Wh6Z": {
+  "group": "not_revenue",
+  "is_business": true,
+  "case": "interest_credit"
+ },
+ "C9CtcgcU8wYGzXZutQpQA8GZeHIfEfelt2omO": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_daily_supplier"
+ },
+ "fzcxyE7JXR2Dat3r68v5v2HbHzRFX1X32TdFr": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "8o0NS21m5looc8NVKRJoRiVBOX0mMjY0GgWLv": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "gJcXFeQkuepSvMGGmJ0tsUy1efAOYj1ipUMWN": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_insurer_direct_pay"
+ },
+ "FLkbjCzS8ZdsCV9HkBSddN4sQaTs32w8dtNcu": {
+  "group": "none",
+  "is_business": true,
+  "case": "client_refund_debit"
+ },
+ "llxxztiBnQQRSJQWbC0XiYpBZKrP7kcjCDlsW": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "gtjhBorJhF7ZCi6NoJBjz3YYR0j3Ph799zK46": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "FlZLw05PJw7n5Jcu53JGLAmevws1mchwuiYnT": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "NvxXKn8l0IHN5gAxcOMUttk8i75Iy1pPlc0GS": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "0ydgPHClDXSjJ8KVPQ5Onw6zsPRRJyxCB9Jgo": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "5TamYpe2YEcrQNIDb1kBgPxACiU8ao6c9Evdu": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "2F7N9MQWlQygjatiD8pgmYJP4euVtYLmKco8s": {
+  "group": "none",
+  "is_business": true,
+  "case": "client_refund_debit"
+ },
+ "xY6fKHNmhCtAMn3yiN7uOkArGFHWhdv369nAT": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "qzzEjCvcqJWlVCTQQPHX1JOhVv8o2llYCjbWw": {
+  "group": "none",
+  "is_business": true,
+  "case": "client_refund_debit"
+ },
+ "yXJ0ru27ixUF3UpFWe8nuqUVm6yuSRFk0S0QT": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_weekly_supplier"
+ },
+ "swFI73rD7zIUppyo9PXTveYmD9zxEE8gLnd9E": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "6xAUvCQkHnv7mSiUWb4exZieT3Lc6y9rVgOCw": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_financing_payout"
+ },
+ "aMj6xsSOI5htyP2eyrgwlLehNcwd4NrsGMyCo": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "JqGCdRxNxrF3FmNiL6nktgT5H8to09qJ3luWr": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "9bLFhgslcEqwMGvZDTkQGTxL6A46MENQ5Cubq": {
+  "group": "none",
+  "is_business": true,
+  "case": "client_refund_debit"
+ },
+ "a0jIecBVHexR3B9zV9tc0ZFEJFRzP25qgLSRi": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "sMSug2VFVOW1OQsJ1wQsi5umLKIjeNcBz07aj": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "fgK2Beeeh6eAxIPj94fcxQC46THHIzEeJeUSp": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "wbafedcA9ML4a5QK3ujIn4LJlDCMaM0ccLlAD": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "94zIV0UkkA6hhK0VsWPceodRypUkAUIWUaryW": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "S3TUQX3V3AJVQPrFLRsOraaSKWNSWktuyKjyf": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "KmjGCQ6H8BJ9sFt8FOgTJq2jF7qHpGb1pyS9E": {
+  "group": "none",
+  "is_business": true,
+  "case": "client_refund_debit"
+ },
+ "pooAlQo5Q7dQks8gVMMVfW7ASiRagRgydpuft": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_weekly_supplier"
+ },
+ "ir6880r2ciOOHvfNvsiRZhUr6aeNz0Xg4WEBo": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "HWTUEJRgAGTV65Pound8ZGbV3aCTvz54ZCkHr": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_financing_payout"
+ },
+ "GT0uuzXnOWXboMb5SfzWWw8fS3rTV3PHx5Izz": {
+  "group": "none",
+  "is_business": true,
+  "case": "client_refund_debit"
+ },
+ "ePyplhjBnCpVSeBP6a3T9Woftds24vbaCzyyk": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "G3FwJMy7Yni6WpsFAVPTlh7eQrG2gLZ1jgPaN": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "xVgORqt5pBI6XsopjWOvICki24uCISABV8Nnh": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_insurer_direct_pay"
+ },
+ "2ua0yw2gPVC8od8HheHDPuSsK0HjOWlpJG5Gd": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "uDMWfN821KRpfFjuZ8O82vVyQnyBPx8bJSPh1": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "mpHF3nzxgyVucSQQCI3R3dslimntEOOfTHJzI": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "IOoFSjuduUiaazDztZOC5nM5tskHzgiLxStHl": {
+  "group": "ucc",
+  "is_business": true,
+  "case": "xray_equipment_finance"
+ },
+ "CKoyqyzHxEOM3an38sNssPIOLgHoZUGKGncxb": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "tuKUQHJEnnWm5Yk05cfo8syCMWyyVABjyNRCh": {
+  "group": "none",
+  "is_business": true,
+  "case": "client_refund_debit"
+ },
+ "mYKKpOEZ9OF2TJBThq8nYOfl64DjDU5oI3HM9": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "QDu3tgI93jJqyUg6SztEzHyBft8Kegq3dzmhw": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "oWa6xWAKYG18T4A9YxEEe1lcHUZfyafRXQllO": {
+  "group": "none",
+  "is_business": true,
+  "case": "client_refund_debit"
+ },
+ "N6Z9mYksrgqSV1PsqpLHVi1DiE9cEf7s0Zeli": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_weekly_supplier"
+ },
+ "P1ugUZtfQCqlnUgHBU8as9vwr4NZuU7DNlqil": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "fdBZyyjfbhy8PTiZg6pAS3h0Do0gk4FZbvJzR": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_financing_payout"
+ },
+ "IuEQnUdu120gxyyYCh2R3EkAXsfgfYhlTXGXM": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "5KjU31PrYV0H6waljxKBTvxAZhE3E5N0WZizR": {
+  "group": "none",
+  "is_business": true,
+  "case": "client_refund_debit"
+ },
+ "FHc9BWOtzkSMmBYXeZbj8uzXv5yYfwliXNN2B": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "L52LBYJiLBLOiakexSQyhEYfN7mUaZbulrJW5": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "F1EBaXIy6yqup5oTptHRCAgkdcvRtTlQzyOH2": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "o9jFIq9YYNlznouxd9C5nrPfT25xG3RrlKc1e": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "uFJQ8i6Z0UsNTXoQGjOqLDv5n3C043bOA3ZQt": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "tjEp3pJdP5G5UOJrZYAvqOZ4s9qmbN8dY4uJ8": {
+  "group": "none",
+  "is_business": true,
+  "case": "client_refund_debit"
+ },
+ "CVVpYnI9Q7cmQr6oX0gm06JIGx6JMhKk7Cc6u": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "transfer_to_savings"
+ },
+ "W2WJYOQNKU5VurnzYQIp1KCt2uCFqeub6tRaR": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "Kiisdg8kGmoNUh8062OnFrUWfCkedmbhWZ0RS": {
+  "group": "none",
+  "is_business": true,
+  "case": "client_refund_debit"
+ },
+ "PKLBcwWpX2sIHNNgdIbkRVHgerr78tjySCdNl": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_weekly_supplier"
+ },
+ "vA8FRUBf3WVNcDsnCuYpAmtCbK98xQeG4qugf": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "5HIXhDVpYbD4bKIwoYaF0pQ4Xe816CRYmRzru": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "4aC9rXZSnd8VeeUqTGnjlO8EuDNHqoEVBg7j0": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_financing_payout"
+ },
+ "3gYRwALxh0ZSriyMweW9cppshDDEnVudRLww8": {
+  "group": "none",
+  "is_business": true,
+  "case": "client_refund_debit"
+ },
+ "7rgHJJKoc8WnAtMyJqo8aIu7azFxvAh2f38xg": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "gAxhrxTcFFacK1Hya9qxIYUe8EAlzIgfqpwUr": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "nJp4KfR74dpiJ2UoKRww1bEyUlRlNspj0aOZf": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_insurer_direct_pay"
+ },
+ "du3mpZBYZ8ZjrQyULEh7gzKMv76EjjZFC7ol2": {
+  "group": "none",
+  "is_business": true,
+  "case": "client_refund_debit"
+ },
+ "JkW5uHNc546Hh2fOA4h6GH9YmHvEFEflFuQhc": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "v7b9tTJm7yB6rFu50jgvUAJL7Nf1LMttkaDMa": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "s8aIxl6YEdId2aF344pgPxfWOFr6ACLbiUYfZ": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "GUcdAnEvesBWThZdsmzLTgouX970NSxWbJJgW": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "6DVNyK1E3oCMiMf2yp14jcIM04xMn8FFL03bL": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "Ibij9oyJPUcCAlnCgxkzPRZenlrviH4mQUDyx": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "GoQD2JO9Dikut4gvrvJYjhm1nHUoO2C4sgZgJ": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "exFUuyNIRbWkpXuJZZQoxFyLeWoyPO3kMaFWm": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "1dZftOtlWHowYfsouPpWybqFqOnLDRH8N7kJj": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_weekly_supplier"
+ },
+ "ccuPufC4wSsKdkKtInGhjezWTLRBxc6apgc5x": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "CRFEk1kitBuEwimkp6yivegaEpkD7aIVECksP": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_financing_payout"
+ },
+ "SUMRb7Ofav2QaoPLPfD1l6HSaljrkORNQppfL": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "4NxYniTnjf59wr0sMM5XpKG7328Ov9iOpLIti": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "XAwaVDa6b9bbkqH4wV7ju2U8YjV7qtUtUWnb0": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "MS3U8bx48tEMW6vWBjtyTot320X8EZnHVzgGd": {
+  "group": "not_revenue",
+  "is_business": true,
+  "case": "property_insurance_claim"
+ },
+ "YFfdfguiw21VJHaSC2mgMhaHNt9Cyo8MXO6e7": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "EueTpvUyFOa2UqszcbVsKFotEViFjUBYDpK0p": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "odHebXtP4rSjszi5lYifuMdm5v1SWWy1jHA7K": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "rhB32UYeGy1iX02MMXs4Fc3dK0kk3blRDZbw9": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "YHWDD0LGNEOwu68hiL2L33IJ6dY69ASUBo4ag": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "FAX5UZ5zo5yx1RcaopFZV1ZekrOgmN5TH6jtQ": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "FSoPV06E3cc0GBYGL0xHVeI2QkmaWk1J1wjFr": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "XjSqJhWKYk164WlnzFHsaAPuN259xsVlpTH66": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_weekly_supplier"
+ },
+ "b8jCtEdq33XAnjDCyiljZEBCaPxwkPJqy0mll": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "iu89Y13oU0Oio8hwJlvCNwDcCBg1ZOtbOFzL5": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_financing_payout"
+ },
+ "29vyoGUMK8xXG7WYXkIKMIYPfZuouN3aP9U4r": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "jhWPgUDRJ5gTWHq0996rrDMu4BMz6cmdRavJm": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "PqLaK2I2LlOGJyAB8w3RgQw48MKCbg6CsjNGJ": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "DychGGgoSWY17Lh9A6wGd7GaM8WX7DeRIpERY": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_insurer_direct_pay"
+ },
+ "2f9CPgxK8awsn826ngGgUjouuVUS3tGX23UTw": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "ASBYDGKbFEkq0vDi6dXCSjaA3f5gb1GHWzDpq": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "wOVLMiML1WecHvGdWfaLaSEd6pjaduxHLeD2M": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "uB0b2uQthBx2zRut3PBN3cqronpWR2expkpfD": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "6VSyEp2oii8G6MX0EF2MdC13OlxbM1whn1ZPe": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "S2HWNs15XRzhRoYjkprLOq8VtWpgP7uNWIPhH": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "XJAybC6Xf555tshHQC2T7ArmxWD8NK8tpIC4P": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "FyVa7WVSe9bD0acAeK10m0HkZuLcSNEXlfo3I": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "rhMz2JlqADwH6NJc7J7SRlvLC4PaBBwHoMJqb": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_weekly_supplier"
+ },
+ "vJbnjYDX1rkywQoswc2TJMa2Go7z6tUiI2Pk6": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "P52EJUdk29jZHr4kvCmMbu2NUC17maKDpJueq": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_financing_payout"
+ },
+ "nOsZaDxUAAupeIXEOmzWCqN3SlGREQ9dXEjHa": {
+  "group": "ucc",
+  "is_business": true,
+  "case": "xray_equipment_finance"
+ },
+ "gQdHaNM6zPGDTiWILgO9KPJms4Y3Pr5VkvpFU": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "VzTbJfKhQ826h2hMZqTG4KPJKVkwcVYFlqpOP": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "GOG9boZeuVPB63E08QKP4pgsRbbJtNHQHSaIR": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "9xwLFRie8FexXPbB6AlUrKmZw1EOTK8WWHDuz": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "7KEpAw7VdI0gFfhcNOBNGlZNsOvotXrhjZjyu": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "3Ek0xygZqrCogNwz6jEdweYfgCfKJkUpjq6Yl": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "5DmQWkWWrH2yIV7huFVWjhwYZbYlsCPikuM2m": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "khX3J7AIcP5UixiAWK8cq64V7daN94VGL3t1P": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "afr9xZAL4Wflb6vk3eYk3lNxGCzSCAVTG1HOx": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "GFlMiuk7VUbJFlfdKva5laS7QoGuER1ss936w": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_weekly_supplier"
+ },
+ "LVVkrzD4ddTTIOYt8g5VMZ339FD2dqbBxnLJj": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_large_one_off_county_contract"
+ },
+ "dcs35Ozx30f2x76GQ4LRxIZS53YWXzUUHYfIX": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "RIsnUBadPud1ag4l7KoES5VNiXDkpxpdoHf4v": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_financing_payout"
+ },
+ "znXUrUwN5LOfyxjKycr4txXk97huOITVvJmQW": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "bAZdmt8atEWE8ADtivdlbDzkXRahqRehku54H": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "bA5nQomh6Lpd20ysl2GWhxvwDZC7CxiutPX9M": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "BvoNgJP9yBY6xpYqeWGvV7SJGHVETzQREocYX": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_insurer_direct_pay"
+ },
+ "BBt0LaLzNhxwMDMIec8Yw2RvidzlSkEzZS1Ye": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "8aUMZmeInPDVGfdU9ifPwMlhDumxZJOOGPsU6": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "vu1UuEBJR89b9v2wwTCqiSPyKxhXH7tJEn3eN": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "AdZ4GIVanJ1nMGtvGiot3w79h6GmCqy4UxHAL": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "3IMybEQHPn7qys2KBlH8GGZV2qu52UtrPdseR": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "LBDgg0FUOODfHuDvz7skNCC5auSGyN4egMdoT": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "cdBAOMmqSe84Wa2hszHKcMLuGaOfjlt3xXl5L": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_weekly_supplier"
+ },
+ "SdQY59ARYuf1MhUMyyVUXH4SXGBEFqbAQFfRc": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "74uXaL7uAX7upS1Fuv6c8lhKxjH5hZJE46dPM": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "TrDWDl9VVciWr6XDrD9hSZJ8nB4yHW1P9Xblb": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_financing_payout"
+ },
+ "VKFKJXjvSHQjHFp6AtK4XDPpP8xrnuW3ntI52": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "vwRNUt0B1RKhqiXYowlcVhhbGuVZmEcrBdlOf": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "xZU3crtDNpuzlXiIfhi2hbt2zKhbMVN14lgaH": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "IDDfNxGbbMGPThVro4q1pLoKHapn7zwVcMDI7": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "lwwiNtNzqVGO3I3Da7SEc7OzBgsUBXzDurS55": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "9QAscbX4F38AH5q2fSkrIwouQymsVOJ7oksKd": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "qIsEVYr9qGncb3Pv8Csza52PIef8HNEa6G5bX": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "zY2xuxz1Ei9HNtfF5C9TnzsNW29ngKZmaCyCn": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "gff6se73ti7pieGOwV92h8AE6AHmblHb2GH3p": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "Daw2WTGHUyHCW7NFgwLvNqkzJIDyAiAMek9Qq": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "2BJyB5GgwBb2TuvUiKWhzfdKRQWdGBItxwY3q": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_weekly_supplier"
+ },
+ "VpWcA0m4qyRUol65pHfdDOv10Q5eIS1CkZWD8": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "1ugYKDDHz3p7kcZijYkFq7VjzrcjsedjtpJQD": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_financing_payout"
+ },
+ "AC4njJPhH14CWVu3waNv1hL6DQ4xOaArDwTpR": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "wkpbzvHUSI2Sh8WFmXoiChWL2S60Hdg1aAeKr": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_injection_zelle_nickname"
+ },
+ "rtHigPq7pymaRWzkUaF7nlKzeetCLCh8WhtC4": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "EhR2P5e2mClLGzCs9ze1lW93IaMQ8NtUHNwbZ": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_insurer_direct_pay"
+ },
+ "E63ZeIXV56c8Dl9Y1KxAVryvGLxw3c6wYoasV": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "9rnk9bSWLjrWMesB0OI2J4mhRpKWOvRYPoavL": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "ycte95HXkm8Bj9ZsN16YLGjCNxrJX0kp5ym5U": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "oTVza8muDkCDDlqKUVaHaTg2To4WRJp9HJPuE": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "9NDZs7hGeEFREF0AF2x9WZaGU0uyfKBJLsU5E": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "P0wJNHzfE6O3TuK9IO4O116LREXvQArJkzprU": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "DZoJYXZHQbCN2fICBfznDISsg3uwGRrKkTpmq": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "hXlEzuQcX7P021bG3YDIBm5cMARTTrxU8ks9t": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_weekly_supplier"
+ },
+ "aIIdpdai6nyRXqzq4cYZOWY8q5iVTZp1vJxPP": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "XI1fX7QeJYCjqCx0XgTk3y1Q4PIqBWyQ1q2Kd": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_financing_payout"
+ },
+ "Rvu8uVInXUkqcQxTiT0pnt8ipWJJGsfXNelvG": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "kZY30IJXMB1PXocEGt1uQbjjK0r0R6Hez0Ilj": {
+  "group": "none",
+  "is_business": false,
+  "case": "personal_spend"
+ },
+ "AI5XFQyZpGlkcxILD2mKZIhaye5Nx9O39xhTg": {
+  "group": "none",
+  "is_business": true,
+  "case": "ordinary"
+ },
+ "ITUCKExBkyRfT91twbs22Rlr7ShzSe0C5Wl6n": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "RmxhYsUcYvbKvSGBLETcwEHi4uEljrp1fyDmm": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "CfSIH4ej9PFEo9xQ32vC0MfEshuXBL9k2TY4P": {
+  "group": "ucc",
+  "is_business": true,
+  "case": "xray_equipment_finance"
+ },
+ "9RciXRQYAQ8B8OYTTtUkRa3OfSQGqIHQhdWwT": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "vX3efAvv723UtcGlzRsMpcUG4SSLgJzySqH6d": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "GZsjgf9dv7J0SS2roWqDiNS3GnAncCyjffrlE": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_weekly_supplier"
+ },
+ "2qRPa60835Ks1MhBBtLCVMBB28qbSyL6xEvMJ": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "xpWxqycCjAibh6x0TCApkV8G2zlxu6RNWpfBa": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_financing_payout"
+ },
+ "wEngYeEKhBvO2M4C2rIC4hGbtOeVNVIxOrPUL": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "Ct72AcRvdFOSvi93raIjFQS0UCdMHocj3MLN7": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "W6aiX9oqqFoLRnponLbU1RXOclhrKYiZaw3yQ": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_insurer_direct_pay"
+ },
+ "oSSlOHnlLJLLKe28sRsowiohrvkMeZGMr0fzH": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_taxes"
+ },
+ "KBt7m2Ik8nGKb0wQRXGp2bxjq0MJ5HkLhe5Hx": {
+  "group": "none",
+  "is_business": true,
+  "case": "payroll_net"
+ },
+ "OluwNRJKkLWfKD2GaMOBNg4kFFpWiPmsaqoaX": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "fIVwpjq9xVCsIr9hlEY0IZc3vdv30SeWEvn4s": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_batch_reads_deposit"
+ },
+ "QK9nKR0rwuP95hBtZOUYZ6XYeIgjjY87kfjsY": {
+  "group": "internal_transfer",
+  "is_business": true,
+  "case": "owner_draw_transfer"
+ },
+ "o5IjS0iG5xsDlg598UYPA2emeqEfEl2Cg5eJ8": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "Ayao6We1Meq35nzWibBBUsZ0qgwdXOCQZRtIU": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_fixed_weekly_supplier"
+ },
+ "eFLobjGKk7YCMi4mITL8PqXq7IjvkwodUfpg2": {
+  "group": "revenue_verification",
+  "is_business": true,
+  "case": "processor_payout_global"
+ },
+ "BffY7V0969YL4KTEuAPiHVKHCsA2KySKfZbRC": {
+  "group": "none",
+  "is_business": true,
+  "case": "hard_negative_pet_financing_payout"
+ }
+}

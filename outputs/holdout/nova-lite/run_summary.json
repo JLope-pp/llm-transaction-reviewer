@@ -1,0 +1,28 @@
+{
+ "model": "eu.amazon.nova-lite-v1:0",
+ "prompt_version": "2026-10-11",
+ "second_look": true,
+ "offline": true,
+ "second_look_calls": 14,
+ "blind_calls": 5,
+ "transactions": 1023,
+ "excluded_pending": {},
+ "status_counts": {
+  "agree": 820,
+  "corrected": 197,
+  "needs_review": 6,
+  "unreviewed": 0
+ },
+ "llm_calls": {
+  "cache_hits": 25,
+  "api_calls": 0
+ },
+ "invalid_attempts": 1,
+ "errors": [],
+ "chunk_splits": [],
+ "spend_usd_this_run_incl_cache": 0.0068,
+ "tokens": {
+  "inputTokens": 78119,
+  "outputTokens": 8600
+ }
+}

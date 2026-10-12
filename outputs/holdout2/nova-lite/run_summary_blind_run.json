@@ -1,0 +1,61 @@
+{
+ "model": "eu.amazon.nova-lite-v1:0",
+ "prompt_version": "2026-10-11",
+ "second_look": true,
+ "offline": false,
+ "second_look_calls": 22,
+ "blind_calls": 11,
+ "transactions": 987,
+ "excluded_pending": {},
+ "status_counts": {
+  "agree": 618,
+  "corrected": 100,
+  "needs_review": 36,
+  "unreviewed": 233
+ },
+ "llm_calls": {
+  "cache_hits": 0,
+  "api_calls": 40
+ },
+ "invalid_attempts": 4,
+ "errors": [
+  {
+   "refs": [
+    "G1",
+    "G10",
+    "G11",
+    "G12",
+    "G13",
+    "G14",
+    "G15",
+    "G16",
+    "G17",
+    "G18",
+    "G19",
+    "G2",
+    "G20",
+    "G21",
+    "G22",
+    "G23",
+    "G24",
+    "G25",
+    "G26",
+    "G27",
+    "G28",
+    "G3",
+    "G4",
+    "G5",
+    "G6",
+    "G7",
+    "G8",
+    "G9"
+   ],
+   "error": "ProviderError: ModelErrorException: An error occurred (ModelErrorException) when calling the Converse operation: Model produced invalid sequence as part of ToolUse. Please refer to the model tool use troubleshooting guide."
+  }
+ ],
+ "spend_usd_this_run_incl_cache": 0.0098,
+ "tokens": {
+  "inputTokens": 123817,
+  "outputTokens": 9724
+ }
+}

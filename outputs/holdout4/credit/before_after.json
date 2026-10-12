@@ -1,0 +1,513 @@
+{
+ "by_business": {
+  "V01": {
+   "truth": {
+    "days": 90,
+    "monthly_revenue": 24605,
+    "revenue_share": 0.552,
+    "nsf_count": 14,
+    "nsf_per_90": 14.0,
+    "negative_days": 11,
+    "avg_daily_balance": 3065,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0151,
+    "other_funders_daily": 785.0,
+    "funders": {
+     "TIDEMARK FUNDING": 360.0,
+     "EVEREST BUS FUNDING": 425.0
+    },
+    "offer": 0,
+    "repayment_burden": 0.692
+   },
+   "engine": {
+    "days": 90,
+    "monthly_revenue": 30336,
+    "revenue_share": 0.681,
+    "nsf_count": 6,
+    "nsf_per_90": 6.0,
+    "negative_days": 11,
+    "avg_daily_balance": 3065,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0027,
+    "other_funders_daily": 785.0,
+    "funders": {
+     "TIDEMARK FUNDING": 360.0,
+     "EVEREST BUS FUNDING": 425.0
+    },
+    "offer": 0,
+    "repayment_burden": 0.562
+   },
+   "auto": {
+    "days": 90,
+    "monthly_revenue": 24875,
+    "revenue_share": 0.558,
+    "nsf_count": 15,
+    "nsf_per_90": 15.0,
+    "negative_days": 11,
+    "avg_daily_balance": 3065,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0027,
+    "other_funders_daily": 785.0,
+    "funders": {
+     "TIDEMARK FUNDING": 360.0,
+     "EVEREST BUS FUNDING": 425.0
+    },
+    "offer": 0,
+    "repayment_burden": 0.685
+   },
+   "accept_all": {
+    "days": 90,
+    "monthly_revenue": 24875,
+    "revenue_share": 0.558,
+    "nsf_count": 12,
+    "nsf_per_90": 12.0,
+    "negative_days": 11,
+    "avg_daily_balance": 3065,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0151,
+    "other_funders_daily": 785.0,
+    "funders": {
+     "TIDEMARK FUNDING": 360.0,
+     "EVEREST BUS FUNDING": 425.0
+    },
+    "offer": 0,
+    "repayment_burden": 0.685
+   },
+   "our_rule": {
+    "decision": "decline",
+    "offer": 0,
+    "reasons": [
+     "15.0 NSFs per 90 days > 5"
+    ]
+   }
+  },
+  "V02": {
+   "truth": {
+    "days": 90,
+    "monthly_revenue": 36482,
+    "revenue_share": 0.733,
+    "nsf_count": 8,
+    "nsf_per_90": 8.0,
+    "negative_days": 11,
+    "avg_daily_balance": 11297,
+    "overdraft_count": 3,
+    "high_risk_share": 0.0152,
+    "other_funders_daily": 421.82,
+    "funders": {
+     "LENDINI": 265.0,
+     "OAKMONT BIZ CAP": 156.82
+    },
+    "offer": 0,
+    "repayment_burden": 0.251
+   },
+   "engine": {
+    "days": 90,
+    "monthly_revenue": 42697,
+    "revenue_share": 0.858,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 11,
+    "avg_daily_balance": 11297,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 51236,
+    "repayment_burden": 0.0
+   },
+   "auto": {
+    "days": 90,
+    "monthly_revenue": 37664,
+    "revenue_share": 0.756,
+    "nsf_count": 2,
+    "nsf_per_90": 2.0,
+    "negative_days": 11,
+    "avg_daily_balance": 11297,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0152,
+    "other_funders_daily": 421.82,
+    "funders": {
+     "LENDINI": 265.0,
+     "OAKMONT BIZ CAP": 156.82
+    },
+    "offer": 36760,
+    "repayment_burden": 0.243
+   },
+   "accept_all": {
+    "days": 90,
+    "monthly_revenue": 37664,
+    "revenue_share": 0.756,
+    "nsf_count": 2,
+    "nsf_per_90": 2.0,
+    "negative_days": 11,
+    "avg_daily_balance": 11297,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0152,
+    "other_funders_daily": 421.82,
+    "funders": {
+     "LENDINI": 265.0,
+     "OAKMONT BIZ CAP": 156.82
+    },
+    "offer": 36760,
+    "repayment_burden": 0.243
+   },
+   "our_rule": {
+    "decision": "refer",
+    "offer": 36760,
+    "reasons": [
+     "11 negative-balance days with 2 NSFs labeled: the balance shows stress the labels do not explain"
+    ]
+   }
+  },
+  "V03": {
+   "truth": {
+    "days": 90,
+    "monthly_revenue": 36913,
+    "revenue_share": 0.657,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 33499,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0156,
+    "other_funders_daily": 1128.64,
+    "funders": {
+     "TORRO FDG": 124.09,
+     "KALAMATA CAPITAL": 295.0,
+     "MULLIGAN FUNDING": 380.0,
+     "CLOUDFUND LLC": 329.55
+    },
+    "offer": 21723,
+    "repayment_burden": 0.663
+   },
+   "engine": {
+    "days": 90,
+    "monthly_revenue": 47215,
+    "revenue_share": 0.841,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 33499,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0156,
+    "other_funders_daily": 380.0,
+    "funders": {
+     "MULLIGAN FUNDING": 380.0
+    },
+    "offer": 49058,
+    "repayment_burden": 0.175
+   },
+   "auto": {
+    "days": 90,
+    "monthly_revenue": 37926,
+    "revenue_share": 0.675,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 33499,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0156,
+    "other_funders_daily": 1128.64,
+    "funders": {
+     "TORRO FDG": 124.09,
+     "KALAMATA CAPITAL": 295.0,
+     "MULLIGAN FUNDING": 380.0,
+     "CLOUDFUND LLC": 329.55
+    },
+    "offer": 22939,
+    "repayment_burden": 0.646
+   },
+   "accept_all": {
+    "days": 90,
+    "monthly_revenue": 37926,
+    "revenue_share": 0.675,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 33499,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0156,
+    "other_funders_daily": 1128.64,
+    "funders": {
+     "TORRO FDG": 124.09,
+     "KALAMATA CAPITAL": 295.0,
+     "MULLIGAN FUNDING": 380.0,
+     "CLOUDFUND LLC": 329.55
+    },
+    "offer": 22939,
+    "repayment_burden": 0.646
+   },
+   "our_rule": {
+    "decision": "refer",
+    "offer": 22938,
+    "reasons": [
+     "other funders already take 65% of monthly revenue"
+    ]
+   }
+  },
+  "V04": {
+   "truth": {
+    "days": 64,
+    "monthly_revenue": 23023,
+    "revenue_share": 0.724,
+    "nsf_count": 3,
+    "nsf_per_90": 4.2,
+    "negative_days": 5,
+    "avg_daily_balance": 9027,
+    "overdraft_count": 1,
+    "high_risk_share": 0.0094,
+    "other_funders_daily": 138.18,
+    "funders": {
+     "BIZFUND LLC": 138.18
+    },
+    "offer": 24865,
+    "repayment_burden": 0.13
+   },
+   "engine": {
+    "days": 64,
+    "monthly_revenue": 25398,
+    "revenue_share": 0.798,
+    "nsf_count": 3,
+    "nsf_per_90": 4.2,
+    "negative_days": 5,
+    "avg_daily_balance": 9027,
+    "overdraft_count": 1,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 30478,
+    "repayment_burden": 0.0
+   },
+   "auto": {
+    "days": 64,
+    "monthly_revenue": 25398,
+    "revenue_share": 0.798,
+    "nsf_count": 3,
+    "nsf_per_90": 4.2,
+    "negative_days": 5,
+    "avg_daily_balance": 9027,
+    "overdraft_count": 1,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 138.18,
+    "funders": {
+     "BIZFUND LLC": 138.18
+    },
+    "offer": 27715,
+    "repayment_burden": 0.118
+   },
+   "accept_all": {
+    "days": 64,
+    "monthly_revenue": 26111,
+    "revenue_share": 0.821,
+    "nsf_count": 3,
+    "nsf_per_90": 4.2,
+    "negative_days": 5,
+    "avg_daily_balance": 9027,
+    "overdraft_count": 1,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 179.12,
+    "funders": {
+     "BIZFUND LLC": 138.18,
+     "LULU IBARRA": 40.94
+    },
+    "offer": 27751,
+    "repayment_burden": 0.149
+   },
+   "our_rule": {
+    "decision": "fund",
+    "offer": 27714,
+    "reasons": []
+   }
+  },
+  "V05": {
+   "truth": {
+    "days": 90,
+    "monthly_revenue": 59101,
+    "revenue_share": 0.724,
+    "nsf_count": 2,
+    "nsf_per_90": 2.0,
+    "negative_days": 4,
+    "avg_daily_balance": 39752,
+    "overdraft_count": 1,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 70922,
+    "repayment_burden": 0.0
+   },
+   "engine": {
+    "days": 90,
+    "monthly_revenue": 56568,
+    "revenue_share": 0.693,
+    "nsf_count": 2,
+    "nsf_per_90": 2.0,
+    "negative_days": 4,
+    "avg_daily_balance": 39752,
+    "overdraft_count": 1,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 67882,
+    "repayment_burden": 0.0
+   },
+   "auto": {
+    "days": 90,
+    "monthly_revenue": 56568,
+    "revenue_share": 0.693,
+    "nsf_count": 2,
+    "nsf_per_90": 2.0,
+    "negative_days": 4,
+    "avg_daily_balance": 39752,
+    "overdraft_count": 1,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 67882,
+    "repayment_burden": 0.0
+   },
+   "accept_all": {
+    "days": 90,
+    "monthly_revenue": 60790,
+    "revenue_share": 0.744,
+    "nsf_count": 2,
+    "nsf_per_90": 2.0,
+    "negative_days": 4,
+    "avg_daily_balance": 39752,
+    "overdraft_count": 1,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 227.27,
+    "funders": {
+     "ONLINE TRANSFER": 227.27
+    },
+    "offer": 68403,
+    "repayment_burden": 0.081
+   },
+   "our_rule": {
+    "decision": "fund",
+    "offer": 67882,
+    "reasons": []
+   }
+  },
+  "V06": {
+   "truth": {
+    "days": 90,
+    "monthly_revenue": 82229,
+    "revenue_share": 0.969,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 43078,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 98675,
+    "repayment_burden": 0.0
+   },
+   "engine": {
+    "days": 90,
+    "monthly_revenue": 79896,
+    "revenue_share": 0.941,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 43078,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 95875,
+    "repayment_burden": 0.0
+   },
+   "auto": {
+    "days": 90,
+    "monthly_revenue": 79896,
+    "revenue_share": 0.941,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 43078,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 95875,
+    "repayment_burden": 0.0
+   },
+   "accept_all": {
+    "days": 90,
+    "monthly_revenue": 79896,
+    "revenue_share": 0.941,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 43078,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 95875,
+    "repayment_burden": 0.0
+   },
+   "our_rule": {
+    "decision": "fund",
+    "offer": 95875,
+    "reasons": []
+   }
+  }
+ },
+ "summary": {
+  "our_rule": {
+   "funded": [
+    "V04",
+    "V05",
+    "V06"
+   ],
+   "declined": [
+    "V01"
+   ],
+   "referred": {
+    "V02": [
+     "11 negative-balance days with 2 NSFs labeled: the balance shows stress the labels do not explain"
+    ],
+    "V03": [
+     "other funders already take 65% of monthly revenue"
+    ]
+   },
+   "wrongly_funded": [],
+   "wrongly_declined": [],
+   "overfunded_usd": 2849,
+   "underfunded_usd": 5840
+  },
+  "engine": {
+   "abs_offer_error_total": 90024,
+   "offer_overstated_total": 84184,
+   "wrong_decisions": [
+    "V02"
+   ],
+   "wrongly_funded": [
+    "V02"
+   ]
+  },
+  "auto": {
+   "abs_offer_error_total": 46666,
+   "offer_overstated_total": 40826,
+   "wrong_decisions": [
+    "V02"
+   ],
+   "wrongly_funded": [
+    "V02"
+   ]
+  },
+  "accept_all": {
+   "abs_offer_error_total": 46181,
+   "offer_overstated_total": 40862,
+   "wrong_decisions": [
+    "V02"
+   ],
+   "wrongly_funded": [
+    "V02"
+   ]
+  }
+ }
+}

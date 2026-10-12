@@ -1,0 +1,28 @@
+{
+ "model": "global.anthropic.claude-haiku-4-5-20251001-v1:0",
+ "prompt_version": "2026-10-11",
+ "second_look": true,
+ "offline": false,
+ "second_look_calls": 13,
+ "blind_calls": 15,
+ "transactions": 922,
+ "excluded_pending": {},
+ "status_counts": {
+  "agree": 737,
+  "corrected": 140,
+  "needs_review": 45,
+  "unreviewed": 0
+ },
+ "llm_calls": {
+  "cache_hits": 0,
+  "api_calls": 38
+ },
+ "invalid_attempts": 1,
+ "errors": [],
+ "chunk_splits": [],
+ "spend_usd_this_run_incl_cache": 0.2152,
+ "tokens": {
+  "inputTokens": 127890,
+  "outputTokens": 17467
+ }
+}

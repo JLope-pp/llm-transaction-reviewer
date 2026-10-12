@@ -1,0 +1,62 @@
+[
+ {
+  "business_id": "V01",
+  "name": "Quarry Lane Moving & Storage LLC",
+  "owner_name": "Katherine Delaney",
+  "industry": "moving & storage",
+  "institution_name": "Lumen Digital Bank",
+  "bank_charges_nsf_fees": false,
+  "transactions_file": "plaid/V01.json",
+  "assets_file": "assets/V01.json"
+ },
+ {
+  "business_id": "V02",
+  "name": "Ember & Oak Taproom LLC",
+  "owner_name": "Brendan Kowal",
+  "industry": "brewery taproom",
+  "institution_name": "TD Bank",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/V02.json",
+  "assets_file": "assets/V02.json"
+ },
+ {
+  "business_id": "V03",
+  "name": "Meridian Event Rentals LLC",
+  "owner_name": "Adaeze Nwosu",
+  "industry": "event rentals",
+  "institution_name": "Bank of America",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/V03.json",
+  "assets_file": "assets/V03.json"
+ },
+ {
+  "business_id": "V04",
+  "name": "Bright Basin Cleaning Co",
+  "owner_name": "Lourdes Ibarra",
+  "industry": "commercial cleaning",
+  "institution_name": "Chase",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/V04.json",
+  "assets_file": "assets/V04.json"
+ },
+ {
+  "business_id": "V05",
+  "name": "Cobalt Coast Coffee Roasters LLC",
+  "owner_name": "Ingrid Solheim",
+  "industry": "coffee roaster",
+  "institution_name": "Wells Fargo",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/V05.json",
+  "assets_file": "assets/V05.json"
+ },
+ {
+  "business_id": "V06",
+  "name": "Halyard Animal Hospital PLLC",
+  "owner_name": "Dr. Renata Calloway",
+  "industry": "veterinary clinic",
+  "institution_name": "Northstar Digital Bank",
+  "bank_charges_nsf_fees": false,
+  "transactions_file": "plaid/V06.json",
+  "assets_file": "assets/V06.json"
+ }
+]

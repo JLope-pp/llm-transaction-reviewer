@@ -1,0 +1,102 @@
+[
+ {
+  "business_id": "B01",
+  "name": "Joes Tacos LLC",
+  "owner_name": "Jose Herrera",
+  "industry": "restaurant",
+  "institution_name": "Bank of America",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/B01.json",
+  "assets_file": "assets/B01.json"
+ },
+ {
+  "business_id": "B02",
+  "name": "Brightline Boutique Inc",
+  "owner_name": "Ana Whitfield",
+  "industry": "e-commerce apparel",
+  "institution_name": "Chase",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/B02.json",
+  "assets_file": "assets/B02.json"
+ },
+ {
+  "business_id": "B03",
+  "name": "Ramirez Contracting LLC",
+  "owner_name": "Luis Ramirez",
+  "industry": "construction",
+  "institution_name": "Wells Fargo",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/B03.json",
+  "assets_file": "assets/B03.json"
+ },
+ {
+  "business_id": "B04",
+  "name": "Metro Auto Repair LLC",
+  "owner_name": "Kevin Brooks",
+  "industry": "auto repair",
+  "institution_name": "Chase",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/B04.json",
+  "assets_file": "assets/B04.json"
+ },
+ {
+  "business_id": "B05",
+  "name": "Harbor Dental PLLC",
+  "owner_name": "Dr. Emily Chen",
+  "industry": "dental practice",
+  "institution_name": "Bank of America",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/B05.json",
+  "assets_file": "assets/B05.json"
+ },
+ {
+  "business_id": "B06",
+  "name": "Sunset Hair Studio",
+  "owner_name": "Tasha Monroe",
+  "industry": "salon",
+  "institution_name": "Wells Fargo",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/B06.json",
+  "assets_file": "assets/B06.json"
+ },
+ {
+  "business_id": "B07",
+  "name": "Greenleaf Landscaping Co",
+  "owner_name": "Robert Dale",
+  "industry": "landscaping",
+  "institution_name": "Chase",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/B07.json",
+  "assets_file": "assets/B07.json"
+ },
+ {
+  "business_id": "B08",
+  "name": "Ironclad Fitness LLC",
+  "owner_name": "Marcus Lee",
+  "industry": "gym",
+  "institution_name": "Northstar Digital Bank",
+  "bank_charges_nsf_fees": false,
+  "transactions_file": "plaid/B08.json",
+  "assets_file": "assets/B08.json"
+ },
+ {
+  "business_id": "B09",
+  "name": "Pixel Print & Sign",
+  "owner_name": "Hannah Kim",
+  "industry": "print shop",
+  "institution_name": "Wells Fargo",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/B09.json",
+  "assets_file": "assets/B09.json"
+ },
+ {
+  "business_id": "B10",
+  "name": "Lone Star BBQ LLC",
+  "owner_name": "Dwayne Carter",
+  "industry": "restaurant",
+  "institution_name": "Chase",
+  "bank_charges_nsf_fees": true,
+  "transactions_file": "plaid/B10.json",
+  "assets_file": "assets/B10.json"
+ }
+]

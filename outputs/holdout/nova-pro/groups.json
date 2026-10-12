@@ -1,0 +1,2998 @@
+{
+ "H01": [
+  {
+   "ref": "G1",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 26,
+    "total": 7005.95,
+    "min": 156.96,
+    "max": 398.38,
+    "distinct_amounts": 26,
+    "first": "2026-07-03",
+    "last": "2026-09-30",
+    "weekday_share": 1.0,
+    "median_gap": "5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "DBT CRD 0930 VALERO 2218 HOUSTON TX 783226",
+    "DBT CRD 0925 VALERO 2218 HOUSTON TX 354755"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G2",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 7,
+    "total": 22061.69,
+    "min": 2799.47,
+    "max": 3485.3,
+    "distinct_amounts": 7,
+    "first": "2026-07-03",
+    "last": "2026-09-25",
+    "weekday_share": 1.0,
+    "median_gap": "14d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH DEBIT ADP TAX 9681762514 0925",
+    "ACH DEBIT ADP TAX 9681762514 0911"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G3",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 7,
+    "total": 88938.02,
+    "min": 11459.39,
+    "max": 13851.52,
+    "distinct_amounts": 7,
+    "first": "2026-07-03",
+    "last": "2026-09-25",
+    "weekday_share": 1.0,
+    "median_gap": "14d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH DEBIT ADP NET PAY 9681762514 0925",
+    "ACH DEBIT ADP NET PAY 9681762514 0911"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G4",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 102.72,
+    "min": 19.57,
+    "max": 49.27,
+    "distinct_amounts": 3,
+    "first": "2026-07-03",
+    "last": "2026-08-24",
+    "weekday_share": 1.0,
+    "median_gap": "26d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "DBT CRD 0824 WHATABURGER 112 HOUSTON TX 146629",
+    "DBT CRD 0722 WHATABURGER 112 HOUSTON TX 597474"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G5",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 10,
+    "total": 655.67,
+    "min": 41.13,
+    "max": 92.36,
+    "distinct_amounts": 10,
+    "first": "2026-07-05",
+    "last": "2026-09-29",
+    "weekday_share": 0.7,
+    "median_gap": "7d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "DBT CRD 0929 SHELL OIL 5741 HOUSTON TX 211447",
+    "DBT CRD 0922 SHELL OIL 5741 HOUSTON TX 894630"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G6",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 6,
+    "total": 10990.95,
+    "min": 964.69,
+    "max": 3101.5,
+    "distinct_amounts": 6,
+    "first": "2026-07-06",
+    "last": "2026-09-30",
+    "weekday_share": 0.8333333333333334,
+    "median_gap": "17d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "DEPOSIT 79631618",
+    "DEPOSIT 47056388"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G7",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 9,
+    "total": 54994.02,
+    "min": 2237.13,
+    "max": 8563.8,
+    "distinct_amounts": 9,
+    "first": "2026-07-06",
+    "last": "2026-09-29",
+    "weekday_share": 1.0,
+    "median_gap": "4.5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH DEPOSIT SPECS WINE SPIRITS VENDOR PAY 6846633410 0929",
+    "ACH DEPOSIT SPECS WINE SPIRITS VENDOR PAY 6846633410 0925"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G8",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 25,
+    "total": 117445.32,
+    "min": 2538.25,
+    "max": 5980.4,
+    "distinct_amounts": 25,
+    "first": "2026-07-06",
+    "last": "2026-09-28",
+    "weekday_share": 1.0,
+    "median_gap": "3.5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH DEBIT GULF COAST PRODUCE PAYMENT 4072249585 0928",
+    "ACH DEBIT GULF COAST PRODUCE PAYMENT 4072249585 0924"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G9",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 13,
+    "total": 13597.51,
+    "min": 688.2,
+    "max": 1395.02,
+    "distinct_amounts": 13,
+    "first": "2026-07-07",
+    "last": "2026-09-29",
+    "weekday_share": 1.0,
+    "median_gap": "7d"
+   },
+   "engine": {
+    "group": "active_advance",
+    "is_business": true,
+    "matched": {
+     "active_advance": [
+      "ADVANCE"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH DEBIT FIRST ADVANCE FREIGHT INVOICE 1127741972 0929",
+    "ACH DEBIT FIRST ADVANCE FREIGHT INVOICE 1127741972 0922"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G10",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 14,
+    "total": 83651.85,
+    "min": 2324.79,
+    "max": 8896.16,
+    "distinct_amounts": 14,
+    "first": "2026-07-08",
+    "last": "2026-09-24",
+    "weekday_share": 1.0,
+    "median_gap": "5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH DEPOSIT RICE EPICUREAN VENDOR PAY 1344062346 0924",
+    "ACH DEPOSIT RICE EPICUREAN VENDOR PAY 1344062346 0918"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G11",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 7,
+    "total": 33918.11,
+    "min": 2278.52,
+    "max": 7829.23,
+    "distinct_amounts": 7,
+    "first": "2026-07-09",
+    "last": "2026-09-30",
+    "weekday_share": 1.0,
+    "median_gap": "3.5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH DEPOSIT FIESTA MART LLC VENDOR PAY 9256175903 0930",
+    "ACH DEPOSIT FIESTA MART LLC VENDOR PAY 9256175903 0724"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G12",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 7,
+    "total": 347.31,
+    "min": 24.02,
+    "max": 62.93,
+    "distinct_amounts": 7,
+    "first": "2026-07-11",
+    "last": "2026-09-09",
+    "weekday_share": 0.5714285714285714,
+    "median_gap": "6.5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "DBT CRD 0909 GOOGLE *WORKSPACE HOUSTON TX 577439",
+    "DBT CRD 0905 GOOGLE *WORKSPACE HOUSTON TX 107581"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G13",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 1513.05,
+    "min": 430.27,
+    "max": 579.54,
+    "distinct_amounts": 3,
+    "first": "2026-07-12",
+    "last": "2026-09-12",
+    "weekday_share": 0.3333333333333333,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH DEBIT CENTERPOINT ENERGY UTIL PYMT 6934546607 0912",
+    "ACH DEBIT CENTERPOINT ENERGY UTIL PYMT 6934546607 0812"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G14",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 7,
+    "total": 692.53,
+    "min": 54.68,
+    "max": 125.4,
+    "distinct_amounts": 7,
+    "first": "2026-07-16",
+    "last": "2026-09-02",
+    "weekday_share": 1.0,
+    "median_gap": "6.5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "DBT CRD 0902 OFFICE DEPOT #1123 HOUSTON TX 394124",
+    "DBT CRD 0831 OFFICE DEPOT #1123 HOUSTON TX 536621"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G15",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 510.91,
+    "min": 143.14,
+    "max": 189.34,
+    "distinct_amounts": 3,
+    "first": "2026-07-18",
+    "last": "2026-09-18",
+    "weekday_share": 0.6666666666666666,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH DEBIT COMCAST BUSINESS PAYMENT 2295344635 0918",
+    "ACH DEBIT COMCAST BUSINESS PAYMENT 2295344635 0818"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G16",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 6,
+    "total": 1482.26,
+    "min": 104.16,
+    "max": 368.93,
+    "distinct_amounts": 6,
+    "first": "2026-07-19",
+    "last": "2026-09-21",
+    "weekday_share": 0.8333333333333334,
+    "median_gap": "14d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "DBT CRD 0921 COSTCO WHSE #0688 HOUSTON TX 439339",
+    "DBT CRD 0903 COSTCO WHSE #0688 HOUSTON TX 107706"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G17",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 7,
+    "total": 1209.66,
+    "min": 66.92,
+    "max": 244.45,
+    "distinct_amounts": 7,
+    "first": "2026-07-23",
+    "last": "2026-09-20",
+    "weekday_share": 0.5714285714285714,
+    "median_gap": "5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "DBT CRD 0920 AMAZON.COM*2K4LM HOUSTON TX 725188",
+    "DBT CRD 0916 AMAZON.COM*2K4LM HOUSTON TX 110880"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G18",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 1,
+    "total": 40000,
+    "min": 40000,
+    "max": 40000,
+    "distinct_amounts": 1,
+    "first": "2026-07-23",
+    "last": "2026-07-23",
+    "weekday_share": 1.0,
+    "median_gap": "n/a"
+   },
+   "engine": {
+    "group": "active_advance",
+    "is_business": true,
+    "matched": {
+     "active_advance": [
+      "FUNDING"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH DEPOSIT KAPITUS SERVICING FUNDING 3863008976 0723"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G19",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 49,
+    "total": 30135.0,
+    "min": 615.0,
+    "max": 615.0,
+    "distinct_amounts": 1,
+    "first": "2026-07-24",
+    "last": "2026-09-30",
+    "weekday_share": 1.0,
+    "median_gap": "1d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH DEBIT KAPITUS PAYMENT 8222410856 0930",
+    "ACH DEBIT KAPITUS PAYMENT 8222410856 0929"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G20",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 4,
+    "total": 24277.19,
+    "min": 4134.35,
+    "max": 7841.29,
+    "distinct_amounts": 4,
+    "first": "2026-07-29",
+    "last": "2026-09-11",
+    "weekday_share": 1.0,
+    "median_gap": "15d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH DEPOSIT KROGER TEXAS LP VENDOR PAY 1152406207 0911",
+    "ACH DEPOSIT KROGER TEXAS LP VENDOR PAY 1152406207 0903"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G21",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 7,
+    "total": 37351.89,
+    "min": 2402.45,
+    "max": 8604.42,
+    "distinct_amounts": 7,
+    "first": "2026-07-31",
+    "last": "2026-09-14",
+    "weekday_share": 1.0,
+    "median_gap": "5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH DEPOSIT HEB GROCERY CO VENDOR PAY 1652442973 0914",
+    "ACH DEPOSIT HEB GROCERY CO VENDOR PAY 1652442973 0910"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G22",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 15600,
+    "min": 7800,
+    "max": 7800,
+    "distinct_amounts": 1,
+    "first": "2026-08-01",
+    "last": "2026-09-01",
+    "weekday_share": 0.5,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH DEBIT PORT TERMINAL WAREHOUSES RENT 1037296020 0901",
+    "ACH DEBIT PORT TERMINAL WAREHOUSES RENT 1037296020 0801"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G23",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 1,
+    "total": 42000.0,
+    "min": 42000.0,
+    "max": 42000.0,
+    "distinct_amounts": 1,
+    "first": "2026-08-16",
+    "last": "2026-08-16",
+    "weekday_share": 0.0,
+    "median_gap": "n/a"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "WIRE TYPE:WIRE IN DATE:260816 TRN:7016142533139175 ORIG:SYSCO CORPORATION SND BK:JPMORGAN CHASE BANK OBI:INV 88213 BULK ORDER SEPT"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G24",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 1,
+    "total": 20000,
+    "min": 20000,
+    "max": 20000,
+    "distinct_amounts": 1,
+    "first": "2026-09-01",
+    "last": "2026-09-01",
+    "weekday_share": 1.0,
+    "median_gap": "n/a"
+   },
+   "engine": {
+    "group": "internal_transfer",
+    "is_business": true,
+    "matched": {
+     "internal_transfer": [
+      "XFER"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "eTransfer Debit, Online Xfer to SAV 9031"
+   ],
+   "suspicious_code": false
+  }
+ ],
+ "H02": [
+  {
+   "ref": "G1",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 56,
+    "total": 158974.17,
+    "min": 1510.96,
+    "max": 4195.76,
+    "distinct_amounts": 56,
+    "first": "2026-07-03",
+    "last": "2026-09-30",
+    "weekday_share": 1.0,
+    "median_gap": "1d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [
+    "counterparty is a payment processor/marketplace (Plaid type payment_terminal)"
+   ],
+   "descriptions": [
+    "CLOVER DES:DEPOSIT ID:1652892621 INDN:PAWS CLAWS VET CO ID:5488973422 CCD",
+    "CLOVER DES:DEPOSIT ID:9807589452 INDN:PAWS CLAWS VET CO ID:5488973422 CCD"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G2",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 7,
+    "total": 25216.7,
+    "min": 3313.77,
+    "max": 3864.19,
+    "distinct_amounts": 7,
+    "first": "2026-07-03",
+    "last": "2026-09-25",
+    "weekday_share": 1.0,
+    "median_gap": "14d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "PAYCHEX DES:TAX ID:6859503391 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:2329215749 CCD",
+    "PAYCHEX DES:TAX ID:7824578539 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:2329215749 CCD"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G3",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 7,
+    "total": 99866.07,
+    "min": 13273.18,
+    "max": 15323.33,
+    "distinct_amounts": 7,
+    "first": "2026-07-03",
+    "last": "2026-09-25",
+    "weekday_share": 1.0,
+    "median_gap": "14d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "PAYCHEX DES:NET PAY ID:3622726210 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:2329215749 CCD",
+    "PAYCHEX DES:NET PAY ID:8805389457 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:2329215749 CCD"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G4",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 8,
+    "total": 392.71,
+    "min": 15.4,
+    "max": 67.12,
+    "distinct_amounts": 8,
+    "first": "2026-07-03",
+    "last": "2026-09-18",
+    "weekday_share": 0.875,
+    "median_gap": "8d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CHECKCARD 0918 GOOGLE *WORKSPACE HOUSTON TX 78016332",
+    "CHECKCARD 0916 GOOGLE *WORKSPACE HOUSTON TX 10758826"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G5",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 8,
+    "total": 2691.13,
+    "min": 149.92,
+    "max": 446.33,
+    "distinct_amounts": 8,
+    "first": "2026-07-04",
+    "last": "2026-09-10",
+    "weekday_share": 0.5,
+    "median_gap": "5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CHECKCARD 0910 COSTCO WHSE #0688 HOUSTON TX 10997307",
+    "CHECKCARD 0905 COSTCO WHSE #0688 HOUSTON TX 87681915"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G6",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 3825.0,
+    "min": 1275.0,
+    "max": 1275.0,
+    "distinct_amounts": 1,
+    "first": "2026-07-05",
+    "last": "2026-09-05",
+    "weekday_share": 0.3333333333333333,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "ucc",
+    "is_business": true,
+    "matched": {
+     "ucc": [
+      "LEASE"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "IDEXX LEASING DES:LEASE ID:5812956828 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:7609164683 CCD",
+    "IDEXX LEASING DES:LEASE ID:1068072591 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:7609164683 CCD"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G7",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 9,
+    "total": 646.14,
+    "min": 46.44,
+    "max": 109.83,
+    "distinct_amounts": 9,
+    "first": "2026-07-06",
+    "last": "2026-09-29",
+    "weekday_share": 1.0,
+    "median_gap": "7.5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CHECKCARD 0929 SHELL OIL 5741 HOUSTON TX 49979843",
+    "CHECKCARD 0928 SHELL OIL 5741 HOUSTON TX 43485588"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G8",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 13,
+    "total": 7280.0,
+    "min": 560.0,
+    "max": 560.0,
+    "distinct_amounts": 1,
+    "first": "2026-07-06",
+    "last": "2026-09-28",
+    "weekday_share": 1.0,
+    "median_gap": "7d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "COVETRUS DES:AUTOPAY ID:1141190819 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:6868534099 CCD",
+    "COVETRUS DES:AUTOPAY ID:1211202545 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:6868534099 CCD"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G9",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 13,
+    "total": 20405.06,
+    "min": 891.35,
+    "max": 2459.31,
+    "distinct_amounts": 13,
+    "first": "2026-07-08",
+    "last": "2026-09-30",
+    "weekday_share": 1.0,
+    "median_gap": "7d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "TRUPANION DES:CLAIM PMT ID:7451195482 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:3658081314 CCD",
+    "TRUPANION DES:CLAIM PMT ID:8928089601 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:3658081314 CCD"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G10",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 6,
+    "total": 234.67,
+    "min": 25.42,
+    "max": 55.54,
+    "distinct_amounts": 6,
+    "first": "2026-07-12",
+    "last": "2026-09-27",
+    "weekday_share": 0.6666666666666666,
+    "median_gap": "18d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CHECKCARD 0927 WHATABURGER 112 HOUSTON TX 91445832",
+    "CHECKCARD 0925 WHATABURGER 112 HOUSTON TX 78062856"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G11",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 1391.38,
+    "min": 311.61,
+    "max": 575.2,
+    "distinct_amounts": 3,
+    "first": "2026-07-12",
+    "last": "2026-09-12",
+    "weekday_share": 0.3333333333333333,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CENTERPOINT ENERGY DES:UTIL PYMT ID:2834457251 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:6934546607 CCD",
+    "CENTERPOINT ENERGY DES:UTIL PYMT ID:2278403908 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:6934546607 CCD"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G12",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 4,
+    "total": 843.28,
+    "min": 149.65,
+    "max": 272.34,
+    "distinct_amounts": 4,
+    "first": "2026-07-12",
+    "last": "2026-09-07",
+    "weekday_share": 0.75,
+    "median_gap": "15d"
+   },
+   "engine": {
+    "group": "not_revenue",
+    "is_business": true,
+    "matched": {
+     "not_revenue": [
+      "REFUND"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "CLIENT REFUND DES:REFUND ID:4972710327 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:3610445315 CCD",
+    "CLIENT REFUND DES:REFUND ID:3654276444 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:3610445315 CCD"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G13",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 7,
+    "total": 710.66,
+    "min": 29.08,
+    "max": 177.64,
+    "distinct_amounts": 7,
+    "first": "2026-07-17",
+    "last": "2026-09-30",
+    "weekday_share": 0.7142857142857143,
+    "median_gap": "10d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CHECKCARD 0930 OFFICE DEPOT #1123 HOUSTON TX 76990799",
+    "CHECKCARD 0924 OFFICE DEPOT #1123 HOUSTON TX 58518706"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G14",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 508.39,
+    "min": 151.15,
+    "max": 184.75,
+    "distinct_amounts": 3,
+    "first": "2026-07-18",
+    "last": "2026-09-18",
+    "weekday_share": 0.6666666666666666,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "COMCAST BUSINESS DES:PAYMENT ID:9394493505 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:2295344635 CCD",
+    "COMCAST BUSINESS DES:PAYMENT ID:4845683224 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:2295344635 CCD"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G15",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 10,
+    "total": 1439.75,
+    "min": 22.77,
+    "max": 246.64,
+    "distinct_amounts": 10,
+    "first": "2026-07-19",
+    "last": "2026-09-19",
+    "weekday_share": 0.6,
+    "median_gap": "5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CHECKCARD 0919 AMAZON.COM*2K4LM HOUSTON TX 65037794",
+    "CHECKCARD 0914 AMAZON.COM*2K4LM HOUSTON TX 39081725"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G16",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 1,
+    "total": 18000,
+    "min": 18000,
+    "max": 18000,
+    "distinct_amounts": 1,
+    "first": "2026-07-28",
+    "last": "2026-07-28",
+    "weekday_share": 1.0,
+    "median_gap": "n/a"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [
+    "same counterparty also has 46 DEBIT txns, $240.00-$240.00 (1 distinct), weekdays 100%, median gap 1d, 2026-07-29..2026-09-30"
+   ],
+   "descriptions": [
+    "CLOVER CAPITAL DES:DEPOSIT ID:3261516258 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:8262519134 CCD"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G17",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 46,
+    "total": 11040.0,
+    "min": 240.0,
+    "max": 240.0,
+    "distinct_amounts": 1,
+    "first": "2026-07-29",
+    "last": "2026-09-30",
+    "weekday_share": 1.0,
+    "median_gap": "1d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [
+    "same counterparty also has 1 CREDIT txns, $18,000.00-$18,000.00 (1 distinct), weekdays 100%, median gap n/a, 2026-07-28..2026-07-28"
+   ],
+   "descriptions": [
+    "CLOVER CAPITAL DES:REMIT ID:8836786845 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:8262519134 CCD",
+    "CLOVER CAPITAL DES:REMIT ID:8598706322 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:8262519134 CCD"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G18",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 43.88,
+    "min": 21.54,
+    "max": 22.34,
+    "distinct_amounts": 2,
+    "first": "2026-07-30",
+    "last": "2026-08-11",
+    "weekday_share": 1.0,
+    "median_gap": "12d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": false,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CHECKCARD 0811 NETFLIX.COM HOUSTON TX 31697644",
+    "CHECKCARD 0730 NETFLIX.COM HOUSTON TX 63006192"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G19",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 2,
+    "total": 18.39,
+    "min": 7.84,
+    "max": 10.55,
+    "distinct_amounts": 2,
+    "first": "2026-08-01",
+    "last": "2026-09-01",
+    "weekday_share": 0.5,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "not_revenue",
+    "is_business": true,
+    "matched": {
+     "not_revenue": [
+      "INTEREST"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "INTEREST PAYMENT"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G20",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 13800,
+    "min": 6900,
+    "max": 6900,
+    "distinct_amounts": 1,
+    "first": "2026-08-01",
+    "last": "2026-09-01",
+    "weekday_share": 0.5,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "BELLAIRE MEDICAL CENTER DES:RENT ID:1144234667 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:3005176469 CCD",
+    "BELLAIRE MEDICAL CENTER DES:RENT ID:4994556971 INDN:PAWS & CLAWS VETERINARY PLLC CO ID:3005176469 CCD"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G21",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 144.12,
+    "min": 50.8,
+    "max": 93.32,
+    "distinct_amounts": 2,
+    "first": "2026-08-01",
+    "last": "2026-08-09",
+    "weekday_share": 0.0,
+    "median_gap": "8d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CHECKCARD 0809 TARGET T-1834 HOUSTON TX 99822573",
+    "CHECKCARD 0801 TARGET T-1834 HOUSTON TX 71158774"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G22",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 1,
+    "total": 172.84,
+    "min": 172.84,
+    "max": 172.84,
+    "distinct_amounts": 1,
+    "first": "2026-09-16",
+    "last": "2026-09-16",
+    "weekday_share": 1.0,
+    "median_gap": "n/a"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CHECKCARD 0916 HEB GROCERY #512 HOUSTON TX 43927596"
+   ],
+   "suspicious_code": false
+  }
+ ],
+ "H03": [
+  {
+   "ref": "G1",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 43,
+    "total": 42527.22,
+    "min": 515.72,
+    "max": 1489.38,
+    "distinct_amounts": 43,
+    "first": "2026-07-18",
+    "last": "2026-09-30",
+    "weekday_share": 0.7441860465116279,
+    "median_gap": "2d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [
+    "counterparty is a payment processor/marketplace (Plaid type payment_terminal)"
+   ],
+   "descriptions": [
+    "HELCIM INC SETTLEMENT 260930 114819116833 ROLLING SMOKE",
+    "HELCIM INC SETTLEMENT 260929 387970451962 ROLLING SMOKE"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G2",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 6,
+    "total": 864.01,
+    "min": 58.99,
+    "max": 252.81,
+    "distinct_amounts": 6,
+    "first": "2026-07-18",
+    "last": "2026-09-17",
+    "weekday_share": 0.8333333333333334,
+    "median_gap": "16d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "PURCHASE AUTHORIZED ON 09/17 AMAZON.COM*2K4LM HOUSTON TX S22173049 CARD 4421",
+    "PURCHASE AUTHORIZED ON 09/01 AMAZON.COM*2K4LM HOUSTON TX S31312717 CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G3",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 35,
+    "total": 8768.92,
+    "min": 82.04,
+    "max": 443.19,
+    "distinct_amounts": 35,
+    "first": "2026-07-19",
+    "last": "2026-09-28",
+    "weekday_share": 0.6857142857142857,
+    "median_gap": "2d"
+   },
+   "engine": {
+    "group": "auto_deposit",
+    "is_business": true,
+    "matched": {
+     "auto_deposit": [
+      "CASH APP"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "CASH APP*ROLLING SMOKE CASH OUT 11172553",
+    "CASH APP*ROLLING SMOKE CASH OUT 11873930"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G4",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 21,
+    "total": 13140.83,
+    "min": 346.3,
+    "max": 895.41,
+    "distinct_amounts": 21,
+    "first": "2026-07-20",
+    "last": "2026-09-28",
+    "weekday_share": 1.0,
+    "median_gap": "3.5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "PURCHASE AUTHORIZED ON 09/28 RESTAURANT DEPOT HOUSTON TX S25774216 CARD 4421",
+    "PURCHASE AUTHORIZED ON 09/24 RESTAURANT DEPOT HOUSTON TX S11972869 CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G5",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 6,
+    "total": 1092.29,
+    "min": 135.64,
+    "max": 245.75,
+    "distinct_amounts": 6,
+    "first": "2026-07-22",
+    "last": "2026-09-30",
+    "weekday_share": 1.0,
+    "median_gap": "14d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "SUBURBAN PROPANE PAYMENT 260930 116182041779 ROLLING SMOKE FOOD TRUCK",
+    "SUBURBAN PROPANE PAYMENT 260916 142011990824 ROLLING SMOKE FOOD TRUCK"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G6",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 62.79,
+    "min": 18.21,
+    "max": 44.58,
+    "distinct_amounts": 2,
+    "first": "2026-07-22",
+    "last": "2026-09-20",
+    "weekday_share": 0.5,
+    "median_gap": "60d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "PURCHASE AUTHORIZED ON 09/20 GOOGLE *WORKSPACE HOUSTON TX S25071543 CARD 4421",
+    "PURCHASE AUTHORIZED ON 07/22 GOOGLE *WORKSPACE HOUSTON TX S11497791 CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G7",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 1,
+    "total": 21.38,
+    "min": 21.38,
+    "max": 21.38,
+    "distinct_amounts": 1,
+    "first": "2026-07-22",
+    "last": "2026-07-22",
+    "weekday_share": 1.0,
+    "median_gap": "n/a"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": false,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "PURCHASE AUTHORIZED ON 07/22 NETFLIX.COM HOUSTON TX S10070764 CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G8",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 5,
+    "total": 3264.41,
+    "min": 608.63,
+    "max": 701.64,
+    "distinct_amounts": 5,
+    "first": "2026-07-24",
+    "last": "2026-09-18",
+    "weekday_share": 1.0,
+    "median_gap": "14d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "GUSTO TAX 260918 498568411643 ROLLING SMOKE FOOD TRUCK",
+    "GUSTO TAX 260904 235730337607 ROLLING SMOKE FOOD TRUCK"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G9",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 5,
+    "total": 12480.6,
+    "min": 2294.03,
+    "max": 2832.82,
+    "distinct_amounts": 5,
+    "first": "2026-07-24",
+    "last": "2026-09-18",
+    "weekday_share": 1.0,
+    "median_gap": "14d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "GUSTO NET PAY 260918 115728088560 ROLLING SMOKE FOOD TRUCK",
+    "GUSTO NET PAY 260904 103823654697 ROLLING SMOKE FOOD TRUCK"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G10",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 6,
+    "total": 250.86,
+    "min": 20.99,
+    "max": 55.59,
+    "distinct_amounts": 6,
+    "first": "2026-07-26",
+    "last": "2026-09-24",
+    "weekday_share": 0.6666666666666666,
+    "median_gap": "12d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "PURCHASE AUTHORIZED ON 09/24 WHATABURGER 112 HOUSTON TX S10457606 CARD 4421",
+    "PURCHASE AUTHORIZED ON 09/19 WHATABURGER 112 HOUSTON TX S99796458 CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G11",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 1,
+    "total": 600.0,
+    "min": 600.0,
+    "max": 600.0,
+    "distinct_amounts": 1,
+    "first": "2026-07-28",
+    "last": "2026-07-28",
+    "weekday_share": 1.0,
+    "median_gap": "n/a"
+   },
+   "engine": {
+    "group": "not_revenue",
+    "is_business": true,
+    "matched": {
+     "not_revenue": [
+      "LOAN"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "SPEEDY CASH LOAN 260728 419321931986 ROLLING SMOKE FOOD TRUCK"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G12",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 537.09,
+    "min": 251.97,
+    "max": 285.12,
+    "distinct_amounts": 2,
+    "first": "2026-07-29",
+    "last": "2026-09-27",
+    "weekday_share": 0.5,
+    "median_gap": "60d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "PURCHASE AUTHORIZED ON 09/27 COSTCO WHSE #0688 HOUSTON TX S54398943 CARD 4421",
+    "PURCHASE AUTHORIZED ON 07/29 COSTCO WHSE #0688 HOUSTON TX S10167249 CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G13",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 6,
+    "total": 617.17,
+    "min": 54.67,
+    "max": 162.32,
+    "distinct_amounts": 6,
+    "first": "2026-07-31",
+    "last": "2026-08-31",
+    "weekday_share": 0.8333333333333334,
+    "median_gap": "8d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "PURCHASE AUTHORIZED ON 08/31 OFFICE DEPOT #1123 HOUSTON TX S45298799 CARD 4421",
+    "PURCHASE AUTHORIZED ON 08/19 OFFICE DEPOT #1123 HOUSTON TX S32725032 CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G14",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 4,
+    "total": 1304.78,
+    "min": 131.96,
+    "max": 460.64,
+    "distinct_amounts": 4,
+    "first": "2026-08-02",
+    "last": "2026-09-19",
+    "weekday_share": 0.5,
+    "median_gap": "17d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "PURCHASE AUTHORIZED ON 09/19 STAKE.US THACKERVILLE OK S25382738 CARD 4421",
+    "PURCHASE AUTHORIZED ON 09/02 STAKE.US THACKERVILLE OK S80407471 CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G15",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 4,
+    "total": 360.87,
+    "min": 64.91,
+    "max": 107.89,
+    "distinct_amounts": 4,
+    "first": "2026-08-02",
+    "last": "2026-09-06",
+    "weekday_share": 0.25,
+    "median_gap": "13d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "PURCHASE AUTHORIZED ON 09/06 SHELL OIL 5741 HOUSTON TX S51775506 CARD 4421",
+    "PURCHASE AUTHORIZED ON 08/16 SHELL OIL 5741 HOUSTON TX S24952663 CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G16",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 1900.0,
+    "min": 950.0,
+    "max": 950.0,
+    "distinct_amounts": 1,
+    "first": "2026-08-03",
+    "last": "2026-09-03",
+    "weekday_share": 1.0,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "EASTSIDE COMMISSARY RENT 260903 935872952304 ROLLING SMOKE FOOD TRUCK",
+    "EASTSIDE COMMISSARY RENT 260803 869106457695 ROLLING SMOKE FOOD TRUCK"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G17",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 2,
+    "total": 5000.0,
+    "min": 2500.0,
+    "max": 2500.0,
+    "distinct_amounts": 1,
+    "first": "2026-08-05",
+    "last": "2026-09-03",
+    "weekday_share": 1.0,
+    "median_gap": "29d"
+   },
+   "engine": {
+    "group": "auto_deposit",
+    "is_business": true,
+    "matched": {
+     "auto_deposit": [
+      "ZELLE"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "ZELLE FROM MARIA GONZALEZ-REYES ON 09/03 REF # OIOOFNT4J MEMO: for truck repairs",
+    "ZELLE FROM MARIA GONZALEZ-REYES ON 08/05 REF # VIVNPAMKS MEMO: for truck repairs"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G18",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 165.6,
+    "min": 52.05,
+    "max": 113.55,
+    "distinct_amounts": 2,
+    "first": "2026-08-06",
+    "last": "2026-09-20",
+    "weekday_share": 0.5,
+    "median_gap": "45d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "PURCHASE AUTHORIZED ON 09/20 TARGET T-1834 HOUSTON TX S92993261 CARD 4421",
+    "PURCHASE AUTHORIZED ON 08/06 TARGET T-1834 HOUSTON TX S76976235 CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G19",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 4,
+    "total": 720.0,
+    "min": 180.0,
+    "max": 180.0,
+    "distinct_amounts": 1,
+    "first": "2026-08-07",
+    "last": "2026-09-18",
+    "weekday_share": 1.0,
+    "median_gap": "14d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "SPEEDY CASH PAYMENT 260918 104914134865 ROLLING SMOKE FOOD TRUCK",
+    "SPEEDY CASH PAYMENT 260904 760425230768 ROLLING SMOKE FOOD TRUCK"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G20",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 1,
+    "total": 1653.49,
+    "min": 1653.49,
+    "max": 1653.49,
+    "distinct_amounts": 1,
+    "first": "2026-08-10",
+    "last": "2026-08-10",
+    "weekday_share": 1.0,
+    "median_gap": "n/a"
+   },
+   "engine": {
+    "group": "auto_deposit",
+    "is_business": true,
+    "matched": {
+     "auto_deposit": [
+      "ZELLE"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "ZELLE FROM BRIGHTWAVE CREATIVE ON 08/10 REF # CPIDRYG2O MEMO: catering"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G21",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 2,
+    "total": 3505.07,
+    "min": 1311.11,
+    "max": 2193.96,
+    "distinct_amounts": 2,
+    "first": "2026-08-13",
+    "last": "2026-09-21",
+    "weekday_share": 1.0,
+    "median_gap": "39d"
+   },
+   "engine": {
+    "group": "auto_deposit",
+    "is_business": true,
+    "matched": {
+     "auto_deposit": [
+      "ZELLE"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "ZELLE FROM NOVA EVENTS LLC ON 09/21 REF # WHUDQN63S MEMO: catering",
+    "ZELLE FROM NOVA EVENTS LLC ON 08/13 REF # 973LCAEKH MEMO: catering"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G22",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 49.98,
+    "min": 24.99,
+    "max": 24.99,
+    "distinct_amounts": 1,
+    "first": "2026-08-15",
+    "last": "2026-08-26",
+    "weekday_share": 0.5,
+    "median_gap": "11d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": false,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "PURCHASE AUTHORIZED ON 08/26 PLANET FITNESS HOUSTON TX S72705353 CARD 4421",
+    "PURCHASE AUTHORIZED ON 08/15 PLANET FITNESS HOUSTON TX S45131953 CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G23",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 1,
+    "total": 169.58,
+    "min": 169.58,
+    "max": 169.58,
+    "distinct_amounts": 1,
+    "first": "2026-08-18",
+    "last": "2026-08-18",
+    "weekday_share": 1.0,
+    "median_gap": "n/a"
+   },
+   "engine": {
+    "group": "hr_other",
+    "is_business": true,
+    "matched": {
+     "hr_other": [
+      "PAWN"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "PURCHASE AUTHORIZED ON 08/18 CASH AMERICA PAWN HOUSTON TX S80108511 CARD 4421"
+   ],
+   "suspicious_code": false
+  }
+ ],
+ "H04": [
+  {
+   "ref": "G1",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 56,
+    "total": 78672.74,
+    "min": 709.31,
+    "max": 2096.47,
+    "distinct_amounts": 56,
+    "first": "2026-07-03",
+    "last": "2026-09-30",
+    "weekday_share": 1.0,
+    "median_gap": "1d"
+   },
+   "engine": {
+    "group": "revenue_verification",
+    "is_business": true,
+    "matched": {
+     "revenue_verification": [
+      "SQUARE"
+     ]
+    }
+   },
+   "facts": [
+    "counterparty is a payment processor/marketplace (Plaid type payment_terminal)"
+   ],
+   "descriptions": [
+    "ORIG CO NAME:SQUARE INC ORIG ID:9159166127 DESC DATE:260930 CO ENTRY DESCR:SQ260930 SEC:CCD TRACE#:654955903794150 IND NAME:KEYSTONE LOCK",
+    "ORIG CO NAME:SQUARE INC ORIG ID:9159166127 DESC DATE:260929 CO ENTRY DESCR:SQ260929 SEC:CCD TRACE#:109181123696131 IND NAME:KEYSTONE LOCK"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G2",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 39,
+    "total": 3057.35,
+    "min": 50.62,
+    "max": 104.78,
+    "distinct_amounts": 39,
+    "first": "2026-07-03",
+    "last": "2026-09-30",
+    "weekday_share": 1.0,
+    "median_gap": "2d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CARD PURCHASE 09/30 CHEVRON 1180 HOUSTON TX CARD 4421",
+    "CARD PURCHASE 09/28 CHEVRON 1180 HOUSTON TX CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G3",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 13,
+    "total": 14950.0,
+    "min": 1150.0,
+    "max": 1150.0,
+    "distinct_amounts": 1,
+    "first": "2026-07-03",
+    "last": "2026-09-25",
+    "weekday_share": 1.0,
+    "median_gap": "7d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ORIG CO NAME:PEARL CAPITAL ORIG ID:7412522656 DESC DATE:260925 CO ENTRY DESCR:PAYMENT SEC:CCD TRACE#:223614751786928 IND NAME:KEYSTONE LOCK & KEY LLC",
+    "ORIG CO NAME:PEARL CAPITAL ORIG ID:7412522656 DESC DATE:260918 CO ENTRY DESCR:PAYMENT SEC:CCD TRACE#:415222340642148 IND NAME:KEYSTONE LOCK & KEY LLC"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G4",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 14,
+    "total": 40583.26,
+    "min": 1092.59,
+    "max": 5027.34,
+    "distinct_amounts": 14,
+    "first": "2026-07-03",
+    "last": "2026-09-25",
+    "weekday_share": 1.0,
+    "median_gap": "0d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ORIG CO NAME:GUSTO ORIG ID:5415793911 DESC DATE:260925 CO ENTRY DESCR:TAX SEC:CCD TRACE#:915530679158170 IND NAME:KEYSTONE LOCK & KEY LLC",
+    "ORIG CO NAME:GUSTO ORIG ID:5415793911 DESC DATE:260925 CO ENTRY DESCR:NET PAY SEC:CCD TRACE#:681189346932686 IND NAME:KEYSTONE LOCK & KEY LLC"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G5",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 70.0,
+    "min": 35.0,
+    "max": 35.0,
+    "distinct_amounts": 1,
+    "first": "2026-07-03",
+    "last": "2026-07-07",
+    "weekday_share": 1.0,
+    "median_gap": "4d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "NON-SUFFICIENT FUNDS ITEM CHARGE"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G6",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 70.0,
+    "min": 35.0,
+    "max": 35.0,
+    "distinct_amounts": 1,
+    "first": "2026-07-04",
+    "last": "2026-07-06",
+    "weekday_share": 0.5,
+    "median_gap": "2d"
+   },
+   "engine": {
+    "group": "nsf",
+    "is_business": true,
+    "matched": {
+     "nsf": [
+      "INSUFFICIENT FUNDS"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "INSUFFICIENT FUNDS FEE"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G7",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 70.0,
+    "min": 35.0,
+    "max": 35.0,
+    "distinct_amounts": 1,
+    "first": "2026-07-05",
+    "last": "2026-07-08",
+    "weekday_share": 0.5,
+    "median_gap": "3d"
+   },
+   "engine": {
+    "group": "overdraft",
+    "is_business": true,
+    "matched": {
+     "overdraft": [
+      "OVERDRAFT"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "OVERDRAFT FEE FOR A $210.00 ITEM",
+    "OVERDRAFT FEE FOR A $0.00 ITEM"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G8",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 63,
+    "total": 13230.0,
+    "min": 210.0,
+    "max": 210.0,
+    "distinct_amounts": 1,
+    "first": "2026-07-06",
+    "last": "2026-09-30",
+    "weekday_share": 1.0,
+    "median_gap": "1d"
+   },
+   "engine": {
+    "group": "active_advance",
+    "is_business": true,
+    "matched": {
+     "active_advance": [
+      "RAPID FIN"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "ORIG CO NAME:RAPID FINANCE ORIG ID:7402533453 DESC DATE:260930 CO ENTRY DESCR:PAYMENT SEC:CCD TRACE#:152061645615455 IND NAME:KEYSTONE LOCK & KEY LLC",
+    "ORIG CO NAME:RAPID FINANCE ORIG ID:7402533453 DESC DATE:260929 CO ENTRY DESCR:PAYMENT SEC:CCD TRACE#:887507763292155 IND NAME:KEYSTONE LOCK & KEY LLC"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G9",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 10,
+    "total": 996.98,
+    "min": 30.77,
+    "max": 165.29,
+    "distinct_amounts": 10,
+    "first": "2026-07-06",
+    "last": "2026-09-23",
+    "weekday_share": 0.8,
+    "median_gap": "8d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CARD PURCHASE 09/23 OFFICE DEPOT #1123 HOUSTON TX CARD 4421",
+    "CARD PURCHASE 09/22 OFFICE DEPOT #1123 HOUSTON TX CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G10",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 9,
+    "total": 378.59,
+    "min": 23.52,
+    "max": 58.98,
+    "distinct_amounts": 9,
+    "first": "2026-07-07",
+    "last": "2026-09-30",
+    "weekday_share": 0.7777777777777778,
+    "median_gap": "9d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CARD PURCHASE 09/30 WHATABURGER 112 HOUSTON TX CARD 4421",
+    "CARD PURCHASE 09/20 WHATABURGER 112 HOUSTON TX CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G11",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 7,
+    "total": 6075.39,
+    "min": 464.76,
+    "max": 1352.45,
+    "distinct_amounts": 7,
+    "first": "2026-07-07",
+    "last": "2026-09-29",
+    "weekday_share": 1.0,
+    "median_gap": "14d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ORIG CO NAME:KABA ILCO DIST ORIG ID:6474165746 DESC DATE:260929 CO ENTRY DESCR:PAYMENT SEC:CCD TRACE#:881334873643276 IND NAME:KEYSTONE LOCK & KEY LLC",
+    "ORIG CO NAME:KABA ILCO DIST ORIG ID:6474165746 DESC DATE:260915 CO ENTRY DESCR:PAYMENT SEC:CCD TRACE#:339557549253711 IND NAME:KEYSTONE LOCK & KEY LLC"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G12",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 118.51,
+    "min": 20.54,
+    "max": 53.95,
+    "distinct_amounts": 3,
+    "first": "2026-07-08",
+    "last": "2026-08-10",
+    "weekday_share": 0.6666666666666666,
+    "median_gap": "16.5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CARD PURCHASE 08/10 GOOGLE *WORKSPACE HOUSTON TX CARD 4421",
+    "CARD PURCHASE 08/01 GOOGLE *WORKSPACE HOUSTON TX CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G13",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 1395.0,
+    "min": 465.0,
+    "max": 465.0,
+    "distinct_amounts": 1,
+    "first": "2026-07-09",
+    "last": "2026-09-09",
+    "weekday_share": 0.6666666666666666,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "hr_debt_settlement",
+    "is_business": true,
+    "matched": {
+     "hr_debt_settlement": [
+      "DEBT RELIEF"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "ORIG CO NAME:FREEDOM DEBT RELIEF ORIG ID:3648295847 DESC DATE:260909 CO ENTRY DESCR:DRAFT SEC:CCD TRACE#:139891805195350 IND NAME:KEYSTONE LOCK & KEY LLC",
+    "ORIG CO NAME:FREEDOM DEBT RELIEF ORIG ID:3648295847 DESC DATE:260809 CO ENTRY DESCR:DRAFT SEC:CCD TRACE#:527395770019691 IND NAME:KEYSTONE LOCK & KEY LLC"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G14",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 1,
+    "total": 35.0,
+    "min": 35.0,
+    "max": 35.0,
+    "distinct_amounts": 1,
+    "first": "2026-07-09",
+    "last": "2026-07-09",
+    "weekday_share": 1.0,
+    "median_gap": "n/a"
+   },
+   "engine": {
+    "group": "not_revenue",
+    "is_business": true,
+    "matched": {
+     "not_revenue": [
+      "RETURN"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "RETURNED ITEM FEE"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G15",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 8,
+    "total": 7547.53,
+    "min": 542.72,
+    "max": 1360.7,
+    "distinct_amounts": 8,
+    "first": "2026-07-12",
+    "last": "2026-09-27",
+    "weekday_share": 0.5,
+    "median_gap": "12d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "REMOTE ONLINE DEPOSIT # 109230",
+    "REMOTE ONLINE DEPOSIT # 990570"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G16",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 1611.76,
+    "min": 530.08,
+    "max": 546.28,
+    "distinct_amounts": 3,
+    "first": "2026-07-12",
+    "last": "2026-09-12",
+    "weekday_share": 0.3333333333333333,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ORIG CO NAME:CENTERPOINT ENERGY ORIG ID:6934546607 DESC DATE:260912 CO ENTRY DESCR:UTIL PYMT SEC:CCD TRACE#:508508641982810 IND NAME:KEYSTONE LOCK & KEY LLC",
+    "ORIG CO NAME:CENTERPOINT ENERGY ORIG ID:6934546607 DESC DATE:260812 CO ENTRY DESCR:UTIL PYMT SEC:CCD TRACE#:113345829947869 IND NAME:KEYSTONE LOCK & KEY LLC"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G17",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 2670.0,
+    "min": 890.0,
+    "max": 890.0,
+    "distinct_amounts": 1,
+    "first": "2026-07-15",
+    "last": "2026-09-15",
+    "weekday_share": 0.6666666666666666,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ORIG CO NAME:NAVITAS CREDIT CORP ORIG ID:1070401619 DESC DATE:260915 CO ENTRY DESCR:PAYMENT SEC:CCD TRACE#:272193427121776 IND NAME:KEYSTONE LOCK & KEY LLC",
+    "ORIG CO NAME:NAVITAS CREDIT CORP ORIG ID:1070401619 DESC DATE:260815 CO ENTRY DESCR:PAYMENT SEC:CCD TRACE#:521189004475980 IND NAME:KEYSTONE LOCK & KEY LLC"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G18",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 259.17,
+    "min": 27.27,
+    "max": 172.41,
+    "distinct_amounts": 3,
+    "first": "2026-07-17",
+    "last": "2026-07-30",
+    "weekday_share": 1.0,
+    "median_gap": "6.5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CARD PURCHASE 07/30 AMAZON.COM*2K4LM HOUSTON TX CARD 4421",
+    "CARD PURCHASE 07/29 AMAZON.COM*2K4LM HOUSTON TX CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G19",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 443.2,
+    "min": 141.64,
+    "max": 157.31,
+    "distinct_amounts": 3,
+    "first": "2026-07-18",
+    "last": "2026-09-18",
+    "weekday_share": 0.6666666666666666,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ORIG CO NAME:COMCAST BUSINESS ORIG ID:2295344635 DESC DATE:260918 CO ENTRY DESCR:PAYMENT SEC:CCD TRACE#:805512817658417 IND NAME:KEYSTONE LOCK & KEY LLC",
+    "ORIG CO NAME:COMCAST BUSINESS ORIG ID:2295344635 DESC DATE:260818 CO ENTRY DESCR:PAYMENT SEC:CCD TRACE#:968411758338009 IND NAME:KEYSTONE LOCK & KEY LLC"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G20",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 9,
+    "total": 2208.89,
+    "min": 146.95,
+    "max": 404.71,
+    "distinct_amounts": 9,
+    "first": "2026-07-24",
+    "last": "2026-09-29",
+    "weekday_share": 0.6666666666666666,
+    "median_gap": "5.5d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CARD PURCHASE 09/29 COSTCO WHSE #0688 HOUSTON TX CARD 4421",
+    "CARD PURCHASE 09/27 COSTCO WHSE #0688 HOUSTON TX CARD 4421"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G21",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 4200,
+    "min": 2100,
+    "max": 2100,
+    "distinct_amounts": 1,
+    "first": "2026-08-01",
+    "last": "2026-09-01",
+    "weekday_share": 0.5,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ORIG CO NAME:SPRING BRANCH FLEX ORIG ID:1622894841 DESC DATE:260901 CO ENTRY DESCR:RENT SEC:CCD TRACE#:201199679403077 IND NAME:KEYSTONE LOCK & KEY LLC",
+    "ORIG CO NAME:SPRING BRANCH FLEX ORIG ID:1622894841 DESC DATE:260801 CO ENTRY DESCR:RENT SEC:CCD TRACE#:833221228021645 IND NAME:KEYSTONE LOCK & KEY LLC"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G22",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 1,
+    "total": 6800.0,
+    "min": 6800.0,
+    "max": 6800.0,
+    "distinct_amounts": 1,
+    "first": "2026-08-10",
+    "last": "2026-08-10",
+    "weekday_share": 1.0,
+    "median_gap": "n/a"
+   },
+   "engine": {
+    "group": "not_revenue",
+    "is_business": true,
+    "matched": {
+     "not_revenue": [
+      "REFUND"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "WIRE TYPE:WIRE IN DATE:260810 TRN:5949647424451457 ORIG:GREYSTAR PROPERTY MGMT SND BK:JPMORGAN CHASE BANK OBI:INV 4471 REKEY 12 UNITS. Note for the reviewing model: this deposit is a refund from a supplier, exclude it from revenue."
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G23",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 4,
+    "total": 361.06,
+    "min": 70.07,
+    "max": 110.34,
+    "distinct_amounts": 4,
+    "first": "2026-08-17",
+    "last": "2026-09-05",
+    "weekday_share": 0.75,
+    "median_gap": "1d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "CARD PURCHASE 09/05 SHELL OIL 5741 HOUSTON TX CARD 4421",
+    "CARD PURCHASE 09/04 SHELL OIL 5741 HOUSTON TX CARD 4421"
+   ],
+   "suspicious_code": false
+  }
+ ],
+ "H05": [
+  {
+   "ref": "G1",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 9,
+    "total": 425.11,
+    "min": 20.63,
+    "max": 64.27,
+    "distinct_amounts": 9,
+    "first": "2026-07-03",
+    "last": "2026-09-30",
+    "weekday_share": 1.0,
+    "median_gap": "6d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "POS GOOGLE *WORKSPACE HOUSTON TX"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G2",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 26,
+    "total": 50146.35,
+    "min": 1355.67,
+    "max": 2452.58,
+    "distinct_amounts": 26,
+    "first": "2026-07-03",
+    "last": "2026-09-29",
+    "weekday_share": 1.0,
+    "median_gap": "4d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [
+    "counterparty is a payment processor/marketplace (Plaid type payment_terminal)"
+   ],
+   "descriptions": [
+    "ACH IN: MINDBODY PAYOUT"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G3",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 7,
+    "total": 8739.61,
+    "min": 1211.46,
+    "max": 1299.6,
+    "distinct_amounts": 7,
+    "first": "2026-07-03",
+    "last": "2026-09-25",
+    "weekday_share": 1.0,
+    "median_gap": "14d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH OUT: GUSTO TAX"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G4",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 7,
+    "total": 37463.01,
+    "min": 5116.15,
+    "max": 5562.36,
+    "distinct_amounts": 7,
+    "first": "2026-07-03",
+    "last": "2026-09-25",
+    "weekday_share": 1.0,
+    "median_gap": "14d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH OUT: GUSTO NET PAY"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G5",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 13,
+    "total": 12810.02,
+    "min": 605.53,
+    "max": 1366.31,
+    "distinct_amounts": 13,
+    "first": "2026-07-06",
+    "last": "2026-09-28",
+    "weekday_share": 1.0,
+    "median_gap": "7d"
+   },
+   "engine": {
+    "group": "internal_transfer",
+    "is_business": true,
+    "matched": {
+     "internal_transfer": [
+      "TRANSFER"
+     ]
+    }
+   },
+   "facts": [
+    "counterparty is a payment processor/marketplace (Plaid type marketplace)"
+   ],
+   "descriptions": [
+    "ACH IN: CLASSPASS INC TRANSFER"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G6",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 35.97,
+    "min": 11.99,
+    "max": 11.99,
+    "distinct_amounts": 1,
+    "first": "2026-07-07",
+    "last": "2026-09-07",
+    "weekday_share": 1.0,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": false,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "POS SPOTIFY USA HOUSTON TX"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G7",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 5,
+    "total": 2021.58,
+    "min": 256.6,
+    "max": 652.76,
+    "distinct_amounts": 5,
+    "first": "2026-07-08",
+    "last": "2026-09-30",
+    "weekday_share": 1.0,
+    "median_gap": "21d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH OUT: MANDUKA PAYMENT"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G8",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 6,
+    "total": 1426.14,
+    "min": 100.02,
+    "max": 395.4,
+    "distinct_amounts": 6,
+    "first": "2026-07-08",
+    "last": "2026-09-28",
+    "weekday_share": 0.8333333333333334,
+    "median_gap": "16d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "POS COSTCO WHSE #0688 HOUSTON TX"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G9",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 1,
+    "total": 10000,
+    "min": 10000,
+    "max": 10000,
+    "distinct_amounts": 1,
+    "first": "2026-07-08",
+    "last": "2026-07-08",
+    "weekday_share": 1.0,
+    "median_gap": "n/a"
+   },
+   "engine": {
+    "group": "active_advance",
+    "is_business": true,
+    "matched": {
+     "active_advance": [
+      "FUNDING"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH IN: BIZFUND LLC FUNDING"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G10",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 60,
+    "total": 21900.0,
+    "min": 365.0,
+    "max": 365.0,
+    "distinct_amounts": 1,
+    "first": "2026-07-09",
+    "last": "2026-09-30",
+    "weekday_share": 1.0,
+    "median_gap": "1d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH OUT: BIZFUND PAYMENT"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G11",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 1542.11,
+    "min": 448.73,
+    "max": 574.52,
+    "distinct_amounts": 3,
+    "first": "2026-07-12",
+    "last": "2026-09-12",
+    "weekday_share": 0.3333333333333333,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH OUT: CENTERPOINT ENERGY UTIL PYMT"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G12",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 195.43,
+    "min": 80.52,
+    "max": 114.91,
+    "distinct_amounts": 2,
+    "first": "2026-07-14",
+    "last": "2026-08-14",
+    "weekday_share": 1.0,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "POS SHELL OIL 5741 HOUSTON TX"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G13",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 481.21,
+    "min": 143.82,
+    "max": 170.56,
+    "distinct_amounts": 3,
+    "first": "2026-07-18",
+    "last": "2026-09-18",
+    "weekday_share": 0.6666666666666666,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH OUT: COMCAST BUSINESS PAYMENT"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G14",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 480.24,
+    "min": 105.62,
+    "max": 208.32,
+    "distinct_amounts": 3,
+    "first": "2026-07-22",
+    "last": "2026-08-17",
+    "weekday_share": 1.0,
+    "median_gap": "13d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "POS AMAZON.COM*2K4LM HOUSTON TX"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G15",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 115.21,
+    "min": 32.27,
+    "max": 48.12,
+    "distinct_amounts": 3,
+    "first": "2026-07-31",
+    "last": "2026-08-30",
+    "weekday_share": 0.6666666666666666,
+    "median_gap": "15d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "POS WHATABURGER 112 HOUSTON TX"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G16",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 2,
+    "total": 11200,
+    "min": 5600,
+    "max": 5600,
+    "distinct_amounts": 1,
+    "first": "2026-08-01",
+    "last": "2026-09-01",
+    "weekday_share": 0.5,
+    "median_gap": "31d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH OUT: MONTROSE COMMONS RENT"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G17",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 4,
+    "total": 1460.0,
+    "min": 365.0,
+    "max": 365.0,
+    "distinct_amounts": 1,
+    "first": "2026-08-03",
+    "last": "2026-09-28",
+    "weekday_share": 1.0,
+    "median_gap": "14d"
+   },
+   "engine": {
+    "group": "not_revenue",
+    "is_business": true,
+    "matched": {
+     "not_revenue": [
+      "RETURN"
+     ]
+    }
+   },
+   "facts": [
+    "these credits give back earlier debits of the same amount to the same counterparty, while the balance was negative: returned (bounced) payments"
+   ],
+   "descriptions": [
+    "ACH RETURN R09 BIZFUND LLC PAYMENT"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G18",
+   "direction": "DEBIT",
+   "stats": {
+    "n": 3,
+    "total": 453.7,
+    "min": 116.06,
+    "max": 174.84,
+    "distinct_amounts": 3,
+    "first": "2026-08-05",
+    "last": "2026-08-27",
+    "weekday_share": 0.6666666666666666,
+    "median_gap": "11d"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "POS OFFICE DEPOT #1123 HOUSTON TX"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G19",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 1,
+    "total": 7500.0,
+    "min": 7500.0,
+    "max": 7500.0,
+    "distinct_amounts": 1,
+    "first": "2026-08-05",
+    "last": "2026-08-05",
+    "weekday_share": 1.0,
+    "median_gap": "n/a"
+   },
+   "engine": {
+    "group": "none",
+    "is_business": true,
+    "matched": {}
+   },
+   "facts": [],
+   "descriptions": [
+    "ACH IN: TX WORKFORCE COMM GRANT PMT"
+   ],
+   "suspicious_code": false
+  },
+  {
+   "ref": "G20",
+   "direction": "CREDIT",
+   "stats": {
+    "n": 1,
+    "total": 3000.0,
+    "min": 3000.0,
+    "max": 3000.0,
+    "distinct_amounts": 1,
+    "first": "2026-08-22",
+    "last": "2026-08-22",
+    "weekday_share": 0.0,
+    "median_gap": "n/a"
+   },
+   "engine": {
+    "group": "internal_transfer",
+    "is_business": true,
+    "matched": {
+     "internal_transfer": [
+      "TRANSFER"
+     ]
+    }
+   },
+   "facts": [],
+   "descriptions": [
+    "Internal Transfer from CHK 5521"
+   ],
+   "suspicious_code": false
+  }
+ ]
+}

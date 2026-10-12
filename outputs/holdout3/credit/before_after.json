@@ -1,0 +1,432 @@
+{
+ "by_business": {
+  "U01": {
+   "truth": {
+    "days": 90,
+    "monthly_revenue": 24786,
+    "revenue_share": 0.696,
+    "nsf_count": 11,
+    "nsf_per_90": 11.0,
+    "negative_days": 10,
+    "avg_daily_balance": 2632,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0123,
+    "other_funders_daily": 195.45,
+    "funders": {
+     "BRIGHTGATE ADV": 195.45
+    },
+    "offer": 0,
+    "repayment_burden": 0.171
+   },
+   "engine": {
+    "days": 90,
+    "monthly_revenue": 21147,
+    "revenue_share": 0.593,
+    "nsf_count": 6,
+    "nsf_per_90": 6.0,
+    "negative_days": 10,
+    "avg_daily_balance": 2632,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0017,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 0,
+    "repayment_burden": 0.0
+   },
+   "auto": {
+    "days": 90,
+    "monthly_revenue": 21147,
+    "revenue_share": 0.593,
+    "nsf_count": 11,
+    "nsf_per_90": 11.0,
+    "negative_days": 10,
+    "avg_daily_balance": 2632,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0123,
+    "other_funders_daily": 195.45,
+    "funders": {
+     "BRIGHTGATE ADV": 195.45
+    },
+    "offer": 0,
+    "repayment_burden": 0.201
+   },
+   "accept_all": {
+    "days": 90,
+    "monthly_revenue": 23982,
+    "revenue_share": 0.673,
+    "nsf_count": 11,
+    "nsf_per_90": 11.0,
+    "negative_days": 10,
+    "avg_daily_balance": 2632,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0123,
+    "other_funders_daily": 195.45,
+    "funders": {
+     "BRIGHTGATE ADV": 195.45
+    },
+    "offer": 0,
+    "repayment_burden": 0.177
+   },
+   "our_rule": {
+    "decision": "decline",
+    "offer": 0,
+    "reasons": [
+     "11.0 NSFs per 90 days > 5"
+    ]
+   }
+  },
+  "U02": {
+   "truth": {
+    "days": 80,
+    "monthly_revenue": 37495,
+    "revenue_share": 0.722,
+    "nsf_count": 11,
+    "nsf_per_90": 12.4,
+    "negative_days": 11,
+    "avg_daily_balance": 13291,
+    "overdraft_count": 3,
+    "high_risk_share": 0.0121,
+    "other_funders_daily": 543.05,
+    "funders": {
+     "IRONBRIDGE CAP GRP": 88.05,
+     "FORA FINANCIAL": 455.0
+    },
+    "offer": 0,
+    "repayment_burden": 0.314
+   },
+   "engine": {
+    "days": 80,
+    "monthly_revenue": 44861,
+    "revenue_share": 0.864,
+    "nsf_count": 3,
+    "nsf_per_90": 3.4,
+    "negative_days": 11,
+    "avg_daily_balance": 13291,
+    "overdraft_count": 1,
+    "high_risk_share": 0.0121,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 53833,
+    "repayment_burden": 0.0
+   },
+   "auto": {
+    "days": 80,
+    "monthly_revenue": 39539,
+    "revenue_share": 0.761,
+    "nsf_count": 7,
+    "nsf_per_90": 7.9,
+    "negative_days": 11,
+    "avg_daily_balance": 13291,
+    "overdraft_count": 3,
+    "high_risk_share": 0.0121,
+    "other_funders_daily": 543.05,
+    "funders": {
+     "IRONBRIDGE CAP GRP": 88.05,
+     "FORA FINANCIAL": 455.0
+    },
+    "offer": 0,
+    "repayment_burden": 0.298
+   },
+   "accept_all": {
+    "days": 80,
+    "monthly_revenue": 39539,
+    "revenue_share": 0.761,
+    "nsf_count": 6,
+    "nsf_per_90": 6.8,
+    "negative_days": 11,
+    "avg_daily_balance": 13291,
+    "overdraft_count": 3,
+    "high_risk_share": 0.0121,
+    "other_funders_daily": 543.05,
+    "funders": {
+     "IRONBRIDGE CAP GRP": 88.05,
+     "FORA FINANCIAL": 455.0
+    },
+    "offer": 0,
+    "repayment_burden": 0.298
+   },
+   "our_rule": {
+    "decision": "decline",
+    "offer": 0,
+    "reasons": [
+     "7.9 NSFs per 90 days > 5"
+    ]
+   }
+  },
+  "U03": {
+   "truth": {
+    "days": 90,
+    "monthly_revenue": 42670,
+    "revenue_share": 0.833,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 31838,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0167,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 51205,
+    "repayment_burden": 0.0
+   },
+   "engine": {
+    "days": 90,
+    "monthly_revenue": 45715,
+    "revenue_share": 0.892,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 31838,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 54858,
+    "repayment_burden": 0.0
+   },
+   "auto": {
+    "days": 90,
+    "monthly_revenue": 45715,
+    "revenue_share": 0.892,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 31838,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0096,
+    "other_funders_daily": 13.18,
+    "funders": {
+     "SPEEDY CASH": 13.18
+    },
+    "offer": 54595,
+    "repayment_burden": 0.006
+   },
+   "accept_all": {
+    "days": 90,
+    "monthly_revenue": 50102,
+    "revenue_share": 0.978,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 31838,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0096,
+    "other_funders_daily": 13.18,
+    "funders": {
+     "SPEEDY CASH": 13.18
+    },
+    "offer": 59858,
+    "repayment_burden": 0.006
+   },
+   "our_rule": {
+    "decision": "fund",
+    "offer": 54594,
+    "reasons": []
+   }
+  },
+  "U04": {
+   "truth": {
+    "days": 85,
+    "monthly_revenue": 34160,
+    "revenue_share": 0.654,
+    "nsf_count": 7,
+    "nsf_per_90": 7.4,
+    "negative_days": 10,
+    "avg_daily_balance": 32765,
+    "overdraft_count": 3,
+    "high_risk_share": 0.0391,
+    "other_funders_daily": 215.45,
+    "funders": {
+     "RAPID FINANCE": 215.45
+    },
+    "offer": 0,
+    "repayment_burden": 0.137
+   },
+   "engine": {
+    "days": 85,
+    "monthly_revenue": 38472,
+    "revenue_share": 0.736,
+    "nsf_count": 4,
+    "nsf_per_90": 4.2,
+    "negative_days": 10,
+    "avg_daily_balance": 32765,
+    "overdraft_count": 3,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 228.1,
+    "funders": {
+     "RAPID FINANCE": 215.45,
+     "ADVANCE IRRIGATION": 12.65
+    },
+    "offer": 41604,
+    "repayment_burden": 0.129
+   },
+   "auto": {
+    "days": 85,
+    "monthly_revenue": 38472,
+    "revenue_share": 0.736,
+    "nsf_count": 4,
+    "nsf_per_90": 4.2,
+    "negative_days": 10,
+    "avg_daily_balance": 32765,
+    "overdraft_count": 3,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 215.45,
+    "funders": {
+     "RAPID FINANCE": 215.45
+    },
+    "offer": 41857,
+    "repayment_burden": 0.122
+   },
+   "accept_all": {
+    "days": 85,
+    "monthly_revenue": 38472,
+    "revenue_share": 0.736,
+    "nsf_count": 4,
+    "nsf_per_90": 4.2,
+    "negative_days": 10,
+    "avg_daily_balance": 32765,
+    "overdraft_count": 3,
+    "high_risk_share": 0.0284,
+    "other_funders_daily": 215.45,
+    "funders": {
+     "RAPID FINANCE": 215.45
+    },
+    "offer": 41857,
+    "repayment_burden": 0.122
+   },
+   "our_rule": {
+    "decision": "refer",
+    "offer": 41857,
+    "reasons": [
+     "10 negative-balance days with 4 NSFs labeled: the balance shows stress the labels do not explain"
+    ]
+   }
+  },
+  "U05": {
+   "truth": {
+    "days": 66,
+    "monthly_revenue": 83430,
+    "revenue_share": 0.857,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 53213,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0037,
+    "other_funders_daily": 121.61,
+    "funders": {
+     "PAYONEER INC": 121.61
+    },
+    "offer": 97684,
+    "repayment_burden": 0.032
+   },
+   "engine": {
+    "days": 66,
+    "monthly_revenue": 89534,
+    "revenue_share": 0.92,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 53213,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 107440,
+    "repayment_burden": 0.0
+   },
+   "auto": {
+    "days": 66,
+    "monthly_revenue": 84927,
+    "revenue_share": 0.873,
+    "nsf_count": 0,
+    "nsf_per_90": 0.0,
+    "negative_days": 0,
+    "avg_daily_balance": 53213,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0037,
+    "other_funders_daily": 0,
+    "funders": {},
+    "offer": 101913,
+    "repayment_burden": 0.0
+   },
+   "accept_all": {
+    "days": 66,
+    "monthly_revenue": 90800,
+    "revenue_share": 0.933,
+    "nsf_count": 2,
+    "nsf_per_90": 2.7,
+    "negative_days": 0,
+    "avg_daily_balance": 53213,
+    "overdraft_count": 0,
+    "high_risk_share": 0.0037,
+    "other_funders_daily": 2123.27,
+    "funders": {
+     "PAYONEER INC": 121.61,
+     "DEEL INC": 452.18,
+     "JUSTIFI PAYROLL": 1549.48
+    },
+    "offer": 66495,
+    "repayment_burden": 0.507
+   },
+   "our_rule": {
+    "decision": "fund",
+    "offer": 66495,
+    "reasons": []
+   }
+  }
+ },
+ "summary": {
+  "our_rule": {
+   "funded": [
+    "U03",
+    "U05"
+   ],
+   "declined": [
+    "U01",
+    "U02"
+   ],
+   "referred": {
+    "U04": [
+     "10 negative-balance days with 4 NSFs labeled: the balance shows stress the labels do not explain"
+    ]
+   },
+   "wrongly_funded": [],
+   "wrongly_declined": [],
+   "overfunded_usd": 3389,
+   "underfunded_usd": 31189
+  },
+  "engine": {
+   "abs_offer_error_total": 108846,
+   "offer_overstated_total": 108846,
+   "wrong_decisions": [
+    "U02",
+    "U04"
+   ],
+   "wrongly_funded": [
+    "U02",
+    "U04"
+   ]
+  },
+  "auto": {
+   "abs_offer_error_total": 49476,
+   "offer_overstated_total": 49476,
+   "wrong_decisions": [
+    "U04"
+   ],
+   "wrongly_funded": [
+    "U04"
+   ]
+  },
+  "accept_all": {
+   "abs_offer_error_total": 81699,
+   "offer_overstated_total": 50510,
+   "wrong_decisions": [
+    "U04"
+   ],
+   "wrongly_funded": [
+    "U04"
+   ]
+  }
+ }
+}
